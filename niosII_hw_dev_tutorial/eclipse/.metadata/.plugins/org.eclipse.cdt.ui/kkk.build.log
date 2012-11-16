@@ -1,0 +1,8 @@
+
+**** Build of configuration Nios II for project kkk ****
+
+make all 
+Info: Building ../kkk_bsp/
+make --no-print-directory -C ../kkk_bsp/
+[BSP build complete]
+[kkk build complete]
