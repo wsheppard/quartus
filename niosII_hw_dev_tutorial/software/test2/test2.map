@@ -1,0 +1,1644 @@
+Archive member included because of file (symbol)
+
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-puts.o)
+                              obj/default/hello_world.o (puts)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-puts.o) (strlen)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-puts.o) (__sfvwrite_r)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-puts.o) (_impure_ptr)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-mallocr.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o) (_malloc_r)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memchr.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o) (memchr)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o) (memcpy)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memmove.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o) (memmove)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-reallocr.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o) (_realloc_r)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-sbrkr.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-mallocr.o) (_sbrk_r)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-wsetup.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o) (__swsetup_r)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fflush.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o) (_fflush_r)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-findfp.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-wsetup.o) (__sinit)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-freer.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o) (_free_r)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fwalk.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fflush.o) (_fwalk_reent)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-sbrkr.o) (errno)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-makebuf.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-wsetup.o) (__smakebuf_r)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-findfp.o) (memset)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-stdio.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-findfp.o) (__sclose)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-writer.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-stdio.o) (_write_r)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-closer.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-stdio.o) (_close_r)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fclose.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-findfp.o) (fclose)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fstatr.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-makebuf.o) (_fstat_r)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-isattyr.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-makebuf.o) (_isatty_r)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-lseekr.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-stdio.o) (_lseek_r)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-readr.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-stdio.o) (_read_r)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o) (__mulsi3)
+../test2_bsp/\libhal_bsp.a(alt_close.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-closer.o) (close)
+../test2_bsp/\libhal_bsp.a(alt_dev.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_close.o) (alt_fd_list)
+../test2_bsp/\libhal_bsp.a(alt_errno.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_close.o) (alt_errno)
+../test2_bsp/\libhal_bsp.a(alt_fstat.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fstatr.o) (fstat)
+../test2_bsp/\libhal_bsp.a(alt_isatty.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-isattyr.o) (isatty)
+../test2_bsp/\libhal_bsp.a(alt_load.o)
+                              ../test2_bsp//obj/HAL/src/crt0.o (alt_load)
+../test2_bsp/\libhal_bsp.a(alt_lseek.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-lseekr.o) (lseek)
+../test2_bsp/\libhal_bsp.a(alt_main.o)
+                              ../test2_bsp//obj/HAL/src/crt0.o (alt_main)
+../test2_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-mallocr.o) (__malloc_lock)
+../test2_bsp/\libhal_bsp.a(alt_read.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-readr.o) (read)
+../test2_bsp/\libhal_bsp.a(alt_release_fd.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_close.o) (alt_release_fd)
+../test2_bsp/\libhal_bsp.a(alt_sbrk.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-sbrkr.o) (sbrk)
+../test2_bsp/\libhal_bsp.a(alt_write.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-writer.o) (write)
+../test2_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_init)
+../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                              ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_ioctl)
+../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+../test2_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_avalon_timer_sc_init)
+../test2_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                              ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_alarm_start)
+../test2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../test2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+../test2_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_main.o) (_do_ctors)
+../test2_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_main.o) (_do_dtors)
+../test2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+../test2_bsp/\libhal_bsp.a(alt_iic.o)
+                              ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_ic_isr_register)
+../test2_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+../test2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_main.o) (alt_io_redirect)
+../test2_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+../test2_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_handler)
+../test2_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_iic.o) (alt_irq_active)
+../test2_bsp/\libhal_bsp.a(alt_open.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_io_redirect.o) (open)
+../test2_bsp/\libhal_bsp.a(alt_tick.o)
+                              ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (_alt_tick_rate)
+../test2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_qsys_irq_init)
+../test2_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+../test2_bsp/\libhal_bsp.a(alt_find_dev.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_open.o) (alt_find_dev)
+../test2_bsp/\libhal_bsp.a(alt_find_file.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_open.o) (alt_find_file)
+../test2_bsp/\libhal_bsp.a(alt_get_fd.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_open.o) (alt_get_fd)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_main.o) (atexit)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_main.o) (exit)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+                              ../test2_bsp/\libhal_bsp.a(alt_find_dev.o) (memcmp)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o) (__register_exitproc)
+c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o) (__call_exitprocs)
+../test2_bsp/\libhal_bsp.a(alt_exit.o)
+                              c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             ../test2_bsp/\libhal_bsp.a(alt_irq_handler.o)
+errno               0x4               c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+_atexit0            0x190             c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x00800000         0x00000020
+sdram            0x00800020         0x007fffe0
+onchip_mem       0x01008000         0x00005000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ../test2_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/hello_world.o
+LOAD c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libstdc++.a
+LOAD c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libm.a
+LOAD c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a
+START GROUP
+LOAD c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a
+LOAD c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a
+LOAD ../test2_bsp/\libhal_bsp.a
+END GROUP
+LOAD c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a
+                0x00800000                __alt_mem_sdram = 0x800000
+                0x01008000                __alt_mem_onchip_mem = 0x1008000
+
+.entry          0x00800000       0x20
+ *(.entry)
+ .entry         0x00800000       0x20 ../test2_bsp//obj/HAL/src/crt0.o
+                0x00800000                __reset
+
+.exceptions     0x00800020      0x194
+                0x00800020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x00800020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x00800020        0x0 ../test2_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                0x00800020                alt_irq_entry
+ .exceptions.entry.label
+                0x00800020        0x0 ../test2_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                0x00800020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x00800020       0x54 ../test2_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x00800074       0x10 ../test2_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x00800084        0x4 ../test2_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x00800088        0x4 ../test2_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x0080008c        0x0 ../test2_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x0080008c        0x8 ../test2_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x00800094        0x4 ../test2_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x00800098        0x0 ../test2_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x00800098        0x0 ../test2_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x00800098       0x54 ../test2_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x008000ec       0xc8 ../test2_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x008000ec                alt_irq_handler
+                0x008001b4                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x00800020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x008001b4     0x542c
+                0x008001b4                PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x008001b4       0x3c ../test2_bsp//obj/HAL/src/crt0.o
+                0x008001b4                _start
+ .text          0x008001f0       0x34 obj/default/hello_world.o
+                0x008001f0                main
+ .text          0x00800224       0xb4 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-puts.o)
+                0x00800224                _puts_r
+                0x008002c4                puts
+ .text          0x008002d8       0x74 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                0x008002d8                strlen
+ .text          0x0080034c      0x49c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o)
+                0x0080034c                __sfvwrite_r
+ .text          0x008007e8        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .text          0x008007e8      0x740 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-mallocr.o)
+                0x008007e8                _malloc_r
+ .text          0x00800f28       0xe4 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memchr.o)
+                0x00800f28                memchr
+ .text          0x0080100c       0xa0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+                0x0080100c                memcpy
+ .text          0x008010ac       0xe0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memmove.o)
+                0x008010ac                memmove
+ .text          0x0080118c      0x5f4 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-reallocr.o)
+                0x0080118c                _realloc_r
+ .text          0x00801780       0x70 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-sbrkr.o)
+                0x00801780                _sbrk_r
+ .text          0x008017f0      0x13c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-wsetup.o)
+                0x008017f0                __swsetup_r
+ .text          0x0080192c      0x230 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fflush.o)
+                0x0080192c                _fflush_r
+                0x00801b28                fflush
+ .text          0x00801b5c      0x2f4 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-findfp.o)
+                0x00801bb4                __sfp_lock_acquire
+                0x00801bb8                __sfp_lock_release
+                0x00801bbc                __sinit_lock_acquire
+                0x00801bc0                __sinit_lock_release
+                0x00801bc4                __sinit
+                0x00801c78                __fp_unlock_all
+                0x00801c90                __fp_lock_all
+                0x00801ca8                _cleanup_r
+                0x00801cb4                _cleanup
+                0x00801cc4                __sfmoreglue
+                0x00801d60                __sfp
+ .text          0x00801e50      0x440 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-freer.o)
+                0x00801e50                _malloc_trim_r
+                0x00801f7c                _free_r
+ .text          0x00802290      0x180 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fwalk.o)
+                0x00802290                _fwalk_reent
+                0x00802358                _fwalk
+ .text          0x00802410        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .text          0x00802410      0x194 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-makebuf.o)
+                0x00802410                __smakebuf_r
+ .text          0x008025a4       0x98 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+                0x008025a4                memset
+ .text          0x0080263c      0x14c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-stdio.o)
+                0x0080263c                __sclose
+                0x00802644                __sseek
+                0x008026ac                __swrite
+                0x00802728                __sread
+ .text          0x00802788       0x78 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-writer.o)
+                0x00802788                _write_r
+ .text          0x00802800       0x70 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-closer.o)
+                0x00802800                _close_r
+ .text          0x00802870      0x124 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fclose.o)
+                0x00802870                _fclose_r
+                0x00802980                fclose
+ .text          0x00802994       0x74 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fstatr.o)
+                0x00802994                _fstat_r
+ .text          0x00802a08       0x70 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-isattyr.o)
+                0x00802a08                _isatty_r
+ .text          0x00802a78       0x78 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-lseekr.o)
+                0x00802a78                _lseek_r
+ .text          0x00802af0       0x78 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-readr.o)
+                0x00802af0                _read_r
+ .text          0x00802b68       0x38 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+                0x00802b68                __mulsi3
+ .text          0x00802ba0      0x160 ../test2_bsp/\libhal_bsp.a(alt_close.o)
+                0x00802ba0                close
+ .text          0x00802d00       0x2c ../test2_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x00802d2c        0x0 ../test2_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x00802d2c      0x138 ../test2_bsp/\libhal_bsp.a(alt_fstat.o)
+                0x00802d2c                fstat
+ .text          0x00802e64      0x124 ../test2_bsp/\libhal_bsp.a(alt_isatty.o)
+                0x00802e64                isatty
+ .text          0x00802f88       0xec ../test2_bsp/\libhal_bsp.a(alt_load.o)
+                0x00802f88                alt_load
+ .text          0x00803074      0x154 ../test2_bsp/\libhal_bsp.a(alt_lseek.o)
+                0x00803074                lseek
+ .text          0x008031c8       0x6c ../test2_bsp/\libhal_bsp.a(alt_main.o)
+                0x008031c8                alt_main
+ .text          0x00803234       0x40 ../test2_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+                0x00803234                __malloc_lock
+                0x00803254                __malloc_unlock
+ .text          0x00803274      0x184 ../test2_bsp/\libhal_bsp.a(alt_read.o)
+                0x00803274                read
+ .text          0x008033f8       0x78 ../test2_bsp/\libhal_bsp.a(alt_release_fd.o)
+                0x008033f8                alt_release_fd
+ .text          0x00803470       0xbc ../test2_bsp/\libhal_bsp.a(alt_sbrk.o)
+                0x00803470                sbrk
+ .text          0x0080352c      0x184 ../test2_bsp/\libhal_bsp.a(alt_write.o)
+                0x0080352c                write
+ .text          0x008036b0       0xc8 ../test2_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x008036b0                alt_irq_init
+                0x008036e4                alt_sys_init
+ .text          0x00803778      0x148 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x00803778                altera_avalon_jtag_uart_read_fd
+                0x008037d0                altera_avalon_jtag_uart_write_fd
+                0x00803828                altera_avalon_jtag_uart_close_fd
+                0x00803870                altera_avalon_jtag_uart_ioctl_fd
+ .text          0x008038c0      0x40c ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                0x008038c0                altera_avalon_jtag_uart_init
+                0x00803c58                altera_avalon_jtag_uart_close
+ .text          0x00803ccc       0xf4 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                0x00803ccc                altera_avalon_jtag_uart_ioctl
+ .text          0x00803dc0      0x224 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x00803dc0                altera_avalon_jtag_uart_read
+ .text          0x00803fe4      0x240 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x00803fe4                altera_avalon_jtag_uart_write
+ .text          0x00804224      0x100 ../test2_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+                0x00804294                alt_avalon_timer_sc_init
+ .text          0x00804324      0x154 ../test2_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                0x00804324                alt_alarm_start
+ .text          0x00804478       0x1c ../test2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x00804478                alt_dcache_flush_all
+ .text          0x00804494      0x114 ../test2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x00804494                alt_dev_llist_insert
+ .text          0x008045a8       0x64 ../test2_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                0x008045a8                _do_ctors
+ .text          0x0080460c       0x64 ../test2_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                0x0080460c                _do_dtors
+ .text          0x00804670       0x1c ../test2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x00804670                alt_icache_flush_all
+ .text          0x0080468c      0x1d4 ../test2_bsp/\libhal_bsp.a(alt_iic.o)
+                0x0080468c                alt_ic_isr_register
+                0x008046dc                alt_ic_irq_enable
+                0x00804778                alt_ic_irq_disable
+                0x00804818                alt_ic_irq_enabled
+ .text          0x00804860       0xf8 ../test2_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                0x00804860                alt_iic_isr_register
+ .text          0x00804958      0x150 ../test2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                0x00804a30                alt_io_redirect
+ .text          0x00804aa8        0x0 ../test2_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .text          0x00804aa8        0x0 ../test2_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .text          0x00804aa8        0x0 ../test2_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .text          0x00804aa8      0x2e4 ../test2_bsp/\libhal_bsp.a(alt_open.o)
+                0x00804ba0                open
+ .text          0x00804d8c      0x1a4 ../test2_bsp/\libhal_bsp.a(alt_tick.o)
+                0x00804d8c                alt_alarm_stop
+                0x00804e24                alt_tick
+ .text          0x00804f30       0x20 ../test2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                0x00804f30                altera_nios2_qsys_irq_init
+ .text          0x00804f50        0x0 ../test2_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .text          0x00804f50       0x94 ../test2_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x00804f50                alt_find_dev
+ .text          0x00804fe4      0x120 ../test2_bsp/\libhal_bsp.a(alt_find_file.o)
+                0x00804fe4                alt_find_file
+ .text          0x00805104       0xd0 ../test2_bsp/\libhal_bsp.a(alt_get_fd.o)
+                0x00805104                alt_get_fd
+ .text          0x008051d4       0x14 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+                0x008051d4                atexit
+ .text          0x008051e8       0x38 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+                0x008051e8                exit
+ .text          0x00805220       0x74 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+                0x00805220                memcmp
+ .text          0x00805294      0x134 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+                0x00805294                __register_exitproc
+ .text          0x008053c8      0x1b4 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+                0x008053cc                __call_exitprocs
+ .text          0x0080557c       0x60 ../test2_bsp/\libhal_bsp.a(alt_exit.o)
+                0x008055bc                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                0x008055dc                PROVIDE (__etext, ABSOLUTE (.))
+                0x008055dc                PROVIDE (_etext, ABSOLUTE (.))
+                0x008055dc                PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x008055dc                . = ALIGN (0x4)
+                0x008055dc                PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                0x008055dc                PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                0x008055dc                PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                0x008055dc                PROVIDE (__init_array_end, ABSOLUTE (.))
+                0x008055dc                PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                0x008055dc                PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table)
+ *(.dynamic)
+                0x008055dc                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+ .ctors.65535   0x008055dc        0x4 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+                0x008055e0                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x008055e0                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x008055e0                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x008055e0                . = ALIGN (0x4)
+
+.rodata         0x008055e0       0x48
+                0x008055e0                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x008055e0                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x008055e0       0x14 obj/default/hello_world.o
+ .rodata.str1.4
+                0x008055f4        0x2 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-puts.o)
+                                  0x4 (size before relaxing)
+ *fill*         0x008055f6        0x2 00
+ .rodata.str1.4
+                0x008055f8        0x4 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .rodata        0x008055fc        0xc ../test2_bsp/\libhal_bsp.a(alt_dev.o)
+ .rodata        0x00805608       0x10 ../test2_bsp/\libhal_bsp.a(alt_main.o)
+ .rodata        0x00805618       0x10 ../test2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ *(.rodata1)
+                0x00805628                . = ALIGN (0x4)
+                0x00805628                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x008055e0                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x00805628     0x1a48 load address 0x00807070
+                0x00805628                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x00805628                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00805628        0x0 ../test2_bsp//obj/HAL/src/crt0.o
+ .data          0x00805628        0x0 obj/default/hello_world.o
+ .data          0x00805628        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-puts.o)
+ .data          0x00805628        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .data          0x00805628        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o)
+ .data          0x00805628      0x400 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .data          0x00805a28      0x408 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-mallocr.o)
+                0x00805a28                __malloc_av_
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memchr.o)
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memmove.o)
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-reallocr.o)
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-sbrkr.o)
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-wsetup.o)
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fflush.o)
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-findfp.o)
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-freer.o)
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fwalk.o)
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-makebuf.o)
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-stdio.o)
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-writer.o)
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-closer.o)
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fclose.o)
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fstatr.o)
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-isattyr.o)
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-lseekr.o)
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-readr.o)
+ .data          0x00805e30        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .data          0x00805e30        0x0 ../test2_bsp/\libhal_bsp.a(alt_close.o)
+ .data          0x00805e30      0x1a8 ../test2_bsp/\libhal_bsp.a(alt_dev.o)
+                0x00805e30                alt_dev_null
+                0x00805e58                alt_fd_list
+ .data          0x00805fd8        0x0 ../test2_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x00805fd8        0x0 ../test2_bsp/\libhal_bsp.a(alt_fstat.o)
+ .data          0x00805fd8        0x0 ../test2_bsp/\libhal_bsp.a(alt_isatty.o)
+ .data          0x00805fd8        0x0 ../test2_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x00805fd8        0x0 ../test2_bsp/\libhal_bsp.a(alt_lseek.o)
+ .data          0x00805fd8        0x0 ../test2_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x00805fd8        0x0 ../test2_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+ .data          0x00805fd8        0x0 ../test2_bsp/\libhal_bsp.a(alt_read.o)
+ .data          0x00805fd8        0x0 ../test2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .data          0x00805fd8        0x0 ../test2_bsp/\libhal_bsp.a(alt_sbrk.o)
+ .data          0x00805fd8        0x0 ../test2_bsp/\libhal_bsp.a(alt_write.o)
+ .data          0x00805fd8     0x1060 ../test2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(alt_iic.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(alt_open.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(alt_tick.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .data          0x00807038        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .data          0x00807038        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .data          0x00807038        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .data          0x00807038        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .data          0x00807038        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .data          0x00807038        0x0 ../test2_bsp/\libhal_bsp.a(alt_exit.o)
+                0x0080f038                _gp = ABSOLUTE ((. + 0x8000))
+                0x0080f038                PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x00807038        0x8 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                0x00807038                _impure_ptr
+                0x0080703c                _global_impure_ptr
+ .sdata         0x00807040        0x8 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-mallocr.o)
+                0x00807040                __malloc_trim_threshold
+                0x00807044                __malloc_sbrk_base
+ .sdata         0x00807048       0x14 ../test2_bsp/\libhal_bsp.a(alt_dev.o)
+                0x00807048                alt_fs_list
+                0x00807050                alt_dev_list
+                0x00807058                alt_max_fd
+ .sdata         0x0080705c        0x4 ../test2_bsp/\libhal_bsp.a(alt_errno.o)
+                0x0080705c                alt_errno
+ .sdata         0x00807060        0x4 ../test2_bsp/\libhal_bsp.a(alt_sbrk.o)
+ .sdata         0x00807064        0x4 ../test2_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x00807064                alt_priority_mask
+ .sdata         0x00807068        0x8 ../test2_bsp/\libhal_bsp.a(alt_tick.o)
+                0x00807068                alt_alarm_list
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x00807070                . = ALIGN (0x4)
+                0x00807070                _edata = ABSOLUTE (.)
+                0x00807070                PROVIDE (edata, ABSOLUTE (.))
+                0x00807070                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x00807070                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x00808ab8      0x2e0
+                0x00808ab8                __bss_start = ABSOLUTE (.)
+                0x00808ab8                PROVIDE (__sbss_start, ABSOLUTE (.))
+                0x00808ab8                PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x00808ab8        0xc c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-mallocr.o)
+                0x00808ab8                __malloc_top_pad
+                0x00808abc                __malloc_max_sbrked_mem
+                0x00808ac0                __malloc_max_total_mem
+ .sbss          0x00808ac4        0x4 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                0x00808ac4                errno
+ .sbss          0x00808ac8        0xc ../test2_bsp/\libhal_bsp.a(alt_main.o)
+                0x00808ac8                alt_argc
+                0x00808acc                alt_argv
+                0x00808ad0                alt_envp
+ .sbss          0x00808ad4        0x4 ../test2_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x00808ad4                alt_irq_active
+ .sbss          0x00808ad8        0x8 ../test2_bsp/\libhal_bsp.a(alt_tick.o)
+                0x00808ad8                _alt_tick_rate
+                0x00808adc                _alt_nticks
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                0x00808ae0                PROVIDE (__sbss_end, ABSOLUTE (.))
+                0x00808ae0                PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00808ae0        0x0 ../test2_bsp//obj/HAL/src/crt0.o
+ .bss           0x00808ae0        0x0 obj/default/hello_world.o
+ .bss           0x00808ae0        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-puts.o)
+ .bss           0x00808ae0        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .bss           0x00808ae0        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o)
+ .bss           0x00808ae0        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .bss           0x00808ae0       0x28 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-mallocr.o)
+                0x00808ae0                __malloc_current_mallinfo
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memchr.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memmove.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-reallocr.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-sbrkr.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-wsetup.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fflush.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-findfp.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-freer.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fwalk.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-makebuf.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-stdio.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-writer.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-closer.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fclose.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fstatr.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-isattyr.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-lseekr.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-readr.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_close.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_fstat.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_isatty.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_lseek.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_read.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_sbrk.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_write.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_iic.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_open.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_tick.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .bss           0x00808b08        0x0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .bss           0x00808b08        0x0 ../test2_bsp/\libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+ COMMON         0x00808b08      0x100 ../test2_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x00808b08                alt_irq
+ COMMON         0x00808c08      0x190 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+                0x00808c08                _atexit0
+                0x00808d98                . = ALIGN (0x4)
+                0x00808d98                __bss_end = ABSOLUTE (.)
+
+.sdram          0x00808d98        0x0
+                0x00808d98                PROVIDE (_alt_partition_sdram_start, ABSOLUTE (.))
+ *(.sdram. sdram.*)
+                0x00808d98                . = ALIGN (0x4)
+                0x00808d98                PROVIDE (_alt_partition_sdram_end, ABSOLUTE (.))
+                0x00808d98                _end = ABSOLUTE (.)
+                0x00808d98                end = ABSOLUTE (.)
+                0x00808d98                __alt_stack_base = ABSOLUTE (.)
+                0x00808d98                PROVIDE (_alt_partition_sdram_load_addr, LOADADDR (.sdram))
+
+.onchip_mem     0x01008000        0x0 load address 0x00808d98
+                0x01008000                PROVIDE (_alt_partition_onchip_mem_start, ABSOLUTE (.))
+ *(.onchip_mem. onchip_mem.*)
+                0x01008000                . = ALIGN (0x4)
+                0x01008000                PROVIDE (_alt_partition_onchip_mem_end, ABSOLUTE (.))
+                0x00808d98                PROVIDE (_alt_partition_onchip_mem_load_addr, LOADADDR (.onchip_mem))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x26
+ *(.comment)
+ .comment       0x00000000       0x26 obj/default/hello_world.o
+                                 0x27 (size before relaxing)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-puts.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-mallocr.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memchr.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memmove.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-reallocr.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-sbrkr.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-wsetup.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fflush.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-findfp.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-freer.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fwalk.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-makebuf.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-stdio.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-writer.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-closer.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fclose.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fstatr.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-isattyr.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-lseekr.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-readr.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_close.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_fstat.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_isatty.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_lseek.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_read.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_sbrk.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_write.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_iic.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_open.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_tick.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .comment       0x00000000       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .comment       0x00000000       0x27 ../test2_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x8f8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 ../test2_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x00000028       0x20 obj/default/hello_world.o
+ .debug_aranges
+                0x00000048       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-puts.o)
+ .debug_aranges
+                0x00000068       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x00000088       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o)
+ .debug_aranges
+                0x000000a8       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-mallocr.o)
+ .debug_aranges
+                0x000000c8       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memchr.o)
+ .debug_aranges
+                0x000000e8       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x00000108       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memmove.o)
+ .debug_aranges
+                0x00000128       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-reallocr.o)
+ .debug_aranges
+                0x00000148       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-sbrkr.o)
+ .debug_aranges
+                0x00000168       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-wsetup.o)
+ .debug_aranges
+                0x00000188       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fflush.o)
+ .debug_aranges
+                0x000001a8       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-findfp.o)
+ .debug_aranges
+                0x000001c8       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-freer.o)
+ .debug_aranges
+                0x000001e8       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fwalk.o)
+ .debug_aranges
+                0x00000208       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-makebuf.o)
+ .debug_aranges
+                0x00000228       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+ .debug_aranges
+                0x00000248       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-stdio.o)
+ .debug_aranges
+                0x00000268       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-writer.o)
+ .debug_aranges
+                0x00000288       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-closer.o)
+ .debug_aranges
+                0x000002a8       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fclose.o)
+ .debug_aranges
+                0x000002c8       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fstatr.o)
+ .debug_aranges
+                0x000002e8       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-isattyr.o)
+ .debug_aranges
+                0x00000308       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-lseekr.o)
+ .debug_aranges
+                0x00000328       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-readr.o)
+ .debug_aranges
+                0x00000348       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_aranges
+                0x00000368       0x20 ../test2_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x00000388       0x20 ../test2_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x000003a8       0x20 ../test2_bsp/\libhal_bsp.a(alt_fstat.o)
+ .debug_aranges
+                0x000003c8       0x20 ../test2_bsp/\libhal_bsp.a(alt_isatty.o)
+ .debug_aranges
+                0x000003e8       0x20 ../test2_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x00000408       0x20 ../test2_bsp/\libhal_bsp.a(alt_lseek.o)
+ .debug_aranges
+                0x00000428       0x20 ../test2_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x00000448       0x20 ../test2_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_aranges
+                0x00000468       0x20 ../test2_bsp/\libhal_bsp.a(alt_read.o)
+ .debug_aranges
+                0x00000488       0x20 ../test2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x000004a8       0x20 ../test2_bsp/\libhal_bsp.a(alt_sbrk.o)
+ .debug_aranges
+                0x000004c8       0x20 ../test2_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_aranges
+                0x000004e8       0x20 ../test2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000508       0x20 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x00000528       0x20 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_aranges
+                0x00000548       0x20 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_aranges
+                0x00000568       0x20 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x00000588       0x20 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x000005a8       0x20 ../test2_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_aranges
+                0x000005c8       0x20 ../test2_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_aranges
+                0x000005e8       0x20 ../test2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x00000608       0x20 ../test2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x00000628       0x20 ../test2_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_aranges
+                0x00000648       0x20 ../test2_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_aranges
+                0x00000668       0x20 ../test2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x00000688       0x20 ../test2_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x000006a8       0x20 ../test2_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x000006c8       0x20 ../test2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_aranges
+                0x000006e8       0x30 ../test2_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x00000718       0x28 ../test2_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x00000740       0x20 ../test2_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_aranges
+                0x00000760       0x20 ../test2_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_aranges
+                0x00000780       0x20 ../test2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_aranges
+                0x000007a0       0x38 ../test2_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x000007d8       0x20 ../test2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x000007f8       0x20 ../test2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_aranges
+                0x00000818       0x20 ../test2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_aranges
+                0x00000838       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_aranges
+                0x00000858       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_aranges
+                0x00000878       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x00000898       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x000008b8       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x000008d8       0x20 ../test2_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_pubnames
+                0x00000000      0xd49
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x1b obj/default/hello_world.o
+ .debug_pubnames
+                0x0000001b       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-puts.o)
+ .debug_pubnames
+                0x00000042       0x1d c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_pubnames
+                0x0000005f       0x23 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o)
+ .debug_pubnames
+                0x00000082       0x39 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_pubnames
+                0x000000bb       0xce c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-mallocr.o)
+ .debug_pubnames
+                0x00000189       0x1d c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memchr.o)
+ .debug_pubnames
+                0x000001a6       0x1d c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_pubnames
+                0x000001c3       0x1e c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memmove.o)
+ .debug_pubnames
+                0x000001e1       0x21 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-reallocr.o)
+ .debug_pubnames
+                0x00000202       0x1e c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-sbrkr.o)
+ .debug_pubnames
+                0x00000220       0x22 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-wsetup.o)
+ .debug_pubnames
+                0x00000242       0x2b c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fflush.o)
+ .debug_pubnames
+                0x0000026d       0xdb c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-findfp.o)
+ .debug_pubnames
+                0x00000348       0x31 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-freer.o)
+ .debug_pubnames
+                0x00000379       0x2e c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fwalk.o)
+ .debug_pubnames
+                0x000003a7       0x1c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_pubnames
+                0x000003c3       0x23 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-makebuf.o)
+ .debug_pubnames
+                0x000003e6       0x1d c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+ .debug_pubnames
+                0x00000403       0x44 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-stdio.o)
+ .debug_pubnames
+                0x00000447       0x1f c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-writer.o)
+ .debug_pubnames
+                0x00000466       0x1f c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-closer.o)
+ .debug_pubnames
+                0x00000485       0x2b c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fclose.o)
+ .debug_pubnames
+                0x000004b0       0x1f c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fstatr.o)
+ .debug_pubnames
+                0x000004cf       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-isattyr.o)
+ .debug_pubnames
+                0x000004ef       0x1f c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-lseekr.o)
+ .debug_pubnames
+                0x0000050e       0x1e c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-readr.o)
+ .debug_pubnames
+                0x0000052c       0x1f c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_pubnames
+                0x0000054b       0x1c ../test2_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_pubnames
+                0x00000567       0x63 ../test2_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_pubnames
+                0x000005ca       0x20 ../test2_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_pubnames
+                0x000005ea       0x1c ../test2_bsp/\libhal_bsp.a(alt_fstat.o)
+ .debug_pubnames
+                0x00000606       0x1d ../test2_bsp/\libhal_bsp.a(alt_isatty.o)
+ .debug_pubnames
+                0x00000623       0x1f ../test2_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_pubnames
+                0x00000642       0x1c ../test2_bsp/\libhal_bsp.a(alt_lseek.o)
+ .debug_pubnames
+                0x0000065e       0x46 ../test2_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_pubnames
+                0x000006a4       0x38 ../test2_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_pubnames
+                0x000006dc       0x1b ../test2_bsp/\libhal_bsp.a(alt_read.o)
+ .debug_pubnames
+                0x000006f7       0x25 ../test2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_pubnames
+                0x0000071c       0x1b ../test2_bsp/\libhal_bsp.a(alt_sbrk.o)
+ .debug_pubnames
+                0x00000737       0x1c ../test2_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_pubnames
+                0x00000753       0x34 ../test2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_pubnames
+                0x00000787       0xa5 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_pubnames
+                0x0000082c       0x55 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_pubnames
+                0x00000881       0x34 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_pubnames
+                0x000008b5       0x33 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_pubnames
+                0x000008e8       0x34 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_pubnames
+                0x0000091c       0x2f ../test2_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_pubnames
+                0x0000094b       0x26 ../test2_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_pubnames
+                0x00000971       0x2b ../test2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_pubnames
+                0x0000099c       0x2b ../test2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_pubnames
+                0x000009c7       0x20 ../test2_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_pubnames
+                0x000009e7       0x20 ../test2_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_pubnames
+                0x00000a07       0x2b ../test2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_pubnames
+                0x00000a32       0x6e ../test2_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_pubnames
+                0x00000aa0       0x2b ../test2_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_pubnames
+                0x00000acb       0x26 ../test2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_pubnames
+                0x00000af1       0x32 ../test2_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_pubnames
+                0x00000b23       0x3b ../test2_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_pubnames
+                0x00000b5e       0x1b ../test2_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_pubnames
+                0x00000b79       0x68 ../test2_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_pubnames
+                0x00000be1       0x31 ../test2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_pubnames
+                0x00000c12       0x23 ../test2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_pubnames
+                0x00000c35       0x24 ../test2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_pubnames
+                0x00000c59       0x21 ../test2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_pubnames
+                0x00000c7a       0x2a c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_pubnames
+                0x00000ca4       0x1b c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_pubnames
+                0x00000cbf       0x1d c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_pubnames
+                0x00000cdc       0x2a c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_pubnames
+                0x00000d06       0x27 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_pubnames
+                0x00000d2d       0x1c ../test2_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_info     0x00000000    0x19885
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0x7d ../test2_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x0000007d      0x13c obj/default/hello_world.o
+ .debug_info    0x000001b9      0xa25 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-puts.o)
+ .debug_info    0x00000bde       0xdb c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_info    0x00000cb9      0xa88 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o)
+ .debug_info    0x00001741      0x93d c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_info    0x0000207e      0xcd0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-mallocr.o)
+ .debug_info    0x00002d4e      0x138 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memchr.o)
+ .debug_info    0x00002e86      0x106 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_info    0x00002f8c      0x13e c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memmove.o)
+ .debug_info    0x000030ca      0xbd7 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-reallocr.o)
+ .debug_info    0x00003ca1      0x962 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-sbrkr.o)
+ .debug_info    0x00004603      0x95d c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-wsetup.o)
+ .debug_info    0x00004f60      0x9fe c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fflush.o)
+ .debug_info    0x0000595e      0xb72 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-findfp.o)
+ .debug_info    0x000064d0      0xbc9 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-freer.o)
+ .debug_info    0x00007099      0xaed c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fwalk.o)
+ .debug_info    0x00007b86       0x8c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_info    0x00007c12      0xb1a c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-makebuf.o)
+ .debug_info    0x0000872c      0x113 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+ .debug_info    0x0000883f      0xaac c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-stdio.o)
+ .debug_info    0x000092eb      0x993 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-writer.o)
+ .debug_info    0x00009c7e      0x958 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-closer.o)
+ .debug_info    0x0000a5d6      0x994 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fclose.o)
+ .debug_info    0x0000af6a      0xafc c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fstatr.o)
+ .debug_info    0x0000ba66      0x958 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-isattyr.o)
+ .debug_info    0x0000c3be      0x981 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-lseekr.o)
+ .debug_info    0x0000cd3f      0x98c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-readr.o)
+ .debug_info    0x0000d6cb       0xf3 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_info    0x0000d7be      0x469 ../test2_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_info    0x0000dc27      0x681 ../test2_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x0000e2a8      0x166 ../test2_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x0000e40e      0x662 ../test2_bsp/\libhal_bsp.a(alt_fstat.o)
+ .debug_info    0x0000ea70      0x668 ../test2_bsp/\libhal_bsp.a(alt_isatty.o)
+ .debug_info    0x0000f0d8      0x28f ../test2_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x0000f367      0x49c ../test2_bsp/\libhal_bsp.a(alt_lseek.o)
+ .debug_info    0x0000f803      0x227 ../test2_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x0000fa2a      0xc1a ../test2_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_info    0x00010644      0x68c ../test2_bsp/\libhal_bsp.a(alt_read.o)
+ .debug_info    0x00010cd0      0x3f4 ../test2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x000110c4      0x2b9 ../test2_bsp/\libhal_bsp.a(alt_sbrk.o)
+ .debug_info    0x0001137d      0x695 ../test2_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_info    0x00011a12      0x722 ../test2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x00012134      0x7db ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x0001290f      0x603 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_info    0x00012f12      0x445 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_info    0x00013357      0x548 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x0001389f      0x540 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x00013ddf      0x38d ../test2_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_info    0x0001416c      0x444 ../test2_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_info    0x000145b0      0x15e ../test2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x0001470e      0x2b9 ../test2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x000149c7      0x111 ../test2_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_info    0x00014ad8      0x110 ../test2_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_info    0x00014be8      0x15e ../test2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x00014d46      0x495 ../test2_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_info    0x000151db      0x316 ../test2_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x000154f1      0x697 ../test2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_info    0x00015b88       0x86 ../test2_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x00015c0e      0x277 ../test2_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x00015e85      0x169 ../test2_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x00015fee      0x527 ../test2_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_info    0x00016515      0x400 ../test2_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_info    0x00016915      0x165 ../test2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_info    0x00016a7a       0x8c ../test2_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x00016b06      0x41a ../test2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x00016f20      0x421 ../test2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_info    0x00017341      0x462 ../test2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_info    0x000177a3      0x181 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_info    0x00017924      0x93f c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_info    0x00018263      0x115 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_info    0x00018378      0x99c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_info    0x00018d14      0x9e2 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_info    0x000196f6      0x18f ../test2_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x00000000     0x4f03
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x12 ../test2_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x00000012       0x3f obj/default/hello_world.o
+ .debug_abbrev  0x00000051      0x1ac c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-puts.o)
+ .debug_abbrev  0x000001fd       0x8b c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_abbrev  0x00000288      0x1a3 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o)
+ .debug_abbrev  0x0000042b      0x157 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_abbrev  0x00000582      0x216 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-mallocr.o)
+ .debug_abbrev  0x00000798       0xb5 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memchr.o)
+ .debug_abbrev  0x0000084d       0xb5 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x00000902       0xb5 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memmove.o)
+ .debug_abbrev  0x000009b7      0x1c3 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-reallocr.o)
+ .debug_abbrev  0x00000b7a      0x18c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-sbrkr.o)
+ .debug_abbrev  0x00000d06      0x170 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-wsetup.o)
+ .debug_abbrev  0x00000e76      0x1c6 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fflush.o)
+ .debug_abbrev  0x0000103c      0x24c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-findfp.o)
+ .debug_abbrev  0x00001288      0x1d9 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-freer.o)
+ .debug_abbrev  0x00001461      0x1e3 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fwalk.o)
+ .debug_abbrev  0x00001644       0x3b c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x0000167f      0x197 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-makebuf.o)
+ .debug_abbrev  0x00001816       0xb8 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+ .debug_abbrev  0x000018ce      0x1c9 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-stdio.o)
+ .debug_abbrev  0x00001a97      0x184 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-writer.o)
+ .debug_abbrev  0x00001c1b      0x17f c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-closer.o)
+ .debug_abbrev  0x00001d9a      0x1a7 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fclose.o)
+ .debug_abbrev  0x00001f41      0x18e c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fstatr.o)
+ .debug_abbrev  0x000020cf      0x17f c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-isattyr.o)
+ .debug_abbrev  0x0000224e      0x18e c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-lseekr.o)
+ .debug_abbrev  0x000023dc      0x17f c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-readr.o)
+ .debug_abbrev  0x0000255b       0x7b c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_abbrev  0x000025d6       0xfb ../test2_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x000026d1       0xc7 ../test2_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x00002798       0x5e ../test2_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x000027f6       0xfb ../test2_bsp/\libhal_bsp.a(alt_fstat.o)
+ .debug_abbrev  0x000028f1       0xfb ../test2_bsp/\libhal_bsp.a(alt_isatty.o)
+ .debug_abbrev  0x000029ec       0x88 ../test2_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x00002a74       0xfb ../test2_bsp/\libhal_bsp.a(alt_lseek.o)
+ .debug_abbrev  0x00002b6f       0xb7 ../test2_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x00002c26      0x181 ../test2_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_abbrev  0x00002da7       0xfb ../test2_bsp/\libhal_bsp.a(alt_read.o)
+ .debug_abbrev  0x00002ea2       0xc1 ../test2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x00002f63      0x115 ../test2_bsp/\libhal_bsp.a(alt_sbrk.o)
+ .debug_abbrev  0x00003078      0x100 ../test2_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_abbrev  0x00003178      0x142 ../test2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x000032ba       0xf7 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x000033b1      0x17c ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_abbrev  0x0000352d       0xf0 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_abbrev  0x0000361d      0x191 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x000037ae      0x18d ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x0000393b      0x137 ../test2_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_abbrev  0x00003a72      0x172 ../test2_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_abbrev  0x00003be4       0x3f ../test2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x00003c23       0xf6 ../test2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x00003d19       0x76 ../test2_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_abbrev  0x00003d8f       0x76 ../test2_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_abbrev  0x00003e05       0x3f ../test2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x00003e44      0x134 ../test2_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x00003f78      0x14e ../test2_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x000040c6       0xf0 ../test2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_abbrev  0x000041b6       0x12 ../test2_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x000041c8      0x10c ../test2_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x000042d4       0x44 ../test2_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x00004318      0x112 ../test2_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_abbrev  0x0000442a      0x150 ../test2_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_abbrev  0x0000457a       0x3f ../test2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_abbrev  0x000045b9       0x12 ../test2_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x000045cb       0xcf ../test2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x0000469a       0xcf ../test2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_abbrev  0x00004769       0xfb ../test2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_abbrev  0x00004864       0xb7 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_abbrev  0x0000491b      0x16e c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_abbrev  0x00004a89       0x7c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x00004b05      0x1ae c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_abbrev  0x00004cb3      0x1de c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x00004e91       0x72 ../test2_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_line     0x00000000     0xc769
+ *(.debug_line)
+ .debug_line    0x00000000       0x66 ../test2_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x00000066      0x1ca obj/default/hello_world.o
+ .debug_line    0x00000230      0x2fa c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-puts.o)
+ .debug_line    0x0000052a      0x270 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_line    0x0000079a      0x644 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o)
+ .debug_line    0x00000dde      0x230 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_line    0x0000100e      0x80d c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-mallocr.o)
+ .debug_line    0x0000181b      0x306 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memchr.o)
+ .debug_line    0x00001b21      0x1af c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_line    0x00001cd0      0x30d c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memmove.o)
+ .debug_line    0x00001fdd      0x58d c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-reallocr.o)
+ .debug_line    0x0000256a      0x29c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-sbrkr.o)
+ .debug_line    0x00002806      0x2f3 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-wsetup.o)
+ .debug_line    0x00002af9      0x410 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fflush.o)
+ .debug_line    0x00002f09      0x60c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-findfp.o)
+ .debug_line    0x00003515      0x5ee c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-freer.o)
+ .debug_line    0x00003b03      0x34d c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fwalk.o)
+ .debug_line    0x00003e50      0x1e2 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_line    0x00004032      0x3c6 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-makebuf.o)
+ .debug_line    0x000043f8      0x304 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+ .debug_line    0x000046fc      0x38f c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-stdio.o)
+ .debug_line    0x00004a8b      0x29d c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-writer.o)
+ .debug_line    0x00004d28      0x29d c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-closer.o)
+ .debug_line    0x00004fc5      0x2eb c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fclose.o)
+ .debug_line    0x000052b0      0x267 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fstatr.o)
+ .debug_line    0x00005517      0x29e c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-isattyr.o)
+ .debug_line    0x000057b5      0x29d c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-lseekr.o)
+ .debug_line    0x00005a52      0x29c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-readr.o)
+ .debug_line    0x00005cee      0x11a c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_line    0x00005e08      0x299 ../test2_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_line    0x000060a1      0x254 ../test2_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x000062f5      0x1aa ../test2_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x0000649f      0x2a1 ../test2_bsp/\libhal_bsp.a(alt_fstat.o)
+ .debug_line    0x00006740      0x2a2 ../test2_bsp/\libhal_bsp.a(alt_isatty.o)
+ .debug_line    0x000069e2      0x217 ../test2_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x00006bf9      0x2a1 ../test2_bsp/\libhal_bsp.a(alt_lseek.o)
+ .debug_line    0x00006e9a      0x2ca ../test2_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x00007164      0x20f ../test2_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_line    0x00007373      0x2c8 ../test2_bsp/\libhal_bsp.a(alt_read.o)
+ .debug_line    0x0000763b       0xed ../test2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x00007728      0x261 ../test2_bsp/\libhal_bsp.a(alt_sbrk.o)
+ .debug_line    0x00007989      0x2c9 ../test2_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_line    0x00007c52      0x2c7 ../test2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x00007f19      0x217 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x00008130      0x4ab ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_line    0x000085db      0x317 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_line    0x000088f2      0x3f7 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x00008ce9      0x405 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x000090ee      0x2b3 ../test2_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_line    0x000093a1      0x2dc ../test2_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_line    0x0000967d      0x1b5 ../test2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x00009832      0x25a ../test2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x00009a8c       0x83 ../test2_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_line    0x00009b0f       0x83 ../test2_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_line    0x00009b92      0x1b5 ../test2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x00009d47      0x2c8 ../test2_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_line    0x0000a00f      0x249 ../test2_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x0000a258      0x2b4 ../test2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_line    0x0000a50c       0x6b ../test2_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x0000a577      0x248 ../test2_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x0000a7bf       0x72 ../test2_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x0000a831      0x2ff ../test2_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_line    0x0000ab30      0x2dc ../test2_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_line    0x0000ae0c      0x1ce ../test2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_line    0x0000afda       0xab ../test2_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x0000b085      0x26b ../test2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x0000b2f0      0x27c ../test2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_line    0x0000b56c      0x297 ../test2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_line    0x0000b803      0x203 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_line    0x0000ba06      0x23b c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_line    0x0000bc41      0x2a2 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_line    0x0000bee3      0x316 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_line    0x0000c1f9      0x36a c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_line    0x0000c563      0x206 ../test2_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_frame    0x00000000     0x1014
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x2c obj/default/hello_world.o
+ .debug_frame   0x0000002c       0x3c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-puts.o)
+ .debug_frame   0x00000068       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_frame   0x00000088       0x38 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o)
+ .debug_frame   0x000000c0       0x38 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-mallocr.o)
+ .debug_frame   0x000000f8       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memchr.o)
+ .debug_frame   0x00000118       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_frame   0x00000138       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memmove.o)
+ .debug_frame   0x00000158       0x38 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-reallocr.o)
+ .debug_frame   0x00000190       0x2c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x000001bc       0x2c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-wsetup.o)
+ .debug_frame   0x000001e8       0x40 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fflush.o)
+ .debug_frame   0x00000228      0x118 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-findfp.o)
+ .debug_frame   0x00000340       0x4c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-freer.o)
+ .debug_frame   0x0000038c       0x60 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fwalk.o)
+ .debug_frame   0x000003ec       0x2c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-makebuf.o)
+ .debug_frame   0x00000418       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+ .debug_frame   0x00000438       0x78 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-stdio.o)
+ .debug_frame   0x000004b0       0x2c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-writer.o)
+ .debug_frame   0x000004dc       0x2c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-closer.o)
+ .debug_frame   0x00000508       0x3c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fclose.o)
+ .debug_frame   0x00000544       0x2c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fstatr.o)
+ .debug_frame   0x00000570       0x2c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-isattyr.o)
+ .debug_frame   0x0000059c       0x2c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-lseekr.o)
+ .debug_frame   0x000005c8       0x2c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-readr.o)
+ .debug_frame   0x000005f4       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_frame   0x00000614       0x48 ../test2_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_frame   0x0000065c       0x2c ../test2_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x00000688       0x48 ../test2_bsp/\libhal_bsp.a(alt_fstat.o)
+ .debug_frame   0x000006d0       0x48 ../test2_bsp/\libhal_bsp.a(alt_isatty.o)
+ .debug_frame   0x00000718       0x48 ../test2_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x00000760       0x48 ../test2_bsp/\libhal_bsp.a(alt_lseek.o)
+ .debug_frame   0x000007a8       0x2c ../test2_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x000007d4       0x48 ../test2_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_frame   0x0000081c       0x48 ../test2_bsp/\libhal_bsp.a(alt_read.o)
+ .debug_frame   0x00000864       0x30 ../test2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x00000894       0x2c ../test2_bsp/\libhal_bsp.a(alt_sbrk.o)
+ .debug_frame   0x000008c0       0x48 ../test2_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_frame   0x00000908       0x64 ../test2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x0000096c       0x80 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x000009ec       0x80 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_frame   0x00000a6c       0x2c ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_frame   0x00000a98       0x2c ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x00000ac4       0x2c ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x00000af0       0x48 ../test2_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_frame   0x00000b38       0x2c ../test2_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_frame   0x00000b64       0x2c ../test2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x00000b90       0x48 ../test2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x00000bd8       0x2c ../test2_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_frame   0x00000c04       0x2c ../test2_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_frame   0x00000c30       0x2c ../test2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x00000c5c       0x80 ../test2_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x00000cdc       0x2c ../test2_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x00000d08       0x4c ../test2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_frame   0x00000d54       0x2c ../test2_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x00000d80       0x68 ../test2_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_frame   0x00000de8       0x48 ../test2_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_frame   0x00000e30       0x2c ../test2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_frame   0x00000e5c       0x2c ../test2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x00000e88       0x2c ../test2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_frame   0x00000eb4       0x30 ../test2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_frame   0x00000ee4       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_frame   0x00000f04       0x28 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_frame   0x00000f2c       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_frame   0x00000f4c       0x34 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_frame   0x00000f80       0x4c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000fcc       0x48 ../test2_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_str      0x00000000     0x1724
+ *(.debug_str)
+ .debug_str     0x00000000       0x12 obj/default/hello_world.o
+ .debug_str     0x00000012      0x4dd c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-puts.o)
+                                0x557 (size before relaxing)
+ .debug_str     0x000004ef       0xe9 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                                0x18b (size before relaxing)
+ .debug_str     0x000005d8       0x69 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o)
+                                0x571 (size before relaxing)
+ .debug_str     0x00000641       0xf2 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                                0x528 (size before relaxing)
+ .debug_str     0x00000733      0x2a8 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-mallocr.o)
+                                0x6ff (size before relaxing)
+ .debug_str     0x000009db       0x66 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memchr.o)
+                                0x199 (size before relaxing)
+ .debug_str     0x00000a41       0x6c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+                                0x136 (size before relaxing)
+ .debug_str     0x00000aad       0x50 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memmove.o)
+                                0x1ab (size before relaxing)
+ .debug_str     0x00000afd       0x59 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-reallocr.o)
+                                0x5d1 (size before relaxing)
+ .debug_str     0x00000b56       0x53 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-sbrkr.o)
+                                0x519 (size before relaxing)
+ .debug_str     0x00000ba9       0x49 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-wsetup.o)
+                                0x51a (size before relaxing)
+ .debug_str     0x00000bf2       0x55 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fflush.o)
+                                0x540 (size before relaxing)
+ .debug_str     0x00000c47      0x105 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-findfp.o)
+                                0x602 (size before relaxing)
+ .debug_str     0x00000d4c       0x3c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-freer.o)
+                                0x651 (size before relaxing)
+ .debug_str     0x00000d88       0x61 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fwalk.o)
+                                0x543 (size before relaxing)
+ .debug_str     0x00000de9       0x40 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                                0x171 (size before relaxing)
+ .debug_str     0x00000e29      0x126 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-makebuf.o)
+                                0x614 (size before relaxing)
+ .debug_str     0x00000f4f       0x45 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+                                0x18c (size before relaxing)
+ .debug_str     0x00000f94       0x65 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-stdio.o)
+                                0x53f (size before relaxing)
+ .debug_str     0x00000ff9       0x4f c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-writer.o)
+                                0x51c (size before relaxing)
+ .debug_str     0x00001048       0x46 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-closer.o)
+                                0x50c (size before relaxing)
+ .debug_str     0x0000108e       0x53 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fclose.o)
+                                0x524 (size before relaxing)
+ .debug_str     0x000010e1       0x4c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fstatr.o)
+                                0x5ff (size before relaxing)
+ .debug_str     0x0000112d       0x48 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-isattyr.o)
+                                0x50e (size before relaxing)
+ .debug_str     0x00001175       0x46 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-lseekr.o)
+                                0x51a (size before relaxing)
+ .debug_str     0x000011bb       0x44 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-readr.o)
+                                0x51a (size before relaxing)
+ .debug_str     0x000011ff       0xcc c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+                                0x175 (size before relaxing)
+ .debug_str     0x000012cb       0x12 ../test2_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_str     0x000012dd       0x12 ../test2_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_str     0x000012ef       0x12 ../test2_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_str     0x00001301       0x12 ../test2_bsp/\libhal_bsp.a(alt_fstat.o)
+ .debug_str     0x00001313       0x12 ../test2_bsp/\libhal_bsp.a(alt_isatty.o)
+ .debug_str     0x00001325       0x12 ../test2_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_str     0x00001337       0x12 ../test2_bsp/\libhal_bsp.a(alt_lseek.o)
+ .debug_str     0x00001349       0x12 ../test2_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_str     0x0000135b       0x20 ../test2_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_str     0x0000137b       0x12 ../test2_bsp/\libhal_bsp.a(alt_read.o)
+ .debug_str     0x0000138d       0x1a ../test2_bsp/\libhal_bsp.a(alt_sbrk.o)
+ .debug_str     0x000013a7       0x12 ../test2_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_str     0x000013b9       0x12 ../test2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_str     0x000013cb       0x12 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_str     0x000013dd       0x1a ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_str     0x000013f7       0x12 ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_str     0x00001409       0x1a ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_str     0x00001423       0x1a ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_str     0x0000143d       0x12 ../test2_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_str     0x0000144f       0x23 ../test2_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_str     0x00001472       0x12 ../test2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_str     0x00001484       0x12 ../test2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_str     0x00001496       0x12 ../test2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_str     0x000014a8       0x18 ../test2_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_str     0x000014c0       0x1a ../test2_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_str     0x000014da       0x12 ../test2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_str     0x000014ec       0x12 ../test2_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_str     0x000014fe       0x12 ../test2_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_str     0x00001510       0x1a ../test2_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_str     0x0000152a       0x12 ../test2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_str     0x0000153c       0x12 ../test2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_str     0x0000154e       0x12 ../test2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_str     0x00001560       0x12 ../test2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_str     0x00001572       0x3e c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+                                0x1cd (size before relaxing)
+ .debug_str     0x000015b0       0x41 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+                                0x51a (size before relaxing)
+ .debug_str     0x000015f1       0x45 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+                                0x178 (size before relaxing)
+ .debug_str     0x00001636       0x54 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+                                0x532 (size before relaxing)
+ .debug_str     0x0000168a       0x7e c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+                                0x55c (size before relaxing)
+ .debug_str     0x00001708       0x1c ../test2_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_loc      0x00000000     0x3e6e
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x2b obj/default/hello_world.o
+ .debug_loc     0x0000002b       0xa2 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-puts.o)
+ .debug_loc     0x000000cd       0x3c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_loc     0x00000109      0x4e4 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o)
+ .debug_loc     0x000005ed      0xaeb c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-mallocr.o)
+ .debug_loc     0x000010d8      0x106 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memchr.o)
+ .debug_loc     0x000011de       0xca c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_loc     0x000012a8      0x117 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memmove.o)
+ .debug_loc     0x000013bf      0x8c0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-reallocr.o)
+ .debug_loc     0x00001c7f       0x5b c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-sbrkr.o)
+ .debug_loc     0x00001cda       0x7c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-wsetup.o)
+ .debug_loc     0x00001d56      0x1f6 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fflush.o)
+ .debug_loc     0x00001f4c      0x1e1 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-findfp.o)
+ .debug_loc     0x0000212d      0x4a7 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-freer.o)
+ .debug_loc     0x000025d4      0x1d2 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fwalk.o)
+ .debug_loc     0x000027a6      0x11c c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-makebuf.o)
+ .debug_loc     0x000028c2       0xa1 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memset.o)
+ .debug_loc     0x00002963      0x21f c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-stdio.o)
+ .debug_loc     0x00002b82       0x97 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-writer.o)
+ .debug_loc     0x00002c19       0x5b c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-closer.o)
+ .debug_loc     0x00002c74       0xe4 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fclose.o)
+ .debug_loc     0x00002d58       0x79 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fstatr.o)
+ .debug_loc     0x00002dd1       0x5b c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-isattyr.o)
+ .debug_loc     0x00002e2c       0x97 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-lseekr.o)
+ .debug_loc     0x00002ec3       0x97 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-readr.o)
+ .debug_loc     0x00002f5a       0x4f c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_loc     0x00002fa9       0x56 ../test2_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_loc     0x00002fff       0x2b ../test2_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_loc     0x0000302a       0x56 ../test2_bsp/\libhal_bsp.a(alt_fstat.o)
+ .debug_loc     0x00003080       0x57 ../test2_bsp/\libhal_bsp.a(alt_isatty.o)
+ .debug_loc     0x000030d7       0x56 ../test2_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_loc     0x0000312d       0x56 ../test2_bsp/\libhal_bsp.a(alt_lseek.o)
+ .debug_loc     0x00003183       0x2b ../test2_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_loc     0x000031ae       0x56 ../test2_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_loc     0x00003204       0x56 ../test2_bsp/\libhal_bsp.a(alt_read.o)
+ .debug_loc     0x0000325a       0x2b ../test2_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_loc     0x00003285       0x2b ../test2_bsp/\libhal_bsp.a(alt_sbrk.o)
+ .debug_loc     0x000032b0       0x56 ../test2_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_loc     0x00003306       0x81 ../test2_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x00003387       0xac ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_loc     0x00003433       0xac ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_loc     0x000034df       0x2b ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_loc     0x0000350a       0x2b ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_loc     0x00003535       0x2b ../test2_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_loc     0x00003560       0x56 ../test2_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_loc     0x000035b6       0x2b ../test2_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_loc     0x000035e1       0x2b ../test2_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_loc     0x0000360c       0x56 ../test2_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_loc     0x00003662       0x2b ../test2_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_loc     0x0000368d       0x2b ../test2_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_loc     0x000036b8       0x2b ../test2_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_loc     0x000036e3       0xac ../test2_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_loc     0x0000378f       0x2b ../test2_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_loc     0x000037ba       0x56 ../test2_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_loc     0x00003810       0x2b ../test2_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_loc     0x0000383b       0x81 ../test2_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_loc     0x000038bc       0x56 ../test2_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_loc     0x00003912       0x2b ../test2_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_loc     0x0000393d       0x2b ../test2_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_loc     0x00003968       0x2b ../test2_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_loc     0x00003993       0x2b ../test2_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_loc     0x000039be       0x1e c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_loc     0x000039dc       0x3d c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_loc     0x00003a19      0x114 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_loc     0x00003b2d      0x120 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_loc     0x00003c4d      0x1cb c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_loc     0x00003e18       0x56 ../test2_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x00000000       0x10
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x00000000       0x10 ../test2_bsp//obj/HAL/src/crt0.o
+                0x01000000                __alt_data_end = 0x1000000
+                0x01000000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                0x00808d98                PROVIDE (__alt_stack_limit, __alt_stack_base)
+                0x00808d98                PROVIDE (__alt_heap_start, end)
+                0x01000000                PROVIDE (__alt_heap_limit, 0x1000000)
+OUTPUT(test2.elf elf32-littlenios2)
+
+.debug_ranges   0x00000000      0x2f8
+ .debug_ranges  0x00000000       0x20 ../test2_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x00000020       0x28 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fvwrite.o)
+ .debug_ranges  0x00000048       0x70 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-mallocr.o)
+ .debug_ranges  0x000000b8      0x110 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-reallocr.o)
+ .debug_ranges  0x000001c8       0x20 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fflush.o)
+ .debug_ranges  0x000001e8       0xa0 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-fwalk.o)
+ .debug_ranges  0x00000288       0x28 ../test2_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x000002b0       0x30 ../test2_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_ranges  0x000002e0       0x18 c:/altera/12.0sp2/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)

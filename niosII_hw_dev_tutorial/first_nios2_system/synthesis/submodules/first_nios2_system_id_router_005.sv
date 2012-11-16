@@ -32,14 +32,14 @@
 module first_nios2_system_id_router_005_default_decode
   #(
      parameter DEFAULT_CHANNEL = 0,
-               DEFAULT_DESTID = 1 
+               DEFAULT_DESTID = 0 
    )
-  (output [77 - 75 : 0] default_destination_id,
+  (output [67 - 65 : 0] default_destination_id,
    output [6-1 : 0] default_src_channel
   );
 
   assign default_destination_id = 
-    DEFAULT_DESTID[77 - 75 : 0];
+    DEFAULT_DESTID[67 - 65 : 0];
   generate begin : default_decode
     if (DEFAULT_CHANNEL == -1)
       assign default_src_channel = '0;
@@ -62,7 +62,7 @@ module first_nios2_system_id_router_005
     // Command Sink (Input)
     // -------------------
     input                       sink_valid,
-    input  [88-1 : 0]    sink_data,
+    input  [78-1 : 0]    sink_data,
     input                       sink_startofpacket,
     input                       sink_endofpacket,
     output                      sink_ready,
@@ -71,7 +71,7 @@ module first_nios2_system_id_router_005
     // Command Source (Output)
     // -------------------
     output                          src_valid,
-    output reg [88-1    : 0] src_data,
+    output reg [78-1    : 0] src_data,
     output reg [6-1 : 0] src_channel,
     output                          src_startofpacket,
     output                          src_endofpacket,
@@ -81,16 +81,16 @@ module first_nios2_system_id_router_005
     // -------------------------------------------------------
     // Local parameters and variables
     // -------------------------------------------------------
-    localparam PKT_ADDR_H = 52;
-    localparam PKT_ADDR_L = 36;
-    localparam PKT_DEST_ID_H = 77;
-    localparam PKT_DEST_ID_L = 75;
-    localparam ST_DATA_W = 88;
+    localparam PKT_ADDR_H = 42;
+    localparam PKT_ADDR_L = 18;
+    localparam PKT_DEST_ID_H = 67;
+    localparam PKT_DEST_ID_L = 65;
+    localparam ST_DATA_W = 78;
     localparam ST_CHANNEL_W = 6;
     localparam DECODER_TYPE = 1;
 
-    localparam PKT_TRANS_WRITE = 55;
-    localparam PKT_TRANS_READ  = 56;
+    localparam PKT_TRANS_WRITE = 45;
+    localparam PKT_TRANS_READ  = 46;
 
     localparam PKT_ADDR_W = PKT_ADDR_H-PKT_ADDR_L + 1;
     localparam PKT_DEST_ID_W = PKT_DEST_ID_H-PKT_DEST_ID_L + 1;
@@ -148,8 +148,11 @@ module first_nios2_system_id_router_005
         destid      = sink_data[PKT_DEST_ID_H : PKT_DEST_ID_L];
 
 
+        if (destid == 0 ) begin
+            src_channel = 6'b01;
+        end
         if (destid == 1 ) begin
-            src_channel = 6'b1;
+            src_channel = 6'b10;
         end
 
     end

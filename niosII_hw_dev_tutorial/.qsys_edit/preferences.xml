@@ -3,22 +3,22 @@
  <debug showDebugMenu="0" />
  <systemtable>
   <columns>
-   <connections preferredWidth="111" />
+   <connections preferredWidth="159" />
    <irq preferredWidth="34" />
    <export preferredWidth="228" />
    <name preferredWidth="198" />
+   <inputclock preferredWidth="152" />
   </columns>
  </systemtable>
  <clocktable>
   <columns>
-   <clockname preferredWidth="306" />
-   <clocksource preferredWidth="305" />
-   <frequency preferredWidth="286" />
+   <clockname preferredWidth="363" />
+   <clocksource preferredWidth="362" />
+   <frequency preferredWidth="345" />
   </columns>
  </clocktable>
- <library
-   expandedCategories="Library,Project,Library/Peripherals,Library/Peripherals/Microcontroller Peripherals" />
- <window width="1209" height="661" x="59" y="15" />
+ <library expandedCategories="Library,Project" />
+ <window width="1366" height="728" x="0" y="0" />
  <generation block_symbol_file="1" path="_PROJECT_NAME_" synthesis="1" />
  <hdlexample language="VHDL" />
 </preferences>

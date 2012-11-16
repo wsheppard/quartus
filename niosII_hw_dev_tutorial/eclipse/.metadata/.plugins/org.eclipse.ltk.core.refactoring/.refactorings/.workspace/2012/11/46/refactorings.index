@@ -4,3 +4,7 @@
 1353055274909	Delete resource 'test1_bsp'
 1353056635428	Delete resource 'test_bsp'
 1353056643691	Delete resource 'test'
+1353074763238	Delete resource 'sdram'
+1353074768963	Delete resource 'sdram_bsp'
+1353078197608	Delete resource 'sdram'
+1353078204886	Delete resource 'sdram_bsp'

@@ -755,3 +755,413 @@ org.eclipse.cdt.debug.mi.core.cdi.MI2CDIException: Inferior terminated[]
 	at java.util.Observable.notifyObservers(Unknown Source)
 	at org.eclipse.cdt.debug.mi.core.MISession.notifyObservers(MISession.java:791)
 	at org.eclipse.cdt.debug.mi.core.EventThread.run(EventThread.java:46)
+!SESSION 2012-11-16 12:12:29.203 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-11-16 12:14:07.064
+!MESSAGE Indexed 'sdram_bsp' (81 sources, 60 headers) in 2.11 sec: 950 declarations; 2,320 references; 117 unresolved inclusions; 5 syntax errors; 199 unresolved names (5.74%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-11-16 12:14:12.308
+!MESSAGE Indexed 'sdram' (1 sources, 13 headers) in 0.07 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-16 12:17:32.293
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1011020 --id=0x0 --timestamp=1353066893 /cygdrive/c/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/software/sdram/sdram.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-16 12:17:39.488
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --sidp=0x1011020, --id=0x0, --timestamp=1353066893, /cygdrive/c/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/software/sdram/sdram.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-16 12:17:39.498
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-16 12:20:01.562
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1011020 --id=0x0 --timestamp=1353066893 /cygdrive/c/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/software/sdram/sdram.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-16 12:20:08.616
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --sidp=0x1011020, --id=0x0, --timestamp=1353066893, /cygdrive/c/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/software/sdram/sdram.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-16 12:20:08.616
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-16 14:05:38.343
+!MESSAGE The system console model is invalid. Cannot launch.
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-11-16 14:07:59.566
+!MESSAGE Indexed 'sdram_bsp' (81 sources, 60 headers) in 1.65 sec: 950 declarations; 2,320 references; 117 unresolved inclusions; 5 syntax errors; 199 unresolved names (5.74%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-11-16 14:08:04.961
+!MESSAGE Indexed 'sdram' (1 sources, 13 headers) in 0.05 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-16 14:14:51.889
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1011020 --id=0x0 --timestamp=1353072478 /cygdrive/c/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/software/sdram/sdram.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-16 14:14:58.639
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1011020 --id=0x0 --timestamp=1353072478]
+
+!ENTRY org.eclipse.ui 4 4 2012-11-16 14:15:05.342
+!MESSAGE Exception in org.eclipse.ui.internal.PageLayout.stackView: org.eclipse.ui.PartInitException: Could not create view: org.eclipse.cdt.debug.ui.DisassemblyView
+
+!ENTRY org.eclipse.ui 4 4 2012-11-16 14:15:05.343
+!MESSAGE Exception in org.eclipse.ui.internal.PageLayout.stackView: org.eclipse.ui.PartInitException: Could not create view: org.eclipse.cdt.debug.ui.DisassemblyView
+!STACK 1
+org.eclipse.ui.PartInitException: Could not create view: org.eclipse.cdt.debug.ui.DisassemblyView
+	at org.eclipse.ui.internal.ViewFactory.createView(ViewFactory.java:158)
+	at org.eclipse.ui.internal.LayoutHelper.createView(LayoutHelper.java:162)
+	at org.eclipse.ui.internal.PageLayout.createView(PageLayout.java:543)
+	at org.eclipse.ui.internal.PageLayout.stackView(PageLayout.java:852)
+	at org.eclipse.ui.internal.registry.PerspectiveExtensionReader.processView(PerspectiveExtensionReader.java:270)
+	at org.eclipse.ui.internal.registry.PerspectiveExtensionReader.processExtension(PerspectiveExtensionReader.java:118)
+	at org.eclipse.ui.internal.registry.PerspectiveExtensionReader.readElement(PerspectiveExtensionReader.java:355)
+	at org.eclipse.ui.internal.registry.RegistryReader.readElements(RegistryReader.java:144)
+	at org.eclipse.ui.internal.registry.RegistryReader.readExtension(RegistryReader.java:155)
+	at org.eclipse.ui.internal.registry.RegistryReader.readRegistry(RegistryReader.java:176)
+	at org.eclipse.ui.internal.registry.PerspectiveExtensionReader.extendLayout(PerspectiveExtensionReader.java:82)
+	at org.eclipse.ui.internal.Perspective.loadPredefinedPersp(Perspective.java:818)
+	at org.eclipse.ui.internal.Perspective.createPresentation(Perspective.java:270)
+	at org.eclipse.ui.internal.Perspective.<init>(Perspective.java:156)
+	at org.eclipse.ui.internal.tweaklets.Workbench3xImplementation.createPerspective(Workbench3xImplementation.java:55)
+	at org.eclipse.ui.internal.WorkbenchPage.createPerspective(WorkbenchPage.java:1672)
+	at org.eclipse.ui.internal.WorkbenchPage.busySetPerspective(WorkbenchPage.java:1034)
+	at org.eclipse.ui.internal.WorkbenchPage.access$16(WorkbenchPage.java:1025)
+	at org.eclipse.ui.internal.WorkbenchPage$19.run(WorkbenchPage.java:3715)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.setPerspective(WorkbenchPage.java:3713)
+	at org.eclipse.ui.internal.Workbench.showPerspective(Workbench.java:2814)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.switchToPerspective(PerspectiveManager.java:351)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager$4.run(PerspectiveManager.java:439)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1383)
+!SUBENTRY 1 org.eclipse.ui 4 0 2012-11-16 14:15:05.345
+!MESSAGE Could not create view: org.eclipse.cdt.debug.ui.DisassemblyView
+
+!ENTRY org.eclipse.ui 4 0 2012-11-16 14:37:16.322
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.ui.buildconsole.DocumentMarkerManager.moveToErrorByOffset(DocumentMarkerManager.java:89)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.moveToError(BuildConsolePage.java:569)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleViewer.mouseDoubleClick(BuildConsoleViewer.java:242)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:189)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1383)
+
+!ENTRY org.eclipse.ui 4 0 2012-11-16 14:37:17.486
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.ui.buildconsole.DocumentMarkerManager.moveToErrorByOffset(DocumentMarkerManager.java:89)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.moveToError(BuildConsolePage.java:569)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleViewer.mouseDoubleClick(BuildConsoleViewer.java:242)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:189)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1383)
+
+!ENTRY org.eclipse.ui 4 0 2012-11-16 14:37:18.586
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.ui.buildconsole.DocumentMarkerManager.moveToErrorByOffset(DocumentMarkerManager.java:89)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.moveToError(BuildConsolePage.java:569)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleViewer.mouseDoubleClick(BuildConsoleViewer.java:242)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:189)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1383)
+
+!ENTRY org.eclipse.ui 4 0 2012-11-16 14:37:18.943
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.ui.buildconsole.DocumentMarkerManager.moveToErrorByOffset(DocumentMarkerManager.java:89)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.moveToError(BuildConsolePage.java:569)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleViewer.mouseDoubleClick(BuildConsoleViewer.java:242)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:189)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1383)
+
+!ENTRY org.eclipse.ui 4 0 2012-11-16 14:43:43.839
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.ui.buildconsole.DocumentMarkerManager.moveToErrorByOffset(DocumentMarkerManager.java:89)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.moveToError(BuildConsolePage.java:569)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleViewer.mouseDoubleClick(BuildConsoleViewer.java:242)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:189)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1383)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2012-11-16 15:00:18.824
+!MESSAGE WARNING: Blocked recursive attempt to close part org.eclipse.cdt.ui.editor.CEditor while still in the middle of activating it
+!STACK 0
+java.lang.RuntimeException: WARNING: Blocked recursive attempt to close part org.eclipse.cdt.ui.editor.CEditor while still in the middle of activating it
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1304)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1439)
+	at org.eclipse.ui.internal.EditorPane.doHide(EditorPane.java:61)
+	at org.eclipse.ui.internal.PartStack.close(PartStack.java:541)
+	at org.eclipse.ui.internal.EditorStack.close(EditorStack.java:206)
+	at org.eclipse.ui.internal.PartStack$1.close(PartStack.java:120)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation$1.handleEvent(TabbedStackPresentation.java:83)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:269)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:278)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder.access$1(DefaultTabFolder.java:1)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder$1.closeButtonPressed(DefaultTabFolder.java:71)
+	at org.eclipse.ui.internal.presentations.PaneFolder.notifyCloseListeners(PaneFolder.java:631)
+	at org.eclipse.ui.internal.presentations.PaneFolder$3.close(PaneFolder.java:206)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1595)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:261)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:364)
+	at org.eclipse.jface.dialogs.MessageDialog.openQuestion(MessageDialog.java:463)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.handleEditorInputChanged(AbstractTextEditor.java:4588)
+	at org.eclipse.ui.texteditor.StatusTextEditor.handleEditorInputChanged(StatusTextEditor.java:247)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.sanityCheckState(AbstractTextEditor.java:4718)
+	at org.eclipse.ui.texteditor.StatusTextEditor.sanityCheckState(StatusTextEditor.java:237)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.safelySanityCheckState(AbstractTextEditor.java:4696)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$ActivationListener.handleActivation(AbstractTextEditor.java:982)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$ActivationListener.partActivated(AbstractTextEditor.java:939)
+	at org.eclipse.ui.internal.PartListenerList$1.run(PartListenerList.java:72)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.PartListenerList.fireEvent(PartListenerList.java:57)
+	at org.eclipse.ui.internal.PartListenerList.firePartActivated(PartListenerList.java:70)
+	at org.eclipse.ui.internal.PartService.firePartActivated(PartService.java:187)
+	at org.eclipse.ui.internal.PartService.setActivePart(PartService.java:306)
+	at org.eclipse.ui.internal.WWinPartService.updateActivePart(WWinPartService.java:135)
+	at org.eclipse.ui.internal.WWinPartService.access$0(WWinPartService.java:125)
+	at org.eclipse.ui.internal.WWinPartService$WWinListener.partDeactivated(WWinPartService.java:50)
+	at org.eclipse.ui.internal.PartListenerList2$4.run(PartListenerList2.java:115)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.PartListenerList2.fireEvent(PartListenerList2.java:55)
+	at org.eclipse.ui.internal.PartListenerList2.firePartDeactivated(PartListenerList2.java:113)
+	at org.eclipse.ui.internal.PartService.firePartDeactivated(PartService.java:242)
+	at org.eclipse.ui.internal.PartService.setActivePart(PartService.java:300)
+	at org.eclipse.ui.internal.WorkbenchPagePartList.fireActivePartChanged(WorkbenchPagePartList.java:57)
+	at org.eclipse.ui.internal.PartList.setActivePart(PartList.java:136)
+	at org.eclipse.ui.internal.WorkbenchPage.setActivePart(WorkbenchPage.java:3537)
+	at org.eclipse.ui.internal.WorkbenchPage.requestActivation(WorkbenchPage.java:3077)
+	at org.eclipse.ui.internal.PartPane.requestActivation(PartPane.java:279)
+	at org.eclipse.ui.internal.EditorPane.requestActivation(EditorPane.java:98)
+	at org.eclipse.ui.internal.presentations.PresentablePart.setFocus(PresentablePart.java:192)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation$1.handleEvent(TabbedStackPresentation.java:94)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:269)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:274)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.handleMouseDown(AbstractTabFolder.java:344)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder$3.mouseDown(AbstractTabFolder.java:78)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:185)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1383)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-16 15:03:00.417
+!MESSAGE The system console model is invalid. Cannot launch.
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-11-16 15:04:39.613
+!MESSAGE Indexed 'test2_bsp' (81 sources, 60 headers) in 1.69 sec: 950 declarations; 2,320 references; 117 unresolved inclusions; 5 syntax errors; 199 unresolved names (5.74%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-11-16 15:04:45.773
+!MESSAGE Indexed 'test2' (1 sources, 13 headers) in 0.03 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-16 15:09:50.183
+!MESSAGE The system console model is invalid. Cannot launch.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-16 15:10:31.365
+!MESSAGE The system console model is invalid. Cannot launch.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-16 15:14:32.974
+!MESSAGE The system console model is invalid. Cannot launch.
+!SESSION 2012-11-16 15:15:36.214 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-16 15:19:26.669
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1011020 --id=0x0 --timestamp=1353072478 /cygdrive/c/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/software/test2/test2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-16 15:19:33.605
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1011020 --id=0x0 --timestamp=1353072478]
+
+!ENTRY org.eclipse.cdt.debug.mi.core 4 42 2012-11-16 15:21:37.948
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.cdt.debug.mi.core.cdi.MI2CDIException: Inferior terminated[]
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.getMIShareds(SharedLibraryManager.java:123)
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.updateState(SharedLibraryManager.java:188)
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.update(SharedLibraryManager.java:136)
+	at org.eclipse.cdt.debug.mi.core.cdi.EventManager.processSuspendedEvent(EventManager.java:326)
+	at org.eclipse.cdt.debug.mi.core.cdi.EventManager.update(EventManager.java:100)
+	at java.util.Observable.notifyObservers(Unknown Source)
+	at org.eclipse.cdt.debug.mi.core.MISession.notifyObservers(MISession.java:791)
+	at org.eclipse.cdt.debug.mi.core.EventThread.run(EventThread.java:46)
