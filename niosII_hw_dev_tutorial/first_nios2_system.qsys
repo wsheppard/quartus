@@ -16,7 +16,7 @@
    {
       datum baseAddress
       {
-         value = "16846888";
+         value = "16846920";
          type = "long";
       }
    }
@@ -32,7 +32,7 @@
    {
       datum baseAddress
       {
-         value = "16846880";
+         value = "16846912";
          type = "long";
       }
    }
@@ -40,7 +40,7 @@
    {
       datum _sortIndex
       {
-         value = "4";
+         value = "3";
          type = "int";
       }
    }
@@ -56,16 +56,16 @@
    {
       datum _sortIndex
       {
-         value = "6";
+         value = "5";
          type = "int";
       }
    }
-   element onchip_mem
+   element sys_clk_timer.s1
    {
-      datum _sortIndex
+      datum baseAddress
       {
-         value = "3";
-         type = "int";
+         value = "16846848";
+         type = "long";
       }
    }
    element sdram.s1
@@ -73,22 +73,6 @@
       datum baseAddress
       {
          value = "8388608";
-         type = "long";
-      }
-   }
-   element onchip_mem.s1
-   {
-      datum baseAddress
-      {
-         value = "16809984";
-         type = "long";
-      }
-   }
-   element timer_0.s1
-   {
-      datum baseAddress
-      {
-         value = "16846848";
          type = "long";
       }
    }
@@ -105,19 +89,19 @@
          type = "String";
       }
    }
+   element sys_clk_timer
+   {
+      datum _sortIndex
+      {
+         value = "6";
+         type = "int";
+      }
+   }
    element sysid
    {
       datum _sortIndex
       {
-         value = "5";
-         type = "int";
-      }
-   }
-   element timer_0
-   {
-      datum _sortIndex
-      {
-         value = "7";
+         value = "4";
          type = "int";
       }
    }
@@ -144,7 +128,7 @@
  <parameter name="projectName">nios2_quartus2_project.qpf</parameter>
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1353072453238" />
+ <parameter name="timeStamp" value="1353082600946" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface name="clk_in" internal="clk_0.clk_in" type="clock" dir="end">
@@ -168,31 +152,6 @@
   <parameter name="clockFrequencyKnown" value="true" />
   <parameter name="inputClockFrequency" value="0" />
   <parameter name="resetSynchronousEdges" value="NONE" />
- </module>
- <module
-   kind="altera_avalon_onchip_memory2"
-   version="12.0"
-   enabled="1"
-   name="onchip_mem">
-  <parameter name="allowInSystemMemoryContentEditor" value="false" />
-  <parameter name="autoInitializationFileName">first_nios2_system_onchip_mem</parameter>
-  <parameter name="blockType" value="AUTO" />
-  <parameter name="dataWidth" value="32" />
-  <parameter name="deviceFamily" value="Cyclone III" />
-  <parameter name="dualPort" value="false" />
-  <parameter name="initMemContent" value="true" />
-  <parameter name="initializationFileName" value="onchip_mem" />
-  <parameter name="instanceID" value="NONE" />
-  <parameter name="memorySize" value="20480" />
-  <parameter name="readDuringWriteMode" value="DONT_CARE" />
-  <parameter name="simAllowMRAMContentsFile" value="false" />
-  <parameter name="simMemInitOnlyFilename" value="0" />
-  <parameter name="singleClockOperation" value="false" />
-  <parameter name="slave1Latency" value="1" />
-  <parameter name="slave2Latency" value="1" />
-  <parameter name="useNonDefaultInitFile" value="false" />
-  <parameter name="useShallowMemBlocks" value="false" />
-  <parameter name="writable" value="true" />
  </module>
  <module kind="altera_nios2_qsys" version="12.0" enabled="1" name="cpu">
   <parameter name="setting_showUnpublishedSettings" value="false" />
@@ -282,8 +241,8 @@
   <parameter name="tightlyCoupledInstructionMaster1AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster2AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster3AddrWidth" value="1" />
-  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='sdram.s1' start='0x800000' end='0x1000000' /><slave name='onchip_mem.s1' start='0x1008000' end='0x100D000' /><slave name='cpu.jtag_debug_module' start='0x1010800' end='0x1011000' /></address-map>]]></parameter>
-  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='sdram.s1' start='0x800000' end='0x1000000' /><slave name='onchip_mem.s1' start='0x1008000' end='0x100D000' /><slave name='cpu.jtag_debug_module' start='0x1010800' end='0x1011000' /><slave name='timer_0.s1' start='0x1011000' end='0x1011020' /><slave name='sysid.control_slave' start='0x1011020' end='0x1011028' /><slave name='jtag_uart.avalon_jtag_slave' start='0x1011028' end='0x1011030' /></address-map>]]></parameter>
+  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='sdram.s1' start='0x800000' end='0x1000000' /><slave name='cpu.jtag_debug_module' start='0x1010800' end='0x1011000' /></address-map>]]></parameter>
+  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='sdram.s1' start='0x800000' end='0x1000000' /><slave name='cpu.jtag_debug_module' start='0x1010800' end='0x1011000' /><slave name='sys_clk_timer.s1' start='0x1011000' end='0x1011020' /><slave name='sysid.control_slave' start='0x1011040' end='0x1011048' /><slave name='jtag_uart.avalon_jtag_slave' start='0x1011048' end='0x1011050' /></address-map>]]></parameter>
   <parameter name="clockFrequency" value="50000000" />
   <parameter name="deviceFamilyName" value="Cyclone III" />
   <parameter name="internalIrqMaskSystemInfo" value="65538" />
@@ -326,7 +285,11 @@
   <parameter name="writeBufferDepth" value="64" />
   <parameter name="writeIRQThreshold" value="8" />
  </module>
- <module kind="altera_avalon_timer" version="12.0" enabled="1" name="timer_0">
+ <module
+   kind="altera_avalon_timer"
+   version="12.0"
+   enabled="1"
+   name="sys_clk_timer">
   <parameter name="alwaysRun" value="false" />
   <parameter name="counterSize" value="32" />
   <parameter name="fixedPeriod" value="false" />
@@ -376,30 +339,8 @@
   <parameter name="AUTO_CLK_IN_PRIMARY_CLOCK_RATE" value="50000000" />
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone III" />
  </module>
- <connection kind="clock" version="12.0" start="clk_0.clk" end="onchip_mem.clk1" />
- <connection
-   kind="reset"
-   version="12.0"
-   start="clk_0.clk_reset"
-   end="onchip_mem.reset1" />
  <connection kind="clock" version="12.0" start="clk_0.clk" end="cpu.clk" />
  <connection kind="reset" version="12.0" start="clk_0.clk_reset" end="cpu.reset_n" />
- <connection
-   kind="avalon"
-   version="12.0"
-   start="cpu.data_master"
-   end="onchip_mem.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x01008000" />
- </connection>
- <connection
-   kind="avalon"
-   version="12.0"
-   start="cpu.instruction_master"
-   end="onchip_mem.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x01008000" />
- </connection>
  <connection
    kind="avalon"
    version="12.0"
@@ -422,7 +363,7 @@
    start="cpu.data_master"
    end="sysid.control_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x01011020" />
+  <parameter name="baseAddress" value="0x01011040" />
  </connection>
  <connection kind="reset" version="12.0" start="clk_0.clk_reset" end="sysid.reset" />
  <connection kind="clock" version="12.0" start="clk_0.clk" end="sysid.clk" />
@@ -438,22 +379,30 @@
    start="cpu.data_master"
    end="jtag_uart.avalon_jtag_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x01011028" />
+  <parameter name="baseAddress" value="0x01011048" />
  </connection>
  <connection kind="interrupt" version="12.0" start="cpu.d_irq" end="jtag_uart.irq">
   <parameter name="irqNumber" value="16" />
  </connection>
- <connection kind="clock" version="12.0" start="clk_0.clk" end="timer_0.clk" />
+ <connection kind="clock" version="12.0" start="clk_0.clk" end="sys_clk_timer.clk" />
  <connection
    kind="reset"
    version="12.0"
    start="clk_0.clk_reset"
-   end="timer_0.reset" />
- <connection kind="avalon" version="12.0" start="cpu.data_master" end="timer_0.s1">
+   end="sys_clk_timer.reset" />
+ <connection
+   kind="avalon"
+   version="12.0"
+   start="cpu.data_master"
+   end="sys_clk_timer.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x01011000" />
  </connection>
- <connection kind="interrupt" version="12.0" start="cpu.d_irq" end="timer_0.irq">
+ <connection
+   kind="interrupt"
+   version="12.0"
+   start="cpu.d_irq"
+   end="sys_clk_timer.irq">
   <parameter name="irqNumber" value="1" />
  </connection>
  <connection kind="reset" version="12.0" start="clk_0.clk_reset" end="sdram.reset" />
