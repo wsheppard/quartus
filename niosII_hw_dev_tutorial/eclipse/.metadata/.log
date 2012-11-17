@@ -1488,3 +1488,22 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.
 
 !ENTRY com.altera.sbtgui.launch 1 0 2012-11-17 11:59:18.897
 !MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1011040 --id=0x0 --timestamp=1353082826]
+
+!ENTRY org.eclipse.cdt.debug.mi.core 4 42 2012-11-17 12:03:56.960
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.cdt.debug.mi.core.cdi.MI2CDIException: Inferior terminated[]
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.getMIShareds(SharedLibraryManager.java:123)
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.updateState(SharedLibraryManager.java:188)
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.update(SharedLibraryManager.java:136)
+	at org.eclipse.cdt.debug.mi.core.cdi.EventManager.processSuspendedEvent(EventManager.java:326)
+	at org.eclipse.cdt.debug.mi.core.cdi.EventManager.update(EventManager.java:100)
+	at java.util.Observable.notifyObservers(Unknown Source)
+	at org.eclipse.cdt.debug.mi.core.MISession.notifyObservers(MISession.java:791)
+	at org.eclipse.cdt.debug.mi.core.EventThread.run(EventThread.java:46)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-17 12:10:10.054
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1011040 --id=0x0 --timestamp=1353082826 /cygdrive/c/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/software/test5_app/test5_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-17 12:10:18.897
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1011040 --id=0x0 --timestamp=1353082826]

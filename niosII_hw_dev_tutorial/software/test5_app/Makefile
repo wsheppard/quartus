@@ -142,7 +142,14 @@ ACDS_VERSION := 12.0sp2
 ELF := test5_app.elf
 
 # Paths to C, C++, and assembly source files.
-C_SRCS := main.c
+C_SRCS += main.c
+C_SRCS += ECD/display.c
+C_SRCS += ECD/keypad.c
+C_SRCS += ECD/main.c
+C_SRCS += ECD/manager.c
+C_SRCS += ECD/messaging.c
+C_SRCS += ECD/movement.c
+C_SRCS += ECD/pwm.c
 CXX_SRCS :=
 ASM_SRCS :=
 

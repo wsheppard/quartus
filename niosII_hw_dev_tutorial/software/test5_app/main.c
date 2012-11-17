@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-int main(void){
+int test_main(void){
 
 	printf("Hello BEEEEEB.\n");
 

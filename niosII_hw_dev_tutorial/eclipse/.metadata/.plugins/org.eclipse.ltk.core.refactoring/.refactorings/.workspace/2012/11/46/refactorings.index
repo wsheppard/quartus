@@ -16,3 +16,7 @@
 1353152499668	Delete resource 'test5/FreeRTOS/src/tse_ethernet_phys.c'
 1353152514957	Delete resource 'test5/Makefile'
 1353153205816	Delete resource 'test5/Makefile'
+1353153964148	Delete resource 'test5_app/ECD_app'
+1353154016082	Delete resource 'test5_app/ECD/Debug'
+1353154021849	Delete resource 'test5_app/ECD/ipch'
+1353154032809	Delete 6 resources
