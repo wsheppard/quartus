@@ -13,7 +13,10 @@ obj/drivers/src/altera_avalon_jtag_uart_ioctl.o:  \
   FreeRTOS/inc/os/alt_flag.h HAL/inc/priv/alt_no_error.h \
   drivers/inc/altera_avalon_jtag_uart_fd.h HAL/inc/sys/alt_dev.h \
   HAL/inc/sys/alt_llist.h HAL/inc/priv/alt_dev_llist.h \
-  HAL/inc/sys/alt_llist.h HAL/inc/sys/alt_log_printf.h system.h
+  HAL/inc/sys/alt_llist.h HAL/inc/sys/alt_log_printf.h system.h \
+  HAL/inc/sys/alt_alarm.h HAL/inc/sys/alt_dev.h \
+  drivers/inc/altera_avalon_jtag_uart.h \
+  drivers/inc/altera_avalon_jtag_uart_regs.h
 
 HAL/inc/sys/ioctl.h:
 
@@ -90,3 +93,11 @@ HAL/inc/sys/alt_llist.h:
 HAL/inc/sys/alt_log_printf.h:
 
 system.h:
+
+HAL/inc/sys/alt_alarm.h:
+
+HAL/inc/sys/alt_dev.h:
+
+drivers/inc/altera_avalon_jtag_uart.h:
+
+drivers/inc/altera_avalon_jtag_uart_regs.h:

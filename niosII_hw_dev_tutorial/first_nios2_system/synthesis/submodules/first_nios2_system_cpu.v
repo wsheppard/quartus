@@ -4106,7 +4106,7 @@ module first_nios2_system_cpu (
     2'b11;
 
   assign F_pc_no_crst_nxt = (F_pc_sel_nxt == 2'b00)? 2097160 :
-    (F_pc_sel_nxt == 2'b01)? 4211208 :
+    (F_pc_sel_nxt == 2'b01)? 4194824 :
     (F_pc_sel_nxt == 2'b10)? E_arith_result[24 : 2] :
     F_pc_plus_one;
 

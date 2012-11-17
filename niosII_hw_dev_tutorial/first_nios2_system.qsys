@@ -16,7 +16,7 @@
    {
       datum baseAddress
       {
-         value = "16846920";
+         value = "16781368";
          type = "long";
       }
    }
@@ -32,7 +32,7 @@
    {
       datum baseAddress
       {
-         value = "16846912";
+         value = "16781360";
          type = "long";
       }
    }
@@ -48,7 +48,7 @@
    {
       datum baseAddress
       {
-         value = "16844800";
+         value = "16779264";
          type = "long";
       }
    }
@@ -60,12 +60,12 @@
          type = "int";
       }
    }
-   element sys_clk_timer.s1
+   element leds
    {
-      datum baseAddress
+      datum _sortIndex
       {
-         value = "16846848";
-         type = "long";
+         value = "7";
+         type = "int";
       }
    }
    element sdram.s1
@@ -73,6 +73,22 @@
       datum baseAddress
       {
          value = "8388608";
+         type = "long";
+      }
+   }
+   element sys_clk_timer.s1
+   {
+      datum baseAddress
+      {
+         value = "16781312";
+         type = "long";
+      }
+   }
+   element leds.s1
+   {
+      datum baseAddress
+      {
+         value = "16781344";
          type = "long";
       }
    }
@@ -128,7 +144,7 @@
  <parameter name="projectName">nios2_quartus2_project.qpf</parameter>
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1353082600946" />
+ <parameter name="timeStamp" value="1353163777677" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface name="clk_in" internal="clk_0.clk_in" type="clock" dir="end">
@@ -147,6 +163,11 @@
    internal="up_clocks_0.sdram_clk"
    type="clock"
    dir="start" />
+ <interface
+   name="leds_output"
+   internal="leds.external_connection"
+   type="conduit"
+   dir="end" />
  <module kind="clock_source" version="12.0" enabled="1" name="clk_0">
   <parameter name="clockFrequency" value="50000000" />
   <parameter name="clockFrequencyKnown" value="true" />
@@ -241,8 +262,8 @@
   <parameter name="tightlyCoupledInstructionMaster1AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster2AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster3AddrWidth" value="1" />
-  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='sdram.s1' start='0x800000' end='0x1000000' /><slave name='cpu.jtag_debug_module' start='0x1010800' end='0x1011000' /></address-map>]]></parameter>
-  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='sdram.s1' start='0x800000' end='0x1000000' /><slave name='cpu.jtag_debug_module' start='0x1010800' end='0x1011000' /><slave name='sys_clk_timer.s1' start='0x1011000' end='0x1011020' /><slave name='sysid.control_slave' start='0x1011040' end='0x1011048' /><slave name='jtag_uart.avalon_jtag_slave' start='0x1011048' end='0x1011050' /></address-map>]]></parameter>
+  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='sdram.s1' start='0x800000' end='0x1000000' /><slave name='cpu.jtag_debug_module' start='0x1000800' end='0x1001000' /></address-map>]]></parameter>
+  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='sdram.s1' start='0x800000' end='0x1000000' /><slave name='cpu.jtag_debug_module' start='0x1000800' end='0x1001000' /><slave name='sys_clk_timer.s1' start='0x1001000' end='0x1001020' /><slave name='leds.s1' start='0x1001020' end='0x1001030' /><slave name='sysid.control_slave' start='0x1001030' end='0x1001038' /><slave name='jtag_uart.avalon_jtag_slave' start='0x1001038' end='0x1001040' /></address-map>]]></parameter>
   <parameter name="clockFrequency" value="50000000" />
   <parameter name="deviceFamilyName" value="Cyclone III" />
   <parameter name="internalIrqMaskSystemInfo" value="65538" />
@@ -339,6 +360,20 @@
   <parameter name="AUTO_CLK_IN_PRIMARY_CLOCK_RATE" value="50000000" />
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone III" />
  </module>
+ <module kind="altera_avalon_pio" version="12.0" enabled="1" name="leds">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="10" />
+ </module>
  <connection kind="clock" version="12.0" start="clk_0.clk" end="cpu.clk" />
  <connection kind="reset" version="12.0" start="clk_0.clk_reset" end="cpu.reset_n" />
  <connection
@@ -347,7 +382,7 @@
    start="cpu.instruction_master"
    end="cpu.jtag_debug_module">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x01010800" />
+  <parameter name="baseAddress" value="0x01000800" />
  </connection>
  <connection
    kind="avalon"
@@ -355,7 +390,7 @@
    start="cpu.data_master"
    end="cpu.jtag_debug_module">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x01010800" />
+  <parameter name="baseAddress" value="0x01000800" />
  </connection>
  <connection
    kind="avalon"
@@ -363,7 +398,7 @@
    start="cpu.data_master"
    end="sysid.control_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x01011040" />
+  <parameter name="baseAddress" value="0x01001030" />
  </connection>
  <connection kind="reset" version="12.0" start="clk_0.clk_reset" end="sysid.reset" />
  <connection kind="clock" version="12.0" start="clk_0.clk" end="sysid.clk" />
@@ -379,7 +414,7 @@
    start="cpu.data_master"
    end="jtag_uart.avalon_jtag_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x01011048" />
+  <parameter name="baseAddress" value="0x01001038" />
  </connection>
  <connection kind="interrupt" version="12.0" start="cpu.d_irq" end="jtag_uart.irq">
   <parameter name="irqNumber" value="16" />
@@ -396,7 +431,7 @@
    start="cpu.data_master"
    end="sys_clk_timer.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x01011000" />
+  <parameter name="baseAddress" value="0x01001000" />
  </connection>
  <connection
    kind="interrupt"
@@ -429,4 +464,10 @@
    start="clk_0.clk_reset"
    end="up_clocks_0.clk_in_primary_reset" />
  <connection kind="clock" version="12.0" start="clk_0.clk" end="sdram.clk" />
+ <connection kind="clock" version="12.0" start="clk_0.clk" end="leds.clk" />
+ <connection kind="reset" version="12.0" start="clk_0.clk_reset" end="leds.reset" />
+ <connection kind="avalon" version="12.0" start="cpu.data_master" end="leds.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x01001020" />
+ </connection>
 </system>

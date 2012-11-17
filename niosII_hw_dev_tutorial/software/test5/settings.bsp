@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>freertos</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>17-Nov-2012 11:54:06</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1353153246593</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>17-Nov-2012 15:52:43</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1353167563184</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>C:\Users\Will\Development\Quartus\niosII_hw_dev_tutorial\software\test5</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\first_nios2_system.sopcinfo</SopcDesignFile>
@@ -230,7 +230,7 @@
                 <SettingName>hal.log_port</SettingName>
                 <Identifier>NONE</Identifier>
                 <Type>UnquotedString</Type>
-                <Value>none</Value>
+                <Value>jtag_uart</Value>
                 <DefaultValue>none</DefaultValue>
                 <DestinationFile>public_mk_define</DestinationFile>
                 <Description>Slave descriptor of debug logging character-mode device. If defined, it enables extra debug messages in the HAL source. This setting is used by the ALT_LOG_PORT family of defines in system.h.</Description>
@@ -1276,19 +1276,25 @@ configQUEUE_REGISTRY_SIZE defines the maximum number of queues and semaphores th
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>sys_clk_timer</slaveDescriptor>
-                <addressRange>0x01011000 - 0x0101101F</addressRange>
+                <addressRange>0x01001000 - 0x0100101F</addressRange>
                 <addressSpan>32</addressSpan>
                 <attributes>timer</attributes>
         </MemoryMap>
         <MemoryMap>
+                <slaveDescriptor>leds</slaveDescriptor>
+                <addressRange>0x01001020 - 0x0100102F</addressRange>
+                <addressSpan>16</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
                 <slaveDescriptor>sysid</slaveDescriptor>
-                <addressRange>0x01011040 - 0x01011047</addressRange>
+                <addressRange>0x01001030 - 0x01001037</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>jtag_uart</slaveDescriptor>
-                <addressRange>0x01011048 - 0x0101104F</addressRange>
+                <addressRange>0x01001038 - 0x0100103F</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes>printable</attributes>
         </MemoryMap>

@@ -8,7 +8,15 @@ obj/HAL/src/alt_write.o: HAL/src/alt_write.c HAL/inc/sys/alt_errno.h \
   FreeRTOS/inc/portable.h FreeRTOS/inc/portmacro.h HAL/inc/alt_types.h \
   HAL/inc/sys/alt_irq.h HAL/inc/nios2.h FreeRTOS/inc/mpu_wrappers.h \
   FreeRTOS/inc/projdefs.h FreeRTOS/inc/semphr.h FreeRTOS/inc/queue.h \
-  HAL/inc/os/alt_syscall.h HAL/inc/sys/alt_log_printf.h system.h
+  HAL/inc/os/alt_syscall.h HAL/inc/sys/alt_log_printf.h system.h \
+  HAL/inc/sys/alt_alarm.h HAL/inc/sys/alt_llist.h \
+  HAL/inc/priv/alt_alarm.h HAL/inc/sys/alt_dev.h \
+  drivers/inc/altera_avalon_jtag_uart.h HAL/inc/sys/alt_alarm.h \
+  HAL/inc/sys/alt_warning.h FreeRTOS/inc/os/alt_sem.h \
+  FreeRTOS/inc/os/alt_flag.h HAL/inc/priv/alt_no_error.h \
+  drivers/inc/altera_avalon_jtag_uart_fd.h HAL/inc/sys/alt_dev.h \
+  drivers/inc/altera_avalon_jtag_uart_regs.h HAL/inc/io.h \
+  HAL/inc/alt_types.h
 
 HAL/inc/sys/alt_errno.h:
 
@@ -67,3 +75,33 @@ HAL/inc/os/alt_syscall.h:
 HAL/inc/sys/alt_log_printf.h:
 
 system.h:
+
+HAL/inc/sys/alt_alarm.h:
+
+HAL/inc/sys/alt_llist.h:
+
+HAL/inc/priv/alt_alarm.h:
+
+HAL/inc/sys/alt_dev.h:
+
+drivers/inc/altera_avalon_jtag_uart.h:
+
+HAL/inc/sys/alt_alarm.h:
+
+HAL/inc/sys/alt_warning.h:
+
+FreeRTOS/inc/os/alt_sem.h:
+
+FreeRTOS/inc/os/alt_flag.h:
+
+HAL/inc/priv/alt_no_error.h:
+
+drivers/inc/altera_avalon_jtag_uart_fd.h:
+
+HAL/inc/sys/alt_dev.h:
+
+drivers/inc/altera_avalon_jtag_uart_regs.h:
+
+HAL/inc/io.h:
+
+HAL/inc/alt_types.h:

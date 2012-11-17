@@ -151,14 +151,14 @@ SOPC_SYSID_FLAG += --id=0
 ELF_PATCH_FLAG  += --id 0
 
 # The SOPC System ID Base Address 
-# setting SOPC_SYSID_BASE_ADDRESS is 0x1011040
-SOPC_SYSID_FLAG += --sidp=0x1011040
-ELF_PATCH_FLAG  += --sidp 0x1011040
+# setting SOPC_SYSID_BASE_ADDRESS is 0x1001030
+SOPC_SYSID_FLAG += --sidp=0x1001030
+ELF_PATCH_FLAG  += --sidp 0x1001030
 
 # The SOPC Timestamp 
-# setting SOPC_TIMESTAMP is 1353082826
-SOPC_SYSID_FLAG += --timestamp=1353082826
-ELF_PATCH_FLAG  += --timestamp 1353082826
+# setting SOPC_TIMESTAMP is 1353163993
+SOPC_SYSID_FLAG += --timestamp=1353163993
+ELF_PATCH_FLAG  += --timestamp 1353163993
 
 # Small-footprint (polled mode) driver none 
 # setting altera_avalon_jtag_uart_driver.enable_small_driver is false
@@ -251,6 +251,18 @@ ALT_CPPFLAGS += -DALT_NO_INSTRUCTION_EMULATION
 # hardware design on the target. If false, adds --accept-bad-sysid to 
 # SOPC_SYSID_FLAG in public.mk. none 
 # setting hal.enable_sopc_sysid_check is 1
+
+# The value is assigned to ALT_LOG_FLAGS in the generated public.mk. See 
+# hal.log_port setting description. Values can be -1 through 3. hal.log_port 
+# must be set for this to be used. 
+# setting hal.log_flags is 0
+ALT_CPPFLAGS += -DALT_LOG_FLAGS=0
+
+# Slave descriptor of debug logging character-mode device. If defined, it 
+# enables extra debug messages in the HAL source. This setting is used by the 
+# ALT_LOG_PORT family of defines in system.h. none 
+# setting hal.log_port is jtag_uart
+ALT_CPPFLAGS += -DALT_LOG_ENABLE
 
 # Enable BSP generation to query if SOPC system is big endian. If true ignores 
 # export of 'ALT_CFLAGS += -EB' to public.mk if big endian system. If true 

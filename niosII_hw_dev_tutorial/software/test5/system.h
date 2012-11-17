@@ -4,7 +4,7 @@
  * Machine generated for CPU 'cpu' in SOPC Builder design 'first_nios2_system'
  * SOPC Builder design path: ../../first_nios2_system.sopcinfo
  *
- * Generated: Sat Nov 17 11:38:42 GMT 2012
+ * Generated: Sat Nov 17 15:52:06 GMT 2012
  */
 
 /*
@@ -62,7 +62,7 @@
 
 #define ALT_CPU_ARCHITECTURE "altera_nios2_qsys"
 #define ALT_CPU_BIG_ENDIAN 0
-#define ALT_CPU_BREAK_ADDR 0x1010820
+#define ALT_CPU_BREAK_ADDR 0x1000820
 #define ALT_CPU_CPU_FREQ 50000000u
 #define ALT_CPU_CPU_ID_SIZE 1
 #define ALT_CPU_CPU_ID_VALUE 0x00000000
@@ -94,7 +94,7 @@
  */
 
 #define NIOS2_BIG_ENDIAN 0
-#define NIOS2_BREAK_ADDR 0x1010820
+#define NIOS2_BREAK_ADDR 0x1000820
 #define NIOS2_CPU_FREQ 50000000u
 #define NIOS2_CPU_ID_SIZE 1
 #define NIOS2_CPU_ID_VALUE 0x00000000
@@ -125,6 +125,7 @@
 
 #define __ALTERA_AVALON_JTAG_UART
 #define __ALTERA_AVALON_NEW_SDRAM_CONTROLLER
+#define __ALTERA_AVALON_PIO
 #define __ALTERA_AVALON_SYSID_QSYS
 #define __ALTERA_AVALON_TIMER
 #define __ALTERA_NIOS2_QSYS
@@ -138,27 +139,29 @@
 #define ALT_DEVICE_FAMILY "Cyclone III"
 #define ALT_ENHANCED_INTERRUPT_API_PRESENT
 #define ALT_IRQ_BASE NULL
-#define ALT_LOG_PORT "/dev/null"
-#define ALT_LOG_PORT_BASE 0x0
-#define ALT_LOG_PORT_DEV null
-#define ALT_LOG_PORT_TYPE ""
+#define ALT_LOG_PORT "/dev/jtag_uart"
+#define ALT_LOG_PORT_BASE 0x1001038
+#define ALT_LOG_PORT_DEV jtag_uart
+#define ALT_LOG_PORT_IS_JTAG_UART
+#define ALT_LOG_PORT_PRESENT
+#define ALT_LOG_PORT_TYPE ALTERA_AVALON_JTAG_UART
 #define ALT_NUM_EXTERNAL_INTERRUPT_CONTROLLERS 0
 #define ALT_NUM_INTERNAL_INTERRUPT_CONTROLLERS 1
 #define ALT_NUM_INTERRUPT_CONTROLLERS 1
 #define ALT_STDERR "/dev/jtag_uart"
-#define ALT_STDERR_BASE 0x1011048
+#define ALT_STDERR_BASE 0x1001038
 #define ALT_STDERR_DEV jtag_uart
 #define ALT_STDERR_IS_JTAG_UART
 #define ALT_STDERR_PRESENT
 #define ALT_STDERR_TYPE "altera_avalon_jtag_uart"
 #define ALT_STDIN "/dev/jtag_uart"
-#define ALT_STDIN_BASE 0x1011048
+#define ALT_STDIN_BASE 0x1001038
 #define ALT_STDIN_DEV jtag_uart
 #define ALT_STDIN_IS_JTAG_UART
 #define ALT_STDIN_PRESENT
 #define ALT_STDIN_TYPE "altera_avalon_jtag_uart"
 #define ALT_STDOUT "/dev/jtag_uart"
-#define ALT_STDOUT_BASE 0x1011048
+#define ALT_STDOUT_BASE 0x1001038
 #define ALT_STDOUT_DEV jtag_uart
 #define ALT_STDOUT_IS_JTAG_UART
 #define ALT_STDOUT_PRESENT
@@ -223,7 +226,7 @@
  */
 
 #define ALT_MODULE_CLASS_jtag_uart altera_avalon_jtag_uart
-#define JTAG_UART_BASE 0x1011048
+#define JTAG_UART_BASE 0x1001038
 #define JTAG_UART_IRQ 16
 #define JTAG_UART_IRQ_INTERRUPT_CONTROLLER_ID 0
 #define JTAG_UART_NAME "/dev/jtag_uart"
@@ -233,6 +236,33 @@
 #define JTAG_UART_TYPE "altera_avalon_jtag_uart"
 #define JTAG_UART_WRITE_DEPTH 64
 #define JTAG_UART_WRITE_THRESHOLD 8
+
+
+/*
+ * leds configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_leds altera_avalon_pio
+#define LEDS_BASE 0x1001020
+#define LEDS_BIT_CLEARING_EDGE_REGISTER 0
+#define LEDS_BIT_MODIFYING_OUTPUT_REGISTER 0
+#define LEDS_CAPTURE 0
+#define LEDS_DATA_WIDTH 10
+#define LEDS_DO_TEST_BENCH_WIRING 0
+#define LEDS_DRIVEN_SIM_VALUE 0x0
+#define LEDS_EDGE_TYPE "NONE"
+#define LEDS_FREQ 50000000u
+#define LEDS_HAS_IN 0
+#define LEDS_HAS_OUT 1
+#define LEDS_HAS_TRI 0
+#define LEDS_IRQ -1
+#define LEDS_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define LEDS_IRQ_TYPE "NONE"
+#define LEDS_NAME "/dev/leds"
+#define LEDS_RESET_VALUE 0x0
+#define LEDS_SPAN 16
+#define LEDS_TYPE "altera_avalon_pio"
 
 
 /*
@@ -281,7 +311,7 @@
 
 #define ALT_MODULE_CLASS_sys_clk_timer altera_avalon_timer
 #define SYS_CLK_TIMER_ALWAYS_RUN 0
-#define SYS_CLK_TIMER_BASE 0x1011000
+#define SYS_CLK_TIMER_BASE 0x1001000
 #define SYS_CLK_TIMER_COUNTER_SIZE 32
 #define SYS_CLK_TIMER_FIXED_PERIOD 0
 #define SYS_CLK_TIMER_FREQ 50000000u
@@ -306,13 +336,13 @@
  */
 
 #define ALT_MODULE_CLASS_sysid altera_avalon_sysid_qsys
-#define SYSID_BASE 0x1011040
+#define SYSID_BASE 0x1001030
 #define SYSID_ID 0
 #define SYSID_IRQ -1
 #define SYSID_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define SYSID_NAME "/dev/sysid"
 #define SYSID_SPAN 8
-#define SYSID_TIMESTAMP 1353082826
+#define SYSID_TIMESTAMP 1353163993
 #define SYSID_TYPE "altera_avalon_sysid_qsys"
 
 #endif /* __SYSTEM_H_ */

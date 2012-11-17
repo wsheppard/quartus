@@ -142,14 +142,13 @@ ACDS_VERSION := 12.0sp2
 ELF := test5_app.elf
 
 # Paths to C, C++, and assembly source files.
-C_SRCS += main.c
-C_SRCS += ECD/display.c
-C_SRCS += ECD/keypad.c
-C_SRCS += ECD/main.c
-C_SRCS += ECD/manager.c
-C_SRCS += ECD/messaging.c
-C_SRCS += ECD/movement.c
-C_SRCS += ECD/pwm.c
+C_SRCS += ECD/source/display.c
+C_SRCS += ECD/source/keypad.c
+C_SRCS += ECD/source/main.c
+C_SRCS += ECD/source/manager.c
+C_SRCS += ECD/source/messaging.c
+C_SRCS += ECD/source/movement.c
+C_SRCS += ECD/source/pwm.c
 CXX_SRCS :=
 ASM_SRCS :=
 
@@ -187,7 +186,7 @@ SYS_LIB :=
 BSP_ROOT_DIR := ../test5/
 
 # List of application specific include directories, library directories and library names
-APP_INCLUDE_DIRS :=
+APP_INCLUDE_DIRS := ECD/includes
 APP_LIBRARY_DIRS :=
 APP_LIBRARY_NAMES :=
 

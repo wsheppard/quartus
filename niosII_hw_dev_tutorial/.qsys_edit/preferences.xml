@@ -3,7 +3,7 @@
  <debug showDebugMenu="0" />
  <systemtable>
   <columns>
-   <connections preferredWidth="159" />
+   <connections preferredWidth="175" />
    <irq preferredWidth="34" />
    <export preferredWidth="228" />
    <name preferredWidth="198" />
@@ -18,7 +18,7 @@
   </columns>
  </clocktable>
  <library
-   expandedCategories="Library/Peripherals/Microcontroller Peripherals,Project,Library/Peripherals,Library" />
+   expandedCategories="Project,Library,Library/Peripherals/Microcontroller Peripherals,Library/Peripherals" />
  <window width="1366" height="728" x="0" y="0" />
  <generation block_symbol_file="1" path="_PROJECT_NAME_" synthesis="1" />
  <hdlexample language="VHDL" />
