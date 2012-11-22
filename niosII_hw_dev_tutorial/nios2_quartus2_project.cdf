@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP3C16F484) Path("C:/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/") File("nios2_quartus2_project.sof") MfrSpec(OpMask(1));
+		Device PartName(EP3C16F484) Path("C:/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/") File("nios2_quartus2_project_time_limited.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

@@ -55,3 +55,4 @@ int msg_recv_noblock(xQueueHandle qHandle, msg_message_s*pMessage);
 int msg_recv_block(xQueueHandle qHandle, msg_message_s*pMessage);
 
 #endif
+
