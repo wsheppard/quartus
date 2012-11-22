@@ -9,10 +9,10 @@ Program Header:
     LOAD off    0x00001000 vaddr 0x00800000 paddr 0x00800000 align 2**12
          filesz 0x00000020 memsz 0x00000020 flags r-x
     LOAD off    0x00001020 vaddr 0x00800020 paddr 0x00800020 align 2**12
-         filesz 0x00012f5c memsz 0x00012f5c flags r-x
-    LOAD off    0x00013f7c vaddr 0x00812f7c paddr 0x00814ab8 align 2**12
+         filesz 0x00012ef0 memsz 0x00012ef0 flags r-x
+    LOAD off    0x00013f10 vaddr 0x00812f10 paddr 0x00814a4c align 2**12
          filesz 0x00001b3c memsz 0x00001b3c flags rw-
-    LOAD off    0x000165f4 vaddr 0x008165f4 paddr 0x008165f4 align 2**12
+    LOAD off    0x00016588 vaddr 0x00816588 paddr 0x00816588 align 2**12
          filesz 0x00000000 memsz 0x00000510 flags rw-
 
 Sections:
@@ -21,69 +21,69 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
   1 .exceptions   00000254  00800020  00800020  00001020  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  2 .text         00012534  00800274  00800274  00001274  2**2
+  2 .text         000124c8  00800274  00800274  00001274  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  3 .rodata       000007d4  008127a8  008127a8  000137a8  2**2
+  3 .rodata       000007d4  0081273c  0081273c  0001373c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  4 .rwdata       00001b3c  00812f7c  00814ab8  00013f7c  2**2
+  4 .rwdata       00001b3c  00812f10  00814a4c  00013f10  2**2
                   CONTENTS, ALLOC, LOAD, DATA, SMALL_DATA
-  5 .bss          00000510  008165f4  008165f4  000165f4  2**2
+  5 .bss          00000510  00816588  00816588  00016588  2**2
                   ALLOC, SMALL_DATA
-  6 .comment      00000026  00000000  00000000  00015ab8  2**0
+  6 .comment      00000023  00000000  00000000  00015a4c  2**0
                   CONTENTS, READONLY
-  7 .debug_aranges 00000ef0  00000000  00000000  00015ae0  2**3
+  7 .debug_aranges 00000ef0  00000000  00000000  00015a70  2**3
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_pubnames 00001faa  00000000  00000000  000169d0  2**0
+  8 .debug_pubnames 00001faa  00000000  00000000  00016960  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_info   0002b4fc  00000000  00000000  0001897a  2**0
+  9 .debug_info   0002b33c  00000000  00000000  0001890a  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_abbrev 00008f31  00000000  00000000  00043e76  2**0
+ 10 .debug_abbrev 00008f31  00000000  00000000  00043c46  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_line   0001a05d  00000000  00000000  0004cda7  2**0
+ 11 .debug_line   00019df0  00000000  00000000  0004cb77  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_frame  000028a4  00000000  00000000  00066e04  2**2
+ 12 .debug_frame  000028a4  00000000  00000000  00066968  2**2
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_str    000028c5  00000000  00000000  000696a8  2**0
+ 13 .debug_str    000028ad  00000000  00000000  0006920c  2**0
                   CONTENTS, READONLY, DEBUGGING
- 14 .debug_loc    0000d6b9  00000000  00000000  0006bf6d  2**0
+ 14 .debug_loc    0000d6a3  00000000  00000000  0006bab9  2**0
                   CONTENTS, READONLY, DEBUGGING
- 15 .debug_alt_sim_info 00000010  00000000  00000000  00079628  2**2
+ 15 .debug_alt_sim_info 00000010  00000000  00000000  0007915c  2**2
                   CONTENTS, READONLY, DEBUGGING
- 16 .debug_ranges 000009c0  00000000  00000000  00079638  2**3
+ 16 .debug_ranges 000009c0  00000000  00000000  00079170  2**3
                   CONTENTS, READONLY, DEBUGGING
- 17 .thread_model 00000008  00000000  00000000  0007eb56  2**0
+ 17 .thread_model 00000008  00000000  00000000  0007e68e  2**0
                   CONTENTS, READONLY
- 18 .cpu          00000003  00000000  00000000  0007eb5e  2**0
+ 18 .cpu          00000003  00000000  00000000  0007e696  2**0
                   CONTENTS, READONLY
- 19 .qsys         00000001  00000000  00000000  0007eb61  2**0
+ 19 .qsys         00000001  00000000  00000000  0007e699  2**0
                   CONTENTS, READONLY
- 20 .simulation_enabled 00000001  00000000  00000000  0007eb62  2**0
+ 20 .simulation_enabled 00000001  00000000  00000000  0007e69a  2**0
                   CONTENTS, READONLY
- 21 .sysid_hash   00000004  00000000  00000000  0007eb63  2**0
+ 21 .sysid_hash   00000004  00000000  00000000  0007e69b  2**0
                   CONTENTS, READONLY
- 22 .sysid_base   00000004  00000000  00000000  0007eb67  2**0
+ 22 .sysid_base   00000004  00000000  00000000  0007e69f  2**0
                   CONTENTS, READONLY
- 23 .sysid_time   00000004  00000000  00000000  0007eb6b  2**0
+ 23 .sysid_time   00000004  00000000  00000000  0007e6a3  2**0
                   CONTENTS, READONLY
- 24 .stderr_dev   00000009  00000000  00000000  0007eb6f  2**0
+ 24 .stderr_dev   00000009  00000000  00000000  0007e6a7  2**0
                   CONTENTS, READONLY
- 25 .stdin_dev    00000009  00000000  00000000  0007eb78  2**0
+ 25 .stdin_dev    00000009  00000000  00000000  0007e6b0  2**0
                   CONTENTS, READONLY
- 26 .stdout_dev   00000009  00000000  00000000  0007eb81  2**0
+ 26 .stdout_dev   00000009  00000000  00000000  0007e6b9  2**0
                   CONTENTS, READONLY
- 27 .sopc_system_name 00000012  00000000  00000000  0007eb8a  2**0
+ 27 .sopc_system_name 00000012  00000000  00000000  0007e6c2  2**0
                   CONTENTS, READONLY
- 28 .jdi          00004ff5  00000000  00000000  0007eb9c  2**0
+ 28 .jdi          00005164  00000000  00000000  0007e6d4  2**0
                   CONTENTS, READONLY
- 29 .sopcinfo     00034406  00000000  00000000  00083b91  2**0
+ 29 .sopcinfo     00034bfe  00000000  00000000  00083838  2**0
                   CONTENTS, READONLY
 SYMBOL TABLE:
 00800000 l    d  .entry	00000000 .entry
 00800020 l    d  .exceptions	00000000 .exceptions
 00800274 l    d  .text	00000000 .text
-008127a8 l    d  .rodata	00000000 .rodata
-00812f7c l    d  .rwdata	00000000 .rwdata
-008165f4 l    d  .bss	00000000 .bss
+0081273c l    d  .rodata	00000000 .rodata
+00812f10 l    d  .rwdata	00000000 .rwdata
+00816588 l    d  .bss	00000000 .bss
 00000000 l    d  .comment	00000000 .comment
 00000000 l    d  .debug_aranges	00000000 .debug_aranges
 00000000 l    d  .debug_pubnames	00000000 .debug_pubnames
@@ -109,32 +109,32 @@ SYMBOL TABLE:
 00000000 l    df *ABS*	00000000 keypad.c
 008004ec l     F .text	0000009c kp_main
 00800588 l     F .text	00000078 kp_getCurrent
-00814a70 l     O .rwdata	00000002 output.2585
+00814a04 l     O .rwdata	00000002 output.2585
 00000000 l    df *ABS*	00000000 main.c
 00000000 l    df *ABS*	00000000 manager.c
-008165fc l     O .bss	00000004 qKP
-00816600 l     O .bss	00000004 qMOVE
+00816590 l     O .bss	00000004 qKP
+00816594 l     O .bss	00000004 qMOVE
 00800718 l     F .text	000000bc man_main
 008007d4 l     F .text	000001dc man_key_down
 008009b0 l     F .text	000001d8 man_key_up
 00000000 l    df *ABS*	00000000 messaging.c
 00000000 l    df *ABS*	00000000 movement.c
-00816604 l     O .bss	00000004 xSemaphore
-00816608 l     O .bss	00000004 qMove
-008166a8 l     O .bss	00000040 ServoData
+00816598 l     O .bss	00000004 xSemaphore
+0081659c l     O .bss	00000004 qMove
+0081663c l     O .bss	00000040 ServoData
 00800f8c l     F .text	000000bc move_servo_task
 00800ef8 l     F .text	00000094 move_main_task
 00801048 l     F .text	000000fc move_servo_cont
 00000000 l    df *ABS*	00000000 pwm.c
-0081660c l     O .bss	00000004 xSemaphore
+008165a0 l     O .bss	00000004 xSemaphore
 00000000 l    df *ABS*	00000000 lib2-mul.c
 00000000 l    df *ABS*	00000000 printf.c
 00000000 l    df *ABS*	00000000 puts.c
 00000000 l    df *ABS*	00000000 strlen.c
 00000000 l    df *ABS*	00000000 vfprintf.c
 008015d0 l     F .text	00000058 __sprint_r
-008129a6 l     O .rodata	00000010 blanks.3452
-00812996 l     O .rodata	00000010 zeroes.3453
+0081293a l     O .rodata	00000010 blanks.3452
+0081292a l     O .rodata	00000010 zeroes.3453
 00000000 l    df *ABS*	00000000 wsetup.c
 00000000 l    df *ABS*	00000000 dtoa.c
 0080364c l     F .text	00000244 quorem
@@ -147,10 +147,10 @@ SYMBOL TABLE:
 00000000 l    df *ABS*	00000000 fvwrite.c
 00000000 l    df *ABS*	00000000 fwalk.c
 00000000 l    df *ABS*	00000000 impure.c
-00812fac l     O .rwdata	00000400 impure_data
+00812f40 l     O .rwdata	00000400 impure_data
 00000000 l    df *ABS*	00000000 locale.c
-00814a80 l     O .rwdata	00000004 charset
-008129dc l     O .rodata	00000030 lconv
+00814a14 l     O .rwdata	00000004 charset
+00812970 l     O .rodata	00000030 lconv
 00000000 l    df *ABS*	00000000 makebuf.c
 00000000 l    df *ABS*	00000000 mallocr.c
 00000000 l    df *ABS*	00000000 memchr.c
@@ -158,7 +158,7 @@ SYMBOL TABLE:
 00000000 l    df *ABS*	00000000 memmove.c
 00000000 l    df *ABS*	00000000 memset.c
 00000000 l    df *ABS*	00000000 mprec.c
-00812b24 l     O .rodata	0000000c p05.2458
+00812ab8 l     O .rodata	0000000c p05.2458
 00000000 l    df *ABS*	00000000 mallocr.c
 00000000 l    df *ABS*	00000000 s_isinfd.c
 00000000 l    df *ABS*	00000000 s_isnand.c
@@ -206,52 +206,52 @@ SYMBOL TABLE:
 0080be44 l     F .text	0000009c prvCopyDataFromQueue
 0080c000 l     F .text	0000005c prvIsQueueEmpty
 00000000 l    df *ABS*	00000000 tasks.c
-00816640 l     O .bss	00000004 uxTasksDeleted
-00816644 l     O .bss	00000004 uxCurrentNumberOfTasks
-00816648 l     O .bss	00000004 xTickCount
-0081664c l     O .bss	00000004 uxTopUsedPriority
-00816650 l     O .bss	00000004 uxTopReadyPriority
-00816654 l     O .bss	00000004 xSchedulerRunning
-00816658 l     O .bss	00000004 uxSchedulerSuspended
-0081665c l     O .bss	00000004 uxMissedTicks
-00816660 l     O .bss	00000004 xMissedYield
-00816664 l     O .bss	00000004 xNumOfOverflows
-00816668 l     O .bss	00000004 uxTaskNumber
-00814a8c l     O .rwdata	00000004 xNextTaskUnblockTime
+008165d4 l     O .bss	00000004 uxTasksDeleted
+008165d8 l     O .bss	00000004 uxCurrentNumberOfTasks
+008165dc l     O .bss	00000004 xTickCount
+008165e0 l     O .bss	00000004 uxTopUsedPriority
+008165e4 l     O .bss	00000004 uxTopReadyPriority
+008165e8 l     O .bss	00000004 xSchedulerRunning
+008165ec l     O .bss	00000004 uxSchedulerSuspended
+008165f0 l     O .bss	00000004 uxMissedTicks
+008165f4 l     O .bss	00000004 xMissedYield
+008165f8 l     O .bss	00000004 xNumOfOverflows
+008165fc l     O .bss	00000004 uxTaskNumber
+00814a20 l     O .rwdata	00000004 xNextTaskUnblockTime
 0080d908 l     F .text	000000c4 prvAllocateTCBAndStack
 0080d648 l     F .text	000000d4 prvInitialiseTCBVariables
 0080d71c l     F .text	000000b8 prvInitialiseTaskLists
-00816758 l     O .bss	00000064 pxReadyTasksLists
-008167f8 l     O .bss	00000014 xTasksWaitingTermination
+008166ec l     O .bss	00000064 pxReadyTasksLists
+0081678c l     O .bss	00000014 xTasksWaitingTermination
 0080d890 l     F .text	00000078 prvAddCurrentTaskToDelayedList
-0081680c l     O .bss	00000014 xSuspendedTaskList
-008167e4 l     O .bss	00000014 xPendingReadyList
+008167a0 l     O .bss	00000014 xSuspendedTaskList
+00816778 l     O .bss	00000014 xPendingReadyList
 0080d62c l     F .text	0000001c prvIdleTask
 0080d9cc l     F .text	00000148 prvListTaskWithinSingleList
-0081666c l     O .bss	00000004 pxDelayedTaskList
-00816670 l     O .bss	00000004 pxOverflowDelayedTaskList
+00816600 l     O .bss	00000004 pxDelayedTaskList
+00816604 l     O .bss	00000004 pxOverflowDelayedTaskList
 0080d7d4 l     F .text	000000bc prvCheckTasksWaitingTermination
-008167bc l     O .bss	00000014 xDelayedTaskList1
-008167d0 l     O .bss	00000014 xDelayedTaskList2
+00816750 l     O .bss	00000014 xDelayedTaskList1
+00816764 l     O .bss	00000014 xDelayedTaskList2
 0080dbe8 l     F .text	0000003c prvDeleteTCB
-00816710 l     O .bss	00000046 pcStatusString.3812
+008166a4 l     O .bss	00000046 pcStatusString.3812
 0080db14 l     F .text	00000064 usTaskCheckFreeStackSpace
 00000000 l    df *ABS*	00000000 timers.c
-00816674 l     O .bss	00000004 xTimerQueue
+00816608 l     O .bss	00000004 xTimerQueue
 0080e6b4 l     F .text	00000094 prvCheckForValidListAndQueue
 0080e1cc l     F .text	00000034 prvTimerTask
 0080e120 l     F .text	000000ac prvProcessExpiredTimer
-0081667c l     O .bss	00000004 pxCurrentTimerList
+00816610 l     O .bss	00000004 pxCurrentTimerList
 0080e368 l     F .text	000000cc prvInsertTimerInActiveList
 0080e2a0 l     F .text	00000060 prvGetNextExpireTime
 0080e200 l     F .text	000000a0 prvProcessTimerOrBlockTask
 0080e434 l     F .text	00000178 prvProcessReceivedCommands
 0080e300 l     F .text	00000068 prvSampleTimeNow
-00816678 l     O .bss	00000004 xLastTime.1990
+0081660c l     O .bss	00000004 xLastTime.1990
 0080e5ac l     F .text	00000108 prvSwitchTimerLists
-00816680 l     O .bss	00000004 pxOverflowTimerList
-00816820 l     O .bss	00000014 xActiveTimerList1
-00816834 l     O .bss	00000014 xActiveTimerList2
+00816614 l     O .bss	00000004 pxOverflowTimerList
+008167b4 l     O .bss	00000014 xActiveTimerList1
+008167c8 l     O .bss	00000014 xActiveTimerList2
 00000000 l    df *ABS*	00000000 alt_close.c
 0080e8dc l     F .text	00000060 alt_get_errno
 00000000 l    df *ABS*	00000000 alt_dev.c
@@ -280,12 +280,12 @@ SYMBOL TABLE:
 0080ff34 l     F .text	00000060 alt_get_errno
 00000000 l    df *ABS*	00000000 alt_release_fd.c
 00000000 l    df *ABS*	00000000 alt_sbrk.c
-00814aa8 l     O .rwdata	00000004 heap_end
+00814a3c l     O .rwdata	00000004 heap_end
 00000000 l    df *ABS*	00000000 alt_tick.c
 00000000 l    df *ABS*	00000000 alt_write.c
 008103a0 l     F .text	00000060 alt_get_errno
 00000000 l    df *ABS*	00000000 alt_sys_init.c
-00813a08 l     O .rwdata	00001068 jtag_uart
+0081399c l     O .rwdata	00001068 jtag_uart
 00810490 l     F .text	00000038 alt_dev_reg
 00000000 l    df *ABS*	00000000 altera_avalon_jtag_uart_fd.c
 00000000 l    df *ABS*	00000000 altera_avalon_jtag_uart_init.c
@@ -330,18 +330,18 @@ SYMBOL TABLE:
 00806e64 g     F .text	00000094 _mprec_log10
 00806f50 g     F .text	00000088 __any_on
 00808708 g     F .text	00000070 _isatty_r
-00812afc g     O .rodata	00000028 __mprec_tinytens
+00812a90 g     O .rodata	00000028 __mprec_tinytens
 0080ae9c g     F .text	00000210 alt_main
 00812204 g     F .text	0000008c strcpy
 00801144 g     F .text	0000004c move_get_state
 008014a8 g     F .text	000000a0 _puts_r
-00816874 g     O .bss	00000100 alt_irq
+00816808 g     O .bss	00000100 alt_irq
 00808778 g     F .text	00000078 _lseek_r
 008000d8 g       .exceptions	00000000 restore_sp_from_pxCurrentTCB
-00814ab8 g       *ABS*	00000000 __flash_rwdata_start
+00814a4c g       *ABS*	00000000 __flash_rwdata_start
 0080a054 g     F .text	00000088 __eqdf2
-008165f4 g     O .bss	00000004 tKP
-00816b04 g       *ABS*	00000000 __alt_heap_start
+00816588 g     O .bss	00000004 tKP
+00816a98 g       *ABS*	00000000 __alt_heap_start
 0080c630 g     F .text	00000080 uxTaskPriorityGet
 0080dfa8 g     F .text	000000b0 xTimerCreate
 00801430 g     F .text	00000044 printf
@@ -359,27 +359,27 @@ SYMBOL TABLE:
 0080b764 g     F .text	000000d4 xQueueGenericSendFromISR
 00806fd8 g     F .text	000000bc _Balloc
 00800c0c g     F .text	00000050 msg_rmQueue
-00816688 g     O .bss	00000001 alt_log_write_on_flag
+0081661c g     O .bss	00000001 alt_log_write_on_flag
 0080a164 g     F .text	00000088 __gtdf2
 00811fbc g     F .text	00000010 __errno
-0081668b g     O .bss	00000001 alt_log_jtag_uart_isr_on_flag
+0081661f g     O .bss	00000001 alt_log_jtag_uart_isr_on_flag
 00800000 g     F .entry	0000000c __reset
 0080b410 g     F .text	0000008c xQueueGiveMutexRecursive
-0081663c g     O .bss	00000004 pxCurrentTCB
+008165d0 g     O .bss	00000004 pxCurrentTCB
 00800020 g       *ABS*	00000000 __flash_exceptions_start
 00808694 g     F .text	00000074 _fstat_r
-00816628 g     O .bss	00000004 errno
-00816848 g     O .bss	00000011 alt_log_write_buf
+008165bc g     O .bss	00000004 errno
+008167dc g     O .bss	00000011 alt_log_write_buf
 00800d3c g     F .text	00000060 msg_recv_block
 0080ae64  w    F .text	0000001c pre_constructors
-00816630 g     O .bss	00000004 alt_argv
-0081ca70 g       *ABS*	00000000 _gp
+008165c4 g     O .bss	00000004 alt_argv
+0081ca04 g       *ABS*	00000000 _gp
 0080c6b0 g     F .text	000001cc vTaskPrioritySet
-00816638 g     O .bss	00000004 alt_heapsem
-008137e8 g     O .rwdata	00000180 alt_fd_list
-00813984 g     O .rwdata	0000001d alt_log_msg_alt_main
+008165cc g     O .bss	00000004 alt_heapsem
+0081377c g     O .rwdata	00000180 alt_fd_list
+00813918 g     O .rwdata	0000001d alt_log_msg_alt_main
 008116d4 g     F .text	0000002c xPortStartScheduler
-0081668a g     O .bss	00000001 alt_log_jtag_uart_alarm_on_flag
+0081661e g     O .bss	00000001 alt_log_jtag_uart_alarm_on_flag
 0080cc44 g     F .text	00000044 vTaskEndScheduler
 008119d8 g     F .text	00000094 alt_find_dev
 00806840 g     F .text	000000a0 memcpy
@@ -390,7 +390,7 @@ SYMBOL TABLE:
 0080a2fc g     F .text	000000f8 __floatsidf
 0080ec40 g     F .text	00000078 alt_io_redirect
 0080a274 g     F .text	00000088 __ltdf2
-008127a8 g       *ABS*	00000000 __DTOR_END__
+0081273c g       *ABS*	00000000 __DTOR_END__
 0080ae80  w    F .text	0000001c post_constructors
 00801548 g     F .text	00000014 puts
 008112e4 g     F .text	00000044 vPortFree
@@ -400,50 +400,50 @@ SYMBOL TABLE:
 00801474 g     F .text	00000034 _printf_r
 0080a79c g     F .text	00000008 __udivsi3
 0080ecb8 g     F .text	000000c4 isatty
-00812a0c g     O .rodata	000000c8 __mprec_tens
+008129a0 g     O .rodata	000000c8 __mprec_tens
 0080db78 g     F .text	00000070 uxTaskGetStackHighWaterMark
 00805dc4 g     F .text	00000008 __locale_charset
 008113c0 g     F .text	00000098 vListInsertEnd
 0080f960 g     F .text	00000078 alt_log_system_clock
-0081661c g     O .bss	00000004 __malloc_top_pad
+008165b0 g     O .bss	00000004 __malloc_top_pad
 00800cc8 g     F .text	00000074 msg_recv_noblock
 0080069c g     F .text	0000007c man_start
-00816684 g     O .bss	00000004 alt_fd_list_lock
-00814a7c g     O .rwdata	00000004 __mb_cur_max
+00816618 g     O .bss	00000004 alt_fd_list_lock
+00814a10 g     O .rwdata	00000004 __mb_cur_max
 00805dcc g     F .text	0000000c _localeconv_r
 0080773c g     F .text	0000003c __i2b
 008057a8 g     F .text	0000049c __sfvwrite_r
 0080f5b4 g     F .text	00000054 alt_log_printf_proc
 00808148 g     F .text	00000070 _sbrk_r
-0081668c g     O .bss	00000001 alt_log_jtag_uart_startup_info_on_flag
+00816620 g     O .bss	00000001 alt_log_jtag_uart_startup_info_on_flag
 0080cacc g     F .text	000000dc xTaskResumeFromISR
 008087f0 g     F .text	00000078 _read_r
 00811398 g     F .text	00000028 vListInitialiseItem
-008133ac g     O .rwdata	0000000c __lc_ctype
-00814aa0 g     O .rwdata	00000004 alt_max_fd
+00813340 g     O .rwdata	0000000c __lc_ctype
+00814a34 g     O .rwdata	00000004 alt_max_fd
 0081171c g     F .text	00000038 vPortSysTickHandler
 0080ac64 g     F .text	00000138 __unpack_d
 00808570 g     F .text	00000110 _fclose_r
 00801298 g     F .text	000000b0 pwm_set_pos
 00805040 g     F .text	00000034 fflush
-00816620 g     O .bss	00000004 __malloc_max_sbrked_mem
+008165b4 g     O .bss	00000004 __malloc_max_sbrked_mem
 008099c4 g     F .text	00000074 __adddf3
-0081685c g     O .bss	00000018 alt_log_jtag_uart_alarm_1
+008167f0 g     O .bss	00000018 alt_log_jtag_uart_alarm_1
 00806c94 g     F .text	00000120 __b2d
 00808ed4 g     F .text	00000660 __umoddi3
 0080f9d8 g     F .text	000000f4 lseek
-00814a78 g     O .rwdata	00000004 _global_impure_ptr
+00814a0c g     O .rwdata	00000004 _global_impure_ptr
 00807ae4 g     F .text	000005f4 _realloc_r
-00816b04 g       *ABS*	00000000 __bss_end
+00816a98 g       *ABS*	00000000 __bss_end
 00811e90 g     F .text	000000f8 alt_iic_isr_register
 00810160 g     F .text	00000110 alt_tick
 00800c5c g     F .text	0000006c msg_send
 00808868 g     F .text	0000066c __udivdi3
-008165f8 g     O .bss	00000004 qKP
-00812ad4 g     O .rodata	00000028 __mprec_bigtens
+0081658c g     O .bss	00000004 qKP
+00812a68 g     O .rodata	00000028 __mprec_bigtens
 008079c4 g     F .text	00000120 __s2b
 0080a4cc g     F .text	00000194 __floatunsidf
-00816690 g     O .bss	00000004 alt_system_clock_in_sec
+00816624 g     O .bss	00000004 alt_system_clock_in_sec
 0080f780 g     F .text	00000048 alt_log_jtag_uart_startup_info
 00806bb4 g     F .text	00000060 __mcmp
 008112a4 g     F .text	00000040 pvPortMalloc
@@ -453,35 +453,35 @@ SYMBOL TABLE:
 00811700 g     F .text	0000001c vPortEndScheduler
 00811328 g     F .text	00000070 vListInitialise
 008100c8 g     F .text	00000098 alt_alarm_stop
-00816689 g     O .bss	00000001 alt_log_sys_clk_on_flag
-008166a4 g     O .bss	00000004 alt_irq_active
+0081661d g     O .bss	00000001 alt_log_sys_clk_on_flag
+00816638 g     O .bss	00000004 alt_irq_active
 008001ac g     F .exceptions	000000c8 alt_irq_handler
 0080efa4 g     F .text	00000610 alt_log_private_printf
-008137c0 g     O .rwdata	00000028 alt_dev_null
+00813754 g     O .rwdata	00000028 alt_dev_null
 0080ce28 g     F .text	00000050 xTaskGetTickCount
 0080b598 g     F .text	000001cc xQueueGenericSend
-00813968 g     O .rwdata	00000019 alt_log_msg_bss
-00812f7c g     O .rwdata	00000030 servo_data
+008138fc g     O .rwdata	00000019 alt_log_msg_bss
+00812f10 g     O .rwdata	00000030 servo_data
 008118a8 g     F .text	0000001c alt_dcache_flush_all
 00806a80 g     F .text	00000070 __hi0bits
 0080a3f4 g     F .text	000000d8 __fixdfsi
-00814ab8 g       *ABS*	00000000 __ram_rwdata_end
-00814a98 g     O .rwdata	00000008 alt_dev_list
+00814a4c g       *ABS*	00000000 __ram_rwdata_end
+00814a2c g     O .rwdata	00000008 alt_dev_list
 00810270 g     F .text	00000130 write
 0080d370 g     F .text	000000e4 xTaskRemoveFromEventList
-00812f7c g       *ABS*	00000000 __ram_rodata_end
+00812f10 g       *ABS*	00000000 __ram_rodata_end
 00801190 g     F .text	00000088 pwm_init
 0080ea30 g     F .text	000000d8 fstat
 00812174 g     F .text	00000090 strcat
 008078a4 g     F .text	00000120 __pow5mult
-00816610 g     O .bss	00000004 __nlocale_changed
+008165a4 g     O .bss	00000004 __nlocale_changed
 0080a7a4 g     F .text	00000008 __umodsi3
-00816b04 g       *ABS*	00000000 end
+00816a98 g       *ABS*	00000000 end
 0080c3e0 g     F .text	000000f0 vTaskDelete
 0080eef4 g     F .text	0000004c alt_log_txchar
 00810610 g     F .text	000001d0 altera_avalon_jtag_uart_init
 00800674 g     F .text	00000028 vAssertCalled
-008127a4 g       *ABS*	00000000 __CTOR_LIST__
+00812738 g       *ABS*	00000000 __CTOR_LIST__
 01000000 g       *ABS*	00000000 __alt_stack_pointer
 00811184 g     F .text	00000090 alt_avalon_timer_sc_init
 0080a8d0 g     F .text	00000080 __clzsi2
@@ -493,14 +493,14 @@ SYMBOL TABLE:
 0080d48c g     F .text	000000ec xTaskCheckForTimeOut
 00805494 g     F .text	00000314 _free_r
 00812484 g     F .text	000001b0 __call_exitprocs
-00816614 g     O .bss	00000004 __mlocale_changed
-00814a88 g     O .rwdata	00000004 __malloc_sbrk_base
+008165a8 g     O .bss	00000004 __mlocale_changed
+00814a1c g     O .rwdata	00000004 __malloc_sbrk_base
 00800274 g     F .text	000000ac _start
-00816698 g     O .bss	00000004 _alt_tick_rate
+0081662c g     O .bss	00000004 _alt_tick_rate
 0080cc88 g     F .text	00000028 vTaskSuspendAll
 0080ce78 g     F .text	0000002c xTaskGetTickCountFromISR
 0080739c g     F .text	0000014c __lshift
-0081669c g     O .bss	00000004 _alt_nticks
+00816630 g     O .bss	00000004 _alt_nticks
 0080fe10 g     F .text	00000124 read
 00810434 g     F .text	0000005c alt_sys_init
 0081152c g     F .text	00000098 uxListRemove
@@ -511,14 +511,14 @@ SYMBOL TABLE:
 00810acc g     F .text	00000074 altera_avalon_jtag_uart_close
 0080dca0 g     F .text	00000114 vTaskPriorityInherit
 008013f8 g     F .text	00000038 __mulsi3
-00812f7c g       *ABS*	00000000 __ram_rwdata_start
-008127a8 g       *ABS*	00000000 __ram_rodata_start
+00812f10 g       *ABS*	00000000 __ram_rwdata_start
+0081273c g       *ABS*	00000000 __ram_rodata_start
 00812290 g     F .text	000000bc strncpy
-008166e8 g     O .bss	00000028 __malloc_current_mallinfo
+0081667c g     O .bss	00000028 __malloc_current_mallinfo
 0080c9e8 g     F .text	000000e4 vTaskResume
 00807094 g     F .text	0000017c __d2b
 0080d1b0 g     F .text	000000dc vTaskSwitchContext
-00813a04 g     O .rwdata	00000004 alt_log_boot_on_flag
+00813998 g     O .rwdata	00000004 alt_log_boot_on_flag
 008104c8 g     F .text	00000058 altera_avalon_jtag_uart_read_fd
 00811b8c g     F .text	00000114 alt_get_fd
 0080d310 g     F .text	00000060 vTaskPlaceOnEventListRestricted
@@ -527,7 +527,7 @@ SYMBOL TABLE:
 0080f694 g     F .text	000000ec alt_log_jtag_uart_print_control_reg
 0081202c g     F .text	00000074 memcmp
 00810578 g     F .text	00000048 altera_avalon_jtag_uart_close_fd
-00816b04 g       *ABS*	00000000 __alt_stack_base
+00816a98 g       *ABS*	00000000 __alt_stack_base
 008105c0 g     F .text	00000050 altera_avalon_jtag_uart_ioctl_fd
 0080e058 g     F .text	000000c8 xTimerGenericCommand
 0080d5e8 g     F .text	00000044 vTaskSetTaskNumber
@@ -538,7 +538,7 @@ SYMBOL TABLE:
 00806ef8 g     F .text	00000058 __copybits
 0080cea4 g     F .text	00000020 uxTaskGetNumberOfTasks
 00000000         *UND*	00000000 save_context
-008133b8 g     O .rwdata	00000408 __malloc_av_
+0081334c g     O .rwdata	00000408 __malloc_av_
 008050d8 g     F .text	00000004 __sinit_lock_release
 0080d030 g     F .text	00000180 vTaskIncrementTick
 00809a38 g     F .text	000003c4 __muldf3
@@ -551,13 +551,13 @@ SYMBOL TABLE:
 0080bc60 g     F .text	0000002c ucQueueGetQueueNumber
 00804e44 g     F .text	000001fc _fflush_r
 00808438 g     F .text	000000c8 _calloc_r
-008165f4 g       *ABS*	00000000 __bss_start
+00816588 g       *ABS*	00000000 __bss_start
 0080cec4 g     F .text	0000016c vTaskList
 0080d59c g     F .text	0000004c uxTaskGetTaskNumber
 008069c0 g     F .text	00000098 memset
 00800600 g     F .text	00000074 main
-00816634 g     O .bss	00000004 alt_envp
-00816624 g     O .bss	00000004 __malloc_max_total_mem
+008165c8 g     O .bss	00000004 alt_envp
+008165b8 g     O .bss	00000004 __malloc_max_total_mem
 00801218 g     F .text	00000080 pwm_jump
 00810520 g     F .text	00000058 altera_avalon_jtag_uart_write_fd
 00800d9c g     F .text	0000015c move_Start
@@ -566,11 +566,11 @@ SYMBOL TABLE:
 01000000 g       *ABS*	00000000 __alt_heap_limit
 00808680 g     F .text	00000014 fclose
 0080df38 g     F .text	00000070 xTimerCreateTimerTask
-00816974 g     O .bss	00000190 _atexit0
+00816908 g     O .bss	00000190 _atexit0
 00803890 g     F .text	000015b4 _dtoa_r
 0080601c g     F .text	00000740 _malloc_r
 0080bcbc g     F .text	0000002c ucQueueGetQueueType
-00814aa4 g     O .rwdata	00000004 alt_errno
+00814a38 g     O .rwdata	00000004 alt_errno
 0080c4d0 g     F .text	000000e8 vTaskDelayUntil
 0080f608 g     F .text	0000008c altera_avalon_jtag_uart_report_log
 00811268 g     F .text	0000003c __env_unlock
@@ -578,32 +578,32 @@ SYMBOL TABLE:
 0080bac0 g     F .text	000000dc xQueueReceiveFromISR
 0080dc24 g     F .text	00000028 xTaskGetCurrentTaskHandle
 0080a6dc g     F .text	00000060 __divsi3
-008139d8 g     O .rwdata	0000002a alt_log_msg_cache
-00812b30 g     O .rodata	00000014 __thenan_df
+0081396c g     O .rwdata	0000002a alt_log_msg_cache
+00812ac4 g     O .rodata	00000014 __thenan_df
 0080b268 g     F .text	000000d8 xQueueGenericCreate
 00805368 g     F .text	0000012c _malloc_trim_r
-008127a8 g       *ABS*	00000000 __CTOR_END__
+0081273c g       *ABS*	00000000 __CTOR_END__
 00808304 g     F .text	000000bc strcmp
 0080b53c g     F .text	0000005c xQueueCreateCountingSemaphore
-008127a8 g       *ABS*	00000000 __flash_rodata_start
-008127a8 g       *ABS*	00000000 __DTOR_LIST__
+0081273c g       *ABS*	00000000 __flash_rodata_start
+0081273c g       *ABS*	00000000 __DTOR_LIST__
 0080a0dc g     F .text	00000088 __nedf2
 0080bc8c g     F .text	00000030 vQueueSetQueueNumber
 00810400 g     F .text	00000034 alt_irq_init
 0080ff94 g     F .text	00000078 alt_release_fd
 0080ccb0 g     F .text	00000178 xTaskResumeAll
-008139a4 g     O .rwdata	00000031 alt_log_msg_stackpointer
+00813938 g     O .rwdata	00000031 alt_log_msg_stackpointer
 008120a0 g     F .text	00000074 sprintf
-00812b44 g     O .rodata	00000100 __clz_tab
+00812ad8 g     O .rodata	00000100 __clz_tab
 0080cba8 g     F .text	0000009c vTaskStartScheduler
-00816618 g     O .bss	00000004 _PathLocale
+008165ac g     O .bss	00000004 _PathLocale
 00811fa8 g     F .text	00000014 atexit
 008083c0 g     F .text	00000078 _write_r
 00805e6c g     F .text	0000001c setlocale
 0080c0f4 g     F .text	0000003c xQueueIsQueueFullFromISR
 0080e7ac g     F .text	00000030 pvTimerGetTimerID
-00814a74 g     O .rwdata	00000004 _impure_ptr
-0081662c g     O .bss	00000004 alt_argc
+00814a08 g     O .rwdata	00000004 _impure_ptr
+008165c0 g     O .bss	00000004 alt_argc
 0080e9cc g     F .text	00000064 _do_dtors
 00000000         *UND*	00000000 alt_irq_entry
 00806c14 g     F .text	00000080 __ulp
@@ -611,24 +611,24 @@ SYMBOL TABLE:
 00805190 g     F .text	00000018 __fp_unlock_all
 0080d578 g     F .text	00000024 vTaskMissedYield
 00800320 g     F .text	0000006c display_init
-00814a90 g     O .rwdata	00000008 alt_fs_list
+00814a24 g     O .rwdata	00000008 alt_fs_list
 0080bb9c g     F .text	00000058 uxQueueMessagesWaiting
 0080b838 g     F .text	00000288 xQueueGenericReceive
 00800020 g       *ABS*	00000000 __ram_exceptions_start
 00805dd8 g     F .text	00000010 localeconv
 00800458 g     F .text	00000094 kp_startTask
-00816694 g     O .bss	00000004 alt_log_sys_clk_count
+00816628 g     O .bss	00000004 alt_log_sys_clk_count
 0080f820 g     F .text	00000140 alt_log_write
 00811cbc g     F .text	00000050 alt_ic_isr_register
 0080b13c g     F .text	0000012c xQueueGenericReset
-00814ab8 g       *ABS*	00000000 _edata
-00816b04 g       *ABS*	00000000 _end
+00814a4c g       *ABS*	00000000 _edata
+00816a98 g       *ABS*	00000000 _end
 00800274 g       *ABS*	00000000 __ram_exceptions_end
 00810b40 g     F .text	000000f4 altera_avalon_jtag_uart_ioctl
 0080e748 g     F .text	00000064 xTimerIsTimerActive
 00811da8 g     F .text	000000a0 alt_ic_irq_disable
 00808228 g     F .text	0000007c __swrite
-00814a84 g     O .rwdata	00000004 __malloc_trim_threshold
+00814a18 g     O .rwdata	00000004 __malloc_trim_threshold
 00811f88 g     F .text	00000020 altera_nios2_qsys_irq_init
 00811fcc g     F .text	00000038 exit
 00805c44 g     F .text	000000c8 _fwalk_reent
@@ -652,7 +652,7 @@ SYMBOL TABLE:
 0080a1ec g     F .text	00000088 __gedf2
 00811ca0 g     F .text	0000001c alt_icache_flush_all
 0080d454 g     F .text	00000038 vTaskSetTimeOutState
-00814ab4 g     O .rwdata	00000004 alt_priority_mask
+00814a48 g     O .rwdata	00000004 alt_priority_mask
 00811d0c g     F .text	0000009c alt_ic_irq_enable
 008034ec g     F .text	00000024 __vfprintf_internal
 0080bbf4 g     F .text	00000030 uxQueueMessagesWaitingFromISR
@@ -660,12 +660,12 @@ SYMBOL TABLE:
 0080c05c g     F .text	00000034 xQueueIsQueueEmptyFromISR
 00809944 g     F .text	00000080 __subdf3
 00806af0 g     F .text	000000c4 __lo0bits
-00814aac g     O .rwdata	00000008 alt_alarm_list
+00814a40 g     O .rwdata	00000008 alt_alarm_list
 0080e968 g     F .text	00000064 _do_ctors
 0080b340 g     F .text	000000d0 xQueueCreateMutex
 0080e7dc g     F .text	00000100 close
 0080ef40 g     F .text	00000064 alt_log_repchar
-008166a0 g     O .bss	00000004 alt_envsem
+00816634 g     O .bss	00000004 alt_envsem
 0080eddc g     F .text	00000080 alt_load
 0080a950 g     F .text	00000314 __pack_d
 00812004 g     F .text	00000014 free
@@ -725,7 +725,7 @@ Disassembly of section .exceptions:
   8000a8:	080dc4c0 	call	80dc4c <xTaskGetSchedulerState>
   8000ac:	10000426 	beq	r2,zero,8000c0 <hw_irq_test>
   8000b0:	06002074 	movhi	et,129
-  8000b4:	c6198f04 	addi	et,et,26172
+  8000b4:	c6197404 	addi	et,et,26064
   8000b8:	c6000017 	ldw	et,0(et)
   8000bc:	c6c00015 	stw	sp,0(et)
 
@@ -743,7 +743,7 @@ Disassembly of section .exceptions:
   8000d8:	080dc4c0 	call	80dc4c <xTaskGetSchedulerState>
   8000dc:	10000426 	beq	r2,zero,8000f0 <restore_context>
   8000e0:	06002074 	movhi	et,129
-  8000e4:	c6198f04 	addi	et,et,26172
+  8000e4:	c6197404 	addi	et,et,26064
   8000e8:	c6000017 	ldw	et,0(et)
   8000ec:	c6c00017 	ldw	sp,0(et)
 
@@ -819,13 +819,13 @@ Disassembly of section .exceptions:
   8001e8:	1000161e 	bne	r2,zero,800244 <alt_irq_handler+0x98>
   8001ec:	e0bffd17 	ldw	r2,-12(fp)
   8001f0:	00c02074 	movhi	r3,129
-  8001f4:	18da1d04 	addi	r3,r3,26740
+  8001f4:	18da0204 	addi	r3,r3,26632
   8001f8:	100490fa 	slli	r2,r2,3
   8001fc:	10c5883a 	add	r2,r2,r3
   800200:	11400017 	ldw	r5,0(r2)
   800204:	e0bffd17 	ldw	r2,-12(fp)
   800208:	00c02074 	movhi	r3,129
-  80020c:	18da1d04 	addi	r3,r3,26740
+  80020c:	18da0204 	addi	r3,r3,26632
   800210:	100490fa 	slli	r2,r2,3
   800214:	10c5883a 	add	r2,r2,r3
   800218:	10800104 	addi	r2,r2,4
@@ -856,45 +856,45 @@ Disassembly of section .text:
 
 00800274 <_start>:
   800274:	01002074 	movhi	r4,129
-  800278:	210e8104 	addi	r4,r4,14852
+  800278:	210e6604 	addi	r4,r4,14744
   80027c:	21400037 	ldwio	r5,0(r4)
   800280:	01400326 	beq	zero,r5,800290 <_start+0x1c>
   800284:	01002074 	movhi	r4,129
-  800288:	210e7604 	addi	r4,r4,14808
+  800288:	210e5b04 	addi	r4,r4,14700
   80028c:	080eec80 	call	80eec8 <tx_log_str>
   800290:	01002074 	movhi	r4,129
-  800294:	210e8104 	addi	r4,r4,14852
+  800294:	210e6604 	addi	r4,r4,14744
   800298:	21400037 	ldwio	r5,0(r4)
   80029c:	01400326 	beq	zero,r5,8002ac <_start+0x38>
   8002a0:	01002074 	movhi	r4,129
-  8002a4:	210e6904 	addi	r4,r4,14756
+  8002a4:	210e4e04 	addi	r4,r4,14648
   8002a8:	080eec80 	call	80eec8 <tx_log_str>
   8002ac:	06c04034 	movhi	sp,256
   8002b0:	dec00014 	ori	sp,sp,0
   8002b4:	06802074 	movhi	gp,129
-  8002b8:	d6b29c14 	ori	gp,gp,51824
+  8002b8:	d6b28114 	ori	gp,gp,51716
   8002bc:	01002074 	movhi	r4,129
-  8002c0:	210e8104 	addi	r4,r4,14852
+  8002c0:	210e6604 	addi	r4,r4,14744
   8002c4:	21400037 	ldwio	r5,0(r4)
   8002c8:	01400326 	beq	zero,r5,8002d8 <_start+0x64>
   8002cc:	01002074 	movhi	r4,129
-  8002d0:	210e5a04 	addi	r4,r4,14696
+  8002d0:	210e3f04 	addi	r4,r4,14588
   8002d4:	080eec80 	call	80eec8 <tx_log_str>
   8002d8:	00802074 	movhi	r2,129
-  8002dc:	10997d14 	ori	r2,r2,26100
+  8002dc:	10996214 	ori	r2,r2,25992
   8002e0:	00c02074 	movhi	r3,129
-  8002e4:	18dac114 	ori	r3,r3,27396
+  8002e4:	18daa614 	ori	r3,r3,27288
   8002e8:	10c00326 	beq	r2,r3,8002f8 <_start+0x84>
   8002ec:	10000015 	stw	zero,0(r2)
   8002f0:	10800104 	addi	r2,r2,4
   8002f4:	10fffd36 	bltu	r2,r3,8002ec <_start+0x78>
   8002f8:	080eddc0 	call	80eddc <alt_load>
   8002fc:	01002074 	movhi	r4,129
-  800300:	210e8104 	addi	r4,r4,14852
+  800300:	210e6604 	addi	r4,r4,14744
   800304:	21400037 	ldwio	r5,0(r4)
   800308:	01400326 	beq	zero,r5,800318 <_start+0xa4>
   80030c:	01002074 	movhi	r4,129
-  800310:	210e6104 	addi	r4,r4,14724
+  800310:	210e4604 	addi	r4,r4,14616
   800314:	080eec80 	call	80eec8 <tx_log_str>
   800318:	080ae9c0 	call	80ae9c <alt_main>
 
@@ -907,7 +907,7 @@ Disassembly of section .text:
   800328:	df000515 	stw	fp,20(sp)
   80032c:	df000504 	addi	fp,sp,20
   800330:	01402074 	movhi	r5,129
-  800334:	2949ea04 	addi	r5,r5,10152
+  800334:	2949cf04 	addi	r5,r5,10044
   800338:	d8000015 	stw	zero,0(sp)
   80033c:	d8000115 	stw	zero,4(sp)
   800340:	d8000215 	stw	zero,8(sp)
@@ -974,7 +974,7 @@ Disassembly of section .text:
   80042c:	d9400315 	stw	r5,12(sp)
   800430:	d9800415 	stw	r6,16(sp)
   800434:	01002074 	movhi	r4,129
-  800438:	2109ee04 	addi	r4,r4,10168
+  800438:	2109d304 	addi	r4,r4,10060
   80043c:	380b883a 	mov	r5,r7
   800440:	400d883a 	mov	r6,r8
   800444:	480f883a 	mov	r7,r9
@@ -998,7 +998,7 @@ Disassembly of section .text:
   800484:	e0bffe17 	ldw	r2,-8(fp)
   800488:	d0a6e215 	stw	r2,-25720(gp)
   80048c:	01402074 	movhi	r5,129
-  800490:	2949fa04 	addi	r5,r5,10216
+  800490:	2949df04 	addi	r5,r5,10108
   800494:	d8000015 	stw	zero,0(sp)
   800498:	d0a6e104 	addi	r2,gp,-25724
   80049c:	d8800115 	stw	r2,4(sp)
@@ -1032,7 +1032,7 @@ Disassembly of section .text:
   800504:	e03ffc8d 	sth	zero,-14(fp)
   800508:	e03ffc0d 	sth	zero,-16(fp)
   80050c:	01002074 	movhi	r4,129
-  800510:	2109fe04 	addi	r4,r4,10232
+  800510:	2109e304 	addi	r4,r4,10124
   800514:	08015480 	call	801548 <puts>
   800518:	0100fa04 	movi	r4,1000
   80051c:	080c5b80 	call	80c5b8 <vTaskDelay>
@@ -1104,7 +1104,7 @@ Disassembly of section .text:
   800614:	10840804 	addi	r2,r2,4128
   800618:	e0bfff15 	stw	r2,-4(fp)
   80061c:	01002074 	movhi	r4,129
-  800620:	210a0304 	addi	r4,r4,10252
+  800620:	2109e804 	addi	r4,r4,10144
   800624:	08015480 	call	801548 <puts>
   800628:	e0ffff17 	ldw	r3,-4(fp)
   80062c:	00800044 	movi	r2,1
@@ -1113,7 +1113,7 @@ Disassembly of section .text:
   800638:	1005003a 	cmpeq	r2,r2,zero
   80063c:	1000061e 	bne	r2,zero,800658 <main+0x58>
   800640:	01002074 	movhi	r4,129
-  800644:	210a0a04 	addi	r4,r4,10280
+  800644:	2109ef04 	addi	r4,r4,10172
   800648:	08015480 	call	801548 <puts>
   80064c:	0100fa04 	movi	r4,1000
   800650:	080c5b80 	call	80c5b8 <vTaskDelay>
@@ -1154,7 +1154,7 @@ Disassembly of section .text:
   8006cc:	08011900 	call	801190 <pwm_init>
   8006d0:	08003200 	call	800320 <display_init>
   8006d4:	01402074 	movhi	r5,129
-  8006d8:	294a1204 	addi	r5,r5,10312
+  8006d8:	2949f704 	addi	r5,r5,10204
   8006dc:	d8000015 	stw	zero,0(sp)
   8006e0:	d8000115 	stw	zero,4(sp)
   8006e4:	d8000215 	stw	zero,8(sp)
@@ -1178,7 +1178,7 @@ Disassembly of section .text:
   800724:	df000604 	addi	fp,sp,24
   800728:	e13fff15 	stw	r4,-4(fp)
   80072c:	01002074 	movhi	r4,129
-  800730:	210a1504 	addi	r4,r4,10324
+  800730:	2109fa04 	addi	r4,r4,10216
   800734:	08015480 	call	801548 <puts>
   800738:	d126e317 	ldw	r4,-25716(gp)
   80073c:	e17ffd04 	addi	r5,fp,-12
@@ -1534,7 +1534,7 @@ Disassembly of section .text:
   800c8c:	10800060 	cmpeqi	r2,r2,1
   800c90:	1000061e 	bne	r2,zero,800cac <msg_send+0x50>
   800c94:	01002074 	movhi	r4,129
-  800c98:	210a1a04 	addi	r4,r4,10344
+  800c98:	2109ff04 	addi	r4,r4,10236
   800c9c:	08015480 	call	801548 <puts>
   800ca0:	00bfffc4 	movi	r2,-1
   800ca4:	e0bfff15 	stw	r2,-4(fp)
@@ -1623,7 +1623,7 @@ Disassembly of section .text:
   800dd8:	e0bffd17 	ldw	r2,-12(fp)
   800ddc:	1006913a 	slli	r3,r2,4
   800de0:	00802074 	movhi	r2,129
-  800de4:	1099aa04 	addi	r2,r2,26280
+  800de4:	10998f04 	addi	r2,r2,26172
   800de8:	1889883a 	add	r4,r3,r2
   800dec:	0800b880 	call	800b88 <msg_newQueue>
   800df0:	1005003a 	cmpeq	r2,r2,zero
@@ -1633,19 +1633,19 @@ Disassembly of section .text:
   800e00:	00003706 	br	800ee0 <move_Start+0x144>
   800e04:	e0bffd17 	ldw	r2,-12(fp)
   800e08:	00c02074 	movhi	r3,129
-  800e0c:	18d9aa04 	addi	r3,r3,26280
+  800e0c:	18d98f04 	addi	r3,r3,26172
   800e10:	1004913a 	slli	r2,r2,4
   800e14:	10c5883a 	add	r2,r2,r3
   800e18:	10c00104 	addi	r3,r2,4
   800e1c:	e0bffd17 	ldw	r2,-12(fp)
   800e20:	18800015 	stw	r2,0(r3)
   800e24:	01402074 	movhi	r5,129
-  800e28:	294a2004 	addi	r5,r5,10368
+  800e28:	294a0504 	addi	r5,r5,10260
   800e2c:	e0bffd17 	ldw	r2,-12(fp)
   800e30:	1004913a 	slli	r2,r2,4
   800e34:	1007883a 	mov	r3,r2
   800e38:	00802074 	movhi	r2,129
-  800e3c:	1099aa04 	addi	r2,r2,26280
+  800e3c:	10998f04 	addi	r2,r2,26172
   800e40:	188f883a 	add	r7,r3,r2
   800e44:	d8000015 	stw	zero,0(sp)
   800e48:	d8000115 	stw	zero,4(sp)
@@ -1670,7 +1670,7 @@ Disassembly of section .text:
   800e94:	080b3400 	call	80b340 <xQueueCreateMutex>
   800e98:	d0a6e515 	stw	r2,-25708(gp)
   800e9c:	01402074 	movhi	r5,129
-  800ea0:	294a2304 	addi	r5,r5,10380
+  800ea0:	294a0804 	addi	r5,r5,10272
   800ea4:	d8000015 	stw	zero,0(sp)
   800ea8:	d8000115 	stw	zero,4(sp)
   800eac:	d8000215 	stw	zero,8(sp)
@@ -1700,7 +1700,7 @@ Disassembly of section .text:
   800f04:	df000504 	addi	fp,sp,20
   800f08:	e13ffe15 	stw	r4,-8(fp)
   800f0c:	01002074 	movhi	r4,129
-  800f10:	210a2904 	addi	r4,r4,10404
+  800f10:	210a0e04 	addi	r4,r4,10296
   800f14:	08015480 	call	801548 <puts>
   800f18:	00000006 	br	800f1c <move_main_task+0x24>
   800f1c:	d126e617 	ldw	r4,-25704(gp)
@@ -1723,7 +1723,7 @@ Disassembly of section .text:
   800f60:	103fee1e 	bne	r2,zero,800f1c <move_main_task+0x24>
   800f64:	e0bffb17 	ldw	r2,-20(fp)
   800f68:	00c02074 	movhi	r3,129
-  800f6c:	18d9aa04 	addi	r3,r3,26280
+  800f6c:	18d98f04 	addi	r3,r3,26172
   800f70:	1004913a 	slli	r2,r2,4
   800f74:	10c5883a 	add	r2,r2,r3
   800f78:	11000017 	ldw	r4,0(r2)
@@ -1769,7 +1769,7 @@ Disassembly of section .text:
   801010:	08010480 	call	801048 <move_servo_cont>
   801014:	e0bff917 	ldw	r2,-28(fp)
   801018:	00c02074 	movhi	r3,129
-  80101c:	18d9aa04 	addi	r3,r3,26280
+  80101c:	18d98f04 	addi	r3,r3,26172
   801020:	1004913a 	slli	r2,r2,4
   801024:	10c5883a 	add	r2,r2,r3
   801028:	10800304 	addi	r2,r2,12
@@ -1777,7 +1777,7 @@ Disassembly of section .text:
   801030:	003fe506 	br	800fc8 <move_servo_task+0x3c>
   801034:	e17ff917 	ldw	r5,-28(fp)
   801038:	01002074 	movhi	r4,129
-  80103c:	210a3104 	addi	r4,r4,10436
+  80103c:	210a1604 	addi	r4,r4,10328
   801040:	08014300 	call	801430 <printf>
   801044:	003fe006 	br	800fc8 <move_servo_task+0x3c>
 
@@ -1795,7 +1795,7 @@ Disassembly of section .text:
   801070:	e0bffe17 	ldw	r2,-8(fp)
   801074:	10800117 	ldw	r2,4(r2)
   801078:	00c02074 	movhi	r3,129
-  80107c:	18d9aa04 	addi	r3,r3,26280
+  80107c:	18d98f04 	addi	r3,r3,26172
   801080:	1004913a 	slli	r2,r2,4
   801084:	10c5883a 	add	r2,r2,r3
   801088:	10c00304 	addi	r3,r2,12
@@ -1805,7 +1805,7 @@ Disassembly of section .text:
   801098:	e0bffe17 	ldw	r2,-8(fp)
   80109c:	10800117 	ldw	r2,4(r2)
   8010a0:	00c02074 	movhi	r3,129
-  8010a4:	18d9aa04 	addi	r3,r3,26280
+  8010a4:	18d98f04 	addi	r3,r3,26172
   8010a8:	1004913a 	slli	r2,r2,4
   8010ac:	10c5883a 	add	r2,r2,r3
   8010b0:	10c00304 	addi	r3,r2,12
@@ -1821,7 +1821,7 @@ Disassembly of section .text:
   8010d8:	10800120 	cmpeqi	r2,r2,4
   8010dc:	1000141e 	bne	r2,zero,801130 <move_servo_cont+0xe8>
   8010e0:	01002074 	movhi	r4,129
-  8010e4:	210a3904 	addi	r4,r4,10468
+  8010e4:	210a1e04 	addi	r4,r4,10360
   8010e8:	08015480 	call	801548 <puts>
   8010ec:	00001006 	br	801130 <move_servo_cont+0xe8>
   8010f0:	e0bfff17 	ldw	r2,-4(fp)
@@ -1854,7 +1854,7 @@ Disassembly of section .text:
   801154:	e17fff15 	stw	r5,-4(fp)
   801158:	e0bffe17 	ldw	r2,-8(fp)
   80115c:	00c02074 	movhi	r3,129
-  801160:	18d9aa04 	addi	r3,r3,26280
+  801160:	18d98f04 	addi	r3,r3,26172
   801164:	1004913a 	slli	r2,r2,4
   801168:	10c5883a 	add	r2,r2,r3
   80116c:	10800304 	addi	r2,r2,12
@@ -1880,7 +1880,7 @@ Disassembly of section .text:
   8011b4:	00000e06 	br	8011f0 <pwm_init+0x60>
   8011b8:	e13fff17 	ldw	r4,-4(fp)
   8011bc:	04002074 	movhi	r16,129
-  8011c0:	840bdf04 	addi	r16,r16,12156
+  8011c0:	840bc404 	addi	r16,r16,12048
   8011c4:	01400304 	movi	r5,12
   8011c8:	08013f80 	call	8013f8 <__mulsi3>
   8011cc:	1405883a 	add	r2,r2,r16
@@ -1959,7 +1959,7 @@ Disassembly of section .text:
   8012e0:	e13ffe17 	ldw	r4,-8(fp)
   8012e4:	e47fff17 	ldw	r17,-4(fp)
   8012e8:	04002074 	movhi	r16,129
-  8012ec:	840bdf04 	addi	r16,r16,12156
+  8012ec:	840bc404 	addi	r16,r16,12048
   8012f0:	01400304 	movi	r5,12
   8012f4:	08013f80 	call	8013f8 <__mulsi3>
   8012f8:	1405883a 	add	r2,r2,r16
@@ -1972,7 +1972,7 @@ Disassembly of section .text:
   801314:	080b5980 	call	80b598 <xQueueGenericSend>
   801318:	00000306 	br	801328 <pwm_set_pos+0x90>
   80131c:	01002074 	movhi	r4,129
-  801320:	210a4604 	addi	r4,r4,10520
+  801320:	210a2b04 	addi	r4,r4,10412
   801324:	08015480 	call	801548 <puts>
   801328:	0005883a 	mov	r2,zero
   80132c:	e037883a 	mov	sp,fp
@@ -2003,7 +2003,7 @@ Disassembly of section .text:
   801388:	1000111e 	bne	r2,zero,8013d0 <pwm_get_pos+0x88>
   80138c:	e13ffe17 	ldw	r4,-8(fp)
   801390:	04002074 	movhi	r16,129
-  801394:	840bdf04 	addi	r16,r16,12156
+  801394:	840bc404 	addi	r16,r16,12048
   801398:	01400304 	movi	r5,12
   80139c:	08013f80 	call	8013f8 <__mulsi3>
   8013a0:	1405883a 	add	r2,r2,r16
@@ -2019,7 +2019,7 @@ Disassembly of section .text:
   8013c8:	080b5980 	call	80b598 <xQueueGenericSend>
   8013cc:	00000306 	br	8013dc <pwm_get_pos+0x94>
   8013d0:	01002074 	movhi	r4,129
-  8013d4:	210a4604 	addi	r4,r4,10520
+  8013d4:	210a2b04 	addi	r4,r4,10412
   8013d8:	08015480 	call	801548 <puts>
   8013dc:	0005883a 	mov	r2,zero
   8013e0:	e037883a 	mov	sp,fp
@@ -2052,7 +2052,7 @@ Disassembly of section .text:
   80143c:	d9800315 	stw	r6,12(sp)
   801440:	d9c00415 	stw	r7,16(sp)
   801444:	00802074 	movhi	r2,129
-  801448:	10929d04 	addi	r2,r2,19060
+  801448:	10928204 	addi	r2,r2,18952
   80144c:	10c00017 	ldw	r3,0(r2)
   801450:	200b883a 	mov	r5,r4
   801454:	d8800204 	addi	r2,sp,8
@@ -2090,7 +2090,7 @@ Disassembly of section .text:
   8014c4:	080155c0 	call	80155c <strlen>
   8014c8:	89400217 	ldw	r5,8(r17)
   8014cc:	00c02074 	movhi	r3,129
-  8014d0:	18ca4d04 	addi	r3,r3,10548
+  8014d0:	18ca3204 	addi	r3,r3,10440
   8014d4:	01c00044 	movi	r7,1
   8014d8:	12000044 	addi	r8,r2,1
   8014dc:	d8c00515 	stw	r3,20(sp)
@@ -2123,7 +2123,7 @@ Disassembly of section .text:
 
 00801548 <puts>:
   801548:	00802074 	movhi	r2,129
-  80154c:	10929d04 	addi	r2,r2,19060
+  80154c:	10928204 	addi	r2,r2,18952
   801550:	200b883a 	mov	r5,r4
   801554:	11000017 	ldw	r4,0(r2)
   801558:	08014a81 	jmpi	8014a8 <_puts_r>
@@ -2446,7 +2446,7 @@ Disassembly of section .text:
   801a34:	dc400d17 	ldw	r17,52(sp)
   801a38:	1027883a 	mov	r19,r2
   801a3c:	07002074 	movhi	fp,129
-  801a40:	e70a6984 	addi	fp,fp,10662
+  801a40:	e70a4e84 	addi	fp,fp,10554
   801a44:	050001c4 	movi	r20,7
   801a48:	00000306 	br	801a58 <___vfprintf_internal_r+0x430>
   801a4c:	843ffc04 	addi	r16,r16,-16
@@ -2519,7 +2519,7 @@ Disassembly of section .text:
   801b58:	1403cf0e 	bge	r2,r16,802a98 <___vfprintf_internal_r+0x1470>
   801b5c:	1027883a 	mov	r19,r2
   801b60:	07002074 	movhi	fp,129
-  801b64:	e70a6584 	addi	fp,fp,10646
+  801b64:	e70a4a84 	addi	fp,fp,10538
   801b68:	050001c4 	movi	r20,7
   801b6c:	00000306 	br	801b7c <___vfprintf_internal_r+0x554>
   801b70:	843ffc04 	addi	r16,r16,-16
@@ -2578,7 +2578,7 @@ Disassembly of section .text:
   801c44:	dc400d17 	ldw	r17,52(sp)
   801c48:	1027883a 	mov	r19,r2
   801c4c:	07002074 	movhi	fp,129
-  801c50:	e70a6984 	addi	fp,fp,10662
+  801c50:	e70a4e84 	addi	fp,fp,10554
   801c54:	050001c4 	movi	r20,7
   801c58:	00000306 	br	801c68 <___vfprintf_internal_r+0x640>
   801c5c:	843ffc04 	addi	r16,r16,-16
@@ -2697,7 +2697,7 @@ Disassembly of section .text:
   801e20:	14043a0e 	bge	r2,r16,802f0c <___vfprintf_internal_r+0x18e4>
   801e24:	1027883a 	mov	r19,r2
   801e28:	07002074 	movhi	fp,129
-  801e2c:	e70a6584 	addi	fp,fp,10646
+  801e2c:	e70a4a84 	addi	fp,fp,10538
   801e30:	050001c4 	movi	r20,7
   801e34:	00000306 	br	801e44 <___vfprintf_internal_r+0x81c>
   801e38:	843ffc04 	addi	r16,r16,-16
@@ -2750,7 +2750,7 @@ Disassembly of section .text:
   801ef4:	080a0540 	call	80a054 <__eqdf2>
   801ef8:	1000f21e 	bne	r2,zero,8022c4 <___vfprintf_internal_r+0xc9c>
   801efc:	00802074 	movhi	r2,129
-  801f00:	108a6504 	addi	r2,r2,10644
+  801f00:	108a4a04 	addi	r2,r2,10536
   801f04:	94800044 	addi	r18,r18,1
   801f08:	8c400044 	addi	r17,r17,1
   801f0c:	a8800015 	stw	r2,0(r21)
@@ -2784,7 +2784,7 @@ Disassembly of section .text:
   801f7c:	dc400d17 	ldw	r17,52(sp)
   801f80:	1027883a 	mov	r19,r2
   801f84:	07002074 	movhi	fp,129
-  801f88:	e70a6584 	addi	fp,fp,10646
+  801f88:	e70a4a84 	addi	fp,fp,10538
   801f8c:	050001c4 	movi	r20,7
   801f90:	00000306 	br	801fa0 <___vfprintf_internal_r+0x978>
   801f94:	18c00204 	addi	r3,r3,8
@@ -3013,7 +3013,7 @@ Disassembly of section .text:
   802310:	dc400d17 	ldw	r17,52(sp)
   802314:	1027883a 	mov	r19,r2
   802318:	07002074 	movhi	fp,129
-  80231c:	e70a6584 	addi	fp,fp,10646
+  80231c:	e70a4a84 	addi	fp,fp,10538
   802320:	050001c4 	movi	r20,7
   802324:	00000306 	br	802334 <___vfprintf_internal_r+0xd0c>
   802328:	18c00204 	addi	r3,r3,8
@@ -3042,7 +3042,7 @@ Disassembly of section .text:
   802384:	1400180e 	bge	r2,r16,8023e8 <___vfprintf_internal_r+0xdc0>
   802388:	1029883a 	mov	r20,r2
   80238c:	07002074 	movhi	fp,129
-  802390:	e70a6584 	addi	fp,fp,10646
+  802390:	e70a4a84 	addi	fp,fp,10538
   802394:	054001c4 	movi	r21,7
   802398:	00000306 	br	8023a8 <___vfprintf_internal_r+0xd80>
   80239c:	9cc00204 	addi	r19,r19,8
@@ -3065,7 +3065,7 @@ Disassembly of section .text:
   8023e0:	dcc01904 	addi	r19,sp,100
   8023e4:	003fee06 	br	8023a0 <___vfprintf_internal_r+0xd78>
   8023e8:	07002074 	movhi	fp,129
-  8023ec:	e70a6584 	addi	fp,fp,10646
+  8023ec:	e70a4a84 	addi	fp,fp,10538
   8023f0:	9425883a 	add	r18,r18,r16
   8023f4:	8c400044 	addi	r17,r17,1
   8023f8:	008001c4 	movi	r2,7
@@ -3214,7 +3214,7 @@ Disassembly of section .text:
   802634:	d8814c15 	stw	r2,1328(sp)
   802638:	39c00104 	addi	r7,r7,4
   80263c:	01402074 	movhi	r5,129
-  802640:	294a4e04 	addi	r5,r5,10552
+  802640:	294a3304 	addi	r5,r5,10444
   802644:	00800c04 	movi	r2,48
   802648:	0023883a 	mov	r17,zero
   80264c:	01000084 	movi	r4,2
@@ -3253,7 +3253,7 @@ Disassembly of section .text:
   8026d0:	008011c4 	movi	r2,71
   8026d4:	11421016 	blt	r2,r5,802f18 <___vfprintf_internal_r+0x18f0>
   8026d8:	01802074 	movhi	r6,129
-  8026dc:	318a5304 	addi	r6,r6,10572
+  8026dc:	318a3804 	addi	r6,r6,10464
   8026e0:	d9814115 	stw	r6,1284(sp)
   8026e4:	d9014c17 	ldw	r4,1328(sp)
   8026e8:	00c000c4 	movi	r3,3
@@ -3276,7 +3276,7 @@ Disassembly of section .text:
   80272c:	d8000405 	stb	zero,16(sp)
   802730:	003cac06 	br	8019e4 <___vfprintf_internal_r+0x3bc>
   802734:	01402074 	movhi	r5,129
-  802738:	294a5904 	addi	r5,r5,10596
+  802738:	294a3e04 	addi	r5,r5,10488
   80273c:	d9414415 	stw	r5,1296(sp)
   802740:	d9814c17 	ldw	r6,1328(sp)
   802744:	3080080c 	andi	r2,r6,32
@@ -3301,7 +3301,7 @@ Disassembly of section .text:
   802790:	d8000405 	stb	zero,16(sp)
   802794:	003e3206 	br	802060 <___vfprintf_internal_r+0xa38>
   802798:	01802074 	movhi	r6,129
-  80279c:	318a4e04 	addi	r6,r6,10552
+  80279c:	318a3304 	addi	r6,r6,10444
   8027a0:	d9814415 	stw	r6,1296(sp)
   8027a4:	003fe606 	br	802740 <___vfprintf_internal_r+0x1118>
   8027a8:	00800ac4 	movi	r2,43
@@ -3408,14 +3408,14 @@ Disassembly of section .text:
   80293c:	00800084 	movi	r2,2
   802940:	1880fa26 	beq	r3,r2,802d2c <___vfprintf_internal_r+0x1704>
   802944:	01002074 	movhi	r4,129
-  802948:	210a5e04 	addi	r4,r4,10616
+  802948:	210a4304 	addi	r4,r4,10508
   80294c:	080155c0 	call	80155c <strlen>
   802950:	100f883a 	mov	r7,r2
   802954:	dcc14515 	stw	r19,1300(sp)
   802958:	9880010e 	bge	r19,r2,802960 <___vfprintf_internal_r+0x1338>
   80295c:	d8814515 	stw	r2,1300(sp)
   802960:	00802074 	movhi	r2,129
-  802964:	108a5e04 	addi	r2,r2,10616
+  802964:	108a4304 	addi	r2,r2,10508
   802968:	dcc14615 	stw	r19,1304(sp)
   80296c:	d8814115 	stw	r2,1284(sp)
   802970:	003dcf06 	br	8020b0 <___vfprintf_internal_r+0xa88>
@@ -3463,7 +3463,7 @@ Disassembly of section .text:
   802a18:	003d9e06 	br	802094 <___vfprintf_internal_r+0xa6c>
   802a1c:	dc400d17 	ldw	r17,52(sp)
   802a20:	07002074 	movhi	fp,129
-  802a24:	e70a6584 	addi	fp,fp,10646
+  802a24:	e70a4a84 	addi	fp,fp,10538
   802a28:	9425883a 	add	r18,r18,r16
   802a2c:	8c400044 	addi	r17,r17,1
   802a30:	008001c4 	movi	r2,7
@@ -3493,7 +3493,7 @@ Disassembly of section .text:
   802a90:	acc00204 	addi	r19,r21,8
   802a94:	003cd106 	br	801ddc <___vfprintf_internal_r+0x7b4>
   802a98:	07002074 	movhi	fp,129
-  802a9c:	e70a6584 	addi	fp,fp,10646
+  802a9c:	e70a4a84 	addi	fp,fp,10538
   802aa0:	003c4906 	br	801bc8 <___vfprintf_internal_r+0x5a0>
   802aa4:	dd000f04 	addi	r20,sp,60
   802aa8:	dc801904 	addi	r18,sp,100
@@ -3549,7 +3549,7 @@ Disassembly of section .text:
   802b70:	003efa06 	br	80275c <___vfprintf_internal_r+0x1134>
   802b74:	dc400d17 	ldw	r17,52(sp)
   802b78:	07002074 	movhi	fp,129
-  802b7c:	e70a6584 	addi	fp,fp,10646
+  802b7c:	e70a4a84 	addi	fp,fp,10538
   802b80:	9425883a 	add	r18,r18,r16
   802b84:	8c400044 	addi	r17,r17,1
   802b88:	008001c4 	movi	r2,7
@@ -3563,7 +3563,7 @@ Disassembly of section .text:
   802ba8:	dc800e17 	ldw	r18,56(sp)
   802bac:	dc400d17 	ldw	r17,52(sp)
   802bb0:	07002074 	movhi	fp,129
-  802bb4:	e70a6984 	addi	fp,fp,10662
+  802bb4:	e70a4e84 	addi	fp,fp,10554
   802bb8:	003bba06 	br	801aa4 <___vfprintf_internal_r+0x47c>
   802bbc:	d9014f17 	ldw	r4,1340(sp)
   802bc0:	b00b883a 	mov	r5,r22
@@ -3594,7 +3594,7 @@ Disassembly of section .text:
   802c24:	d8000405 	stb	zero,16(sp)
   802c28:	003d0d06 	br	802060 <___vfprintf_internal_r+0xa38>
   802c2c:	00802074 	movhi	r2,129
-  802c30:	108a6504 	addi	r2,r2,10644
+  802c30:	108a4a04 	addi	r2,r2,10536
   802c34:	94800044 	addi	r18,r18,1
   802c38:	8c400044 	addi	r17,r17,1
   802c3c:	a8800015 	stw	r2,0(r21)
@@ -3630,7 +3630,7 @@ Disassembly of section .text:
   802cb4:	1400800e 	bge	r2,r16,802eb8 <___vfprintf_internal_r+0x1890>
   802cb8:	1027883a 	mov	r19,r2
   802cbc:	07002074 	movhi	fp,129
-  802cc0:	e70a6584 	addi	fp,fp,10646
+  802cc0:	e70a4a84 	addi	fp,fp,10538
   802cc4:	050001c4 	movi	r20,7
   802cc8:	00000306 	br	802cd8 <___vfprintf_internal_r+0x16b0>
   802ccc:	18c00204 	addi	r3,r3,8
@@ -3686,7 +3686,7 @@ Disassembly of section .text:
   802d94:	003cbf06 	br	802094 <___vfprintf_internal_r+0xa6c>
   802d98:	dc400d17 	ldw	r17,52(sp)
   802d9c:	07002074 	movhi	fp,129
-  802da0:	e70a6984 	addi	fp,fp,10662
+  802da0:	e70a4e84 	addi	fp,fp,10554
   802da4:	003bc106 	br	801cac <___vfprintf_internal_r+0x684>
   802da8:	d9414c17 	ldw	r5,1328(sp)
   802dac:	2880040c 	andi	r2,r5,16
@@ -3757,7 +3757,7 @@ Disassembly of section .text:
   802eb0:	d8c01904 	addi	r3,sp,100
   802eb4:	003d8b06 	br	8024e4 <___vfprintf_internal_r+0xebc>
   802eb8:	07002074 	movhi	fp,129
-  802ebc:	e70a6584 	addi	fp,fp,10646
+  802ebc:	e70a4a84 	addi	fp,fp,10538
   802ec0:	9425883a 	add	r18,r18,r16
   802ec4:	8c400044 	addi	r17,r17,1
   802ec8:	008001c4 	movi	r2,7
@@ -3778,10 +3778,10 @@ Disassembly of section .text:
   802f04:	d8c01904 	addi	r3,sp,100
   802f08:	003cfc06 	br	8022fc <___vfprintf_internal_r+0xcd4>
   802f0c:	07002074 	movhi	fp,129
-  802f10:	e70a6584 	addi	fp,fp,10646
+  802f10:	e70a4a84 	addi	fp,fp,10538
   802f14:	003bde06 	br	801e90 <___vfprintf_internal_r+0x868>
   802f18:	00802074 	movhi	r2,129
-  802f1c:	108a5404 	addi	r2,r2,10576
+  802f1c:	108a3904 	addi	r2,r2,10468
   802f20:	d8814115 	stw	r2,1284(sp)
   802f24:	003def06 	br	8026e4 <___vfprintf_internal_r+0x10bc>
   802f28:	d9014217 	ldw	r4,1288(sp)
@@ -3792,7 +3792,7 @@ Disassembly of section .text:
   802f3c:	008011c4 	movi	r2,71
   802f40:	1140ce16 	blt	r2,r5,80327c <___vfprintf_internal_r+0x1c54>
   802f44:	01802074 	movhi	r6,129
-  802f48:	318a5504 	addi	r6,r6,10580
+  802f48:	318a3a04 	addi	r6,r6,10472
   802f4c:	d9814115 	stw	r6,1284(sp)
   802f50:	003de406 	br	8026e4 <___vfprintf_internal_r+0x10bc>
   802f54:	d9014c17 	ldw	r4,1328(sp)
@@ -3841,7 +3841,7 @@ Disassembly of section .text:
   803000:	9800010e 	bge	r19,zero,803008 <___vfprintf_internal_r+0x19e0>
   803004:	d8014515 	stw	zero,1300(sp)
   803008:	00802074 	movhi	r2,129
-  80300c:	108a5704 	addi	r2,r2,10588
+  80300c:	108a3c04 	addi	r2,r2,10480
   803010:	980f883a 	mov	r7,r19
   803014:	d8814115 	stw	r2,1284(sp)
   803018:	003a7206 	br	8019e4 <___vfprintf_internal_r+0x3bc>
@@ -3992,13 +3992,13 @@ Disassembly of section .text:
   80325c:	0027883a 	mov	r19,zero
   803260:	00397206 	br	80182c <___vfprintf_internal_r+0x204>
   803264:	00c02074 	movhi	r3,129
-  803268:	18ca5704 	addi	r3,r3,10588
+  803268:	18ca3c04 	addi	r3,r3,10480
   80326c:	100f883a 	mov	r7,r2
   803270:	d8814515 	stw	r2,1300(sp)
   803274:	d8c14115 	stw	r3,1284(sp)
   803278:	0039da06 	br	8019e4 <___vfprintf_internal_r+0x3bc>
   80327c:	00802074 	movhi	r2,129
-  803280:	108a5604 	addi	r2,r2,10584
+  803280:	108a3b04 	addi	r2,r2,10476
   803284:	d8814115 	stw	r2,1284(sp)
   803288:	003d1606 	br	8026e4 <___vfprintf_internal_r+0x10bc>
   80328c:	d9414d17 	ldw	r5,1332(sp)
@@ -4156,7 +4156,7 @@ Disassembly of section .text:
 
 008034ec <__vfprintf_internal>:
   8034ec:	00802074 	movhi	r2,129
-  8034f0:	10929d04 	addi	r2,r2,19060
+  8034f0:	10928204 	addi	r2,r2,18952
   8034f4:	2013883a 	mov	r9,r4
   8034f8:	11000017 	ldw	r4,0(r2)
   8034fc:	2805883a 	mov	r2,r5
@@ -4167,7 +4167,7 @@ Disassembly of section .text:
 
 00803510 <__swsetup_r>:
   803510:	00802074 	movhi	r2,129
-  803514:	10929d04 	addi	r2,r2,19060
+  803514:	10928204 	addi	r2,r2,18952
   803518:	10c00017 	ldw	r3,0(r2)
   80351c:	defffd04 	addi	sp,sp,-12
   803520:	dc400115 	stw	r17,4(sp)
@@ -4443,7 +4443,7 @@ Disassembly of section .text:
   803948:	10029b26 	beq	r2,zero,8043b8 <_dtoa_r+0xb28>
   80394c:	d9002917 	ldw	r4,164(sp)
   803950:	00802074 	movhi	r2,129
-  803954:	108a6544 	addi	r2,r2,10645
+  803954:	108a4a44 	addi	r2,r2,10537
   803958:	10ffffc4 	addi	r3,r2,-1
   80395c:	20800015 	stw	r2,0(r4)
   803960:	1805883a 	mov	r2,r3
@@ -4578,7 +4578,7 @@ Disassembly of section .text:
   803b64:	20800015 	stw	r2,0(r4)
   803b68:	a0001026 	beq	r20,zero,803bac <_dtoa_r+0x31c>
   803b6c:	00c02074 	movhi	r3,129
-  803b70:	18ca7104 	addi	r3,r3,10692
+  803b70:	18ca5604 	addi	r3,r3,10584
   803b74:	d9802917 	ldw	r6,164(sp)
   803b78:	303f7926 	beq	r6,zero,803960 <_dtoa_r+0xd0>
   803b7c:	188000c7 	ldb	r2,3(r3)
@@ -4598,7 +4598,7 @@ Disassembly of section .text:
   803bb4:	a884703a 	and	r2,r21,r2
   803bb8:	103fec1e 	bne	r2,zero,803b6c <_dtoa_r+0x2dc>
   803bbc:	00c02074 	movhi	r3,129
-  803bc0:	18ca6e04 	addi	r3,r3,10680
+  803bc0:	18ca5304 	addi	r3,r3,10572
   803bc4:	003feb06 	br	803b74 <_dtoa_r+0x2e4>
   803bc8:	d8802917 	ldw	r2,164(sp)
   803bcc:	19000204 	addi	r4,r3,8
@@ -4652,7 +4652,7 @@ Disassembly of section .text:
   803c8c:	100490fa 	slli	r2,r2,3
   803c90:	2025d13a 	srai	r18,r4,4
   803c94:	00c02074 	movhi	r3,129
-  803c98:	18ca8304 	addi	r3,r3,10764
+  803c98:	18ca6804 	addi	r3,r3,10656
   803c9c:	10c5883a 	add	r2,r2,r3
   803ca0:	90c0040c 	andi	r3,r18,16
   803ca4:	14000017 	ldw	r16,0(r2)
@@ -4661,7 +4661,7 @@ Disassembly of section .text:
   803cb0:	05800084 	movi	r22,2
   803cb4:	90001026 	beq	r18,zero,803cf8 <_dtoa_r+0x468>
   803cb8:	04c02074 	movhi	r19,129
-  803cbc:	9ccab504 	addi	r19,r19,10964
+  803cbc:	9cca9a04 	addi	r19,r19,10856
   803cc0:	9080004c 	andi	r2,r18,1
   803cc4:	1005003a 	cmpeq	r2,r2,zero
   803cc8:	1000081e 	bne	r2,zero,803cec <_dtoa_r+0x45c>
@@ -4756,7 +4756,7 @@ Disassembly of section .text:
   803e2c:	200490fa 	slli	r2,r4,3
   803e30:	d9802617 	ldw	r6,152(sp)
   803e34:	00c02074 	movhi	r3,129
-  803e38:	18ca8304 	addi	r3,r3,10764
+  803e38:	18ca6804 	addi	r3,r3,10656
   803e3c:	10c5883a 	add	r2,r2,r3
   803e40:	14800017 	ldw	r18,0(r2)
   803e44:	14c00117 	ldw	r19,4(r2)
@@ -4867,7 +4867,7 @@ Disassembly of section .text:
   803fe8:	003e5d06 	br	803960 <_dtoa_r+0xd0>
   803fec:	d9800d17 	ldw	r6,52(sp)
   803ff0:	00c02074 	movhi	r3,129
-  803ff4:	18ca8304 	addi	r3,r3,10764
+  803ff4:	18ca6804 	addi	r3,r3,10656
   803ff8:	d9001217 	ldw	r4,72(sp)
   803ffc:	300490fa 	slli	r2,r6,3
   804000:	d9401317 	ldw	r5,76(sp)
@@ -5109,7 +5109,7 @@ Disassembly of section .text:
   8043b0:	1027883a 	mov	r19,r2
   8043b4:	003f2506 	br	80404c <_dtoa_r+0x7bc>
   8043b8:	00c02074 	movhi	r3,129
-  8043bc:	18ca6504 	addi	r3,r3,10644
+  8043bc:	18ca4a04 	addi	r3,r3,10536
   8043c0:	003d6706 	br	803960 <_dtoa_r+0xd0>
   8043c4:	dd800517 	ldw	r22,20(sp)
   8043c8:	04000044 	movi	r16,1
@@ -5214,7 +5214,7 @@ Disassembly of section .text:
   804554:	398003cc 	andi	r6,r7,15
   804558:	300c90fa 	slli	r6,r6,3
   80455c:	01402074 	movhi	r5,129
-  804560:	294a8304 	addi	r5,r5,10764
+  804560:	294a6804 	addi	r5,r5,10656
   804564:	d9001217 	ldw	r4,72(sp)
   804568:	314d883a 	add	r6,r6,r5
   80456c:	30c00117 	ldw	r3,4(r6)
@@ -5231,7 +5231,7 @@ Disassembly of section .text:
   804598:	8001e526 	beq	r16,zero,804d30 <_dtoa_r+0x14a0>
   80459c:	05800084 	movi	r22,2
   8045a0:	04402074 	movhi	r17,129
-  8045a4:	8c4ab504 	addi	r17,r17,10964
+  8045a4:	8c4a9a04 	addi	r17,r17,10856
   8045a8:	8080004c 	andi	r2,r16,1
   8045ac:	1005003a 	cmpeq	r2,r2,zero
   8045b0:	1000081e 	bne	r2,zero,8045d4 <_dtoa_r+0xd44>
@@ -5381,7 +5381,7 @@ Disassembly of section .text:
   8047f0:	00cff834 	movhi	r3,16352
   8047f4:	200c90fa 	slli	r6,r4,3
   8047f8:	01002074 	movhi	r4,129
-  8047fc:	210a8304 	addi	r4,r4,10764
+  8047fc:	210a6804 	addi	r4,r4,10656
   804800:	180b883a 	mov	r5,r3
   804804:	310d883a 	add	r6,r6,r4
   804808:	327fff17 	ldw	r9,-4(r6)
@@ -5533,7 +5533,7 @@ Disassembly of section .text:
   804a50:	d8c00517 	ldw	r3,20(sp)
   804a54:	003bc206 	br	803960 <_dtoa_r+0xd0>
   804a58:	01802074 	movhi	r6,129
-  804a5c:	318ab504 	addi	r6,r6,10964
+  804a5c:	318a9a04 	addi	r6,r6,10856
   804a60:	30c00917 	ldw	r3,36(r6)
   804a64:	30800817 	ldw	r2,32(r6)
   804a68:	d9001217 	ldw	r4,72(sp)
@@ -5604,7 +5604,7 @@ Disassembly of section .text:
   804b6c:	003e4106 	br	804474 <_dtoa_r+0xbe4>
   804b70:	d8800317 	ldw	r2,12(sp)
   804b74:	01802074 	movhi	r6,129
-  804b78:	318a8304 	addi	r6,r6,10764
+  804b78:	318a6804 	addi	r6,r6,10656
   804b7c:	b009883a 	mov	r4,r22
   804b80:	100e90fa 	slli	r7,r2,3
   804b84:	b80b883a 	mov	r5,r23
@@ -5919,12 +5919,12 @@ Disassembly of section .text:
   805048:	2007883a 	mov	r3,r4
   80504c:	20000526 	beq	r4,zero,805064 <fflush+0x24>
   805050:	00802074 	movhi	r2,129
-  805054:	10929d04 	addi	r2,r2,19060
+  805054:	10928204 	addi	r2,r2,18952
   805058:	11000017 	ldw	r4,0(r2)
   80505c:	180b883a 	mov	r5,r3
   805060:	0804e441 	jmpi	804e44 <_fflush_r>
   805064:	00802074 	movhi	r2,129
-  805068:	10929e04 	addi	r2,r2,19064
+  805068:	10928304 	addi	r2,r2,18956
   80506c:	11000017 	ldw	r4,0(r2)
   805070:	0805c441 	jmpi	805c44 <_fwalk_reent>
 
@@ -6017,7 +6017,7 @@ Disassembly of section .text:
 
 00805190 <__fp_unlock_all>:
   805190:	00802074 	movhi	r2,129
-  805194:	10929d04 	addi	r2,r2,19060
+  805194:	10928204 	addi	r2,r2,18952
   805198:	11000017 	ldw	r4,0(r2)
   80519c:	01402034 	movhi	r5,128
   8051a0:	29546204 	addi	r5,r5,20872
@@ -6025,7 +6025,7 @@ Disassembly of section .text:
 
 008051a8 <__fp_lock_all>:
   8051a8:	00802074 	movhi	r2,129
-  8051ac:	10929d04 	addi	r2,r2,19060
+  8051ac:	10928204 	addi	r2,r2,18952
   8051b0:	11000017 	ldw	r4,0(r2)
   8051b4:	01402034 	movhi	r5,128
   8051b8:	29546004 	addi	r5,r5,20864
@@ -6038,7 +6038,7 @@ Disassembly of section .text:
 
 008051cc <_cleanup>:
   8051cc:	00802074 	movhi	r2,129
-  8051d0:	10929e04 	addi	r2,r2,19064
+  8051d0:	10928304 	addi	r2,r2,18956
   8051d4:	11000017 	ldw	r4,0(r2)
   8051d8:	08051c01 	jmpi	8051c0 <_cleanup_r>
 
@@ -6086,7 +6086,7 @@ Disassembly of section .text:
 00805278 <__sfp>:
   805278:	defffd04 	addi	sp,sp,-12
   80527c:	00802074 	movhi	r2,129
-  805280:	10929e04 	addi	r2,r2,19064
+  805280:	10928304 	addi	r2,r2,18956
   805284:	dc000015 	stw	r16,0(sp)
   805288:	14000017 	ldw	r16,0(r2)
   80528c:	dc400115 	stw	r17,4(sp)
@@ -6149,7 +6149,7 @@ Disassembly of section .text:
   805368:	defffb04 	addi	sp,sp,-20
   80536c:	dcc00315 	stw	r19,12(sp)
   805370:	04c02074 	movhi	r19,129
-  805374:	9cccee04 	addi	r19,r19,13240
+  805374:	9cccd304 	addi	r19,r19,13132
   805378:	dc800215 	stw	r18,8(sp)
   80537c:	dc400115 	stw	r17,4(sp)
   805380:	dc000015 	stw	r16,0(sp)
@@ -6192,7 +6192,7 @@ Disassembly of section .text:
   805414:	9009883a 	mov	r4,r18
   805418:	000b883a 	mov	r5,zero
   80541c:	01c02074 	movhi	r7,129
-  805420:	39d9ba04 	addi	r7,r7,26344
+  805420:	39d99f04 	addi	r7,r7,26236
   805424:	31800054 	ori	r6,r6,1
   805428:	10c00926 	beq	r2,r3,805450 <_malloc_trim_r+0xe8>
   80542c:	38800017 	ldw	r2,0(r7)
@@ -6213,10 +6213,10 @@ Disassembly of section .text:
   805468:	19400054 	ori	r5,r3,1
   80546c:	10ffdc0e 	bge	r2,r3,8053e0 <_malloc_trim_r+0x78>
   805470:	00802074 	movhi	r2,129
-  805474:	1092a204 	addi	r2,r2,19080
+  805474:	10928704 	addi	r2,r2,18972
   805478:	10c00017 	ldw	r3,0(r2)
   80547c:	00802074 	movhi	r2,129
-  805480:	1099ba04 	addi	r2,r2,26344
+  805480:	10999f04 	addi	r2,r2,26236
   805484:	31400115 	stw	r5,4(r6)
   805488:	38c7c83a 	sub	r3,r7,r3
   80548c:	10c00015 	stw	r3,0(r2)
@@ -6235,7 +6235,7 @@ Disassembly of section .text:
   8054b8:	41400117 	ldw	r5,4(r8)
   8054bc:	00bfff84 	movi	r2,-2
   8054c0:	02802074 	movhi	r10,129
-  8054c4:	528cee04 	addi	r10,r10,13240
+  8054c4:	528cd304 	addi	r10,r10,13132
   8054c8:	288e703a 	and	r7,r5,r2
   8054cc:	41cd883a 	add	r6,r8,r7
   8054d0:	30c00117 	ldw	r3,4(r6)
@@ -6258,7 +6258,7 @@ Disassembly of section .text:
   805514:	2800451e 	bne	r5,zero,80562c <_free_r+0x198>
   805518:	31000217 	ldw	r4,8(r6)
   80551c:	00802074 	movhi	r2,129
-  805520:	108cf004 	addi	r2,r2,13248
+  805520:	108cd504 	addi	r2,r2,13140
   805524:	20807b26 	beq	r4,r2,805714 <_free_r+0x280>
   805528:	30800317 	ldw	r2,12(r6)
   80552c:	3a07883a 	add	r3,r7,r8
@@ -6358,14 +6358,14 @@ Disassembly of section .text:
   8056a4:	20c00215 	stw	r3,8(r4)
   8056a8:	19000315 	stw	r4,12(r3)
   8056ac:	00802074 	movhi	r2,129
-  8056b0:	1092a104 	addi	r2,r2,19076
+  8056b0:	10928604 	addi	r2,r2,18968
   8056b4:	11000017 	ldw	r4,0(r2)
   8056b8:	30c00054 	ori	r3,r6,1
   8056bc:	52000215 	stw	r8,8(r10)
   8056c0:	40c00115 	stw	r3,4(r8)
   8056c4:	313fa036 	bltu	r6,r4,805548 <_free_r+0xb4>
   8056c8:	00802074 	movhi	r2,129
-  8056cc:	10998704 	addi	r2,r2,26140
+  8056cc:	10996c04 	addi	r2,r2,26032
   8056d0:	11400017 	ldw	r5,0(r2)
   8056d4:	8809883a 	mov	r4,r17
   8056d8:	08053680 	call	805368 <_malloc_trim_r>
@@ -6824,19 +6824,19 @@ Disassembly of section .text:
 
 00805dcc <_localeconv_r>:
   805dcc:	00802074 	movhi	r2,129
-  805dd0:	108a7704 	addi	r2,r2,10716
+  805dd0:	108a5c04 	addi	r2,r2,10608
   805dd4:	f800283a 	ret
 
 00805dd8 <localeconv>:
   805dd8:	00802074 	movhi	r2,129
-  805ddc:	10929d04 	addi	r2,r2,19060
+  805ddc:	10928204 	addi	r2,r2,18952
   805de0:	11000017 	ldw	r4,0(r2)
   805de4:	0805dcc1 	jmpi	805dcc <_localeconv_r>
 
 00805de8 <_setlocale_r>:
   805de8:	defffc04 	addi	sp,sp,-16
   805dec:	00c02074 	movhi	r3,129
-  805df0:	18ca7204 	addi	r3,r3,10696
+  805df0:	18ca5704 	addi	r3,r3,10588
   805df4:	dc800215 	stw	r18,8(sp)
   805df8:	dc400115 	stw	r17,4(sp)
   805dfc:	dc000015 	stw	r16,0(sp)
@@ -6850,12 +6850,12 @@ Disassembly of section .text:
   805e1c:	08083040 	call	808304 <strcmp>
   805e20:	8009883a 	mov	r4,r16
   805e24:	01402074 	movhi	r5,129
-  805e28:	294a5d04 	addi	r5,r5,10612
+  805e28:	294a4204 	addi	r5,r5,10504
   805e2c:	10000b1e 	bne	r2,zero,805e5c <_setlocale_r+0x74>
   805e30:	8c000d15 	stw	r16,52(r17)
   805e34:	8c800c15 	stw	r18,48(r17)
   805e38:	00c02074 	movhi	r3,129
-  805e3c:	18ca7204 	addi	r3,r3,10696
+  805e3c:	18ca5704 	addi	r3,r3,10588
   805e40:	1805883a 	mov	r2,r3
   805e44:	dfc00317 	ldw	ra,12(sp)
   805e48:	dc800217 	ldw	r18,8(sp)
@@ -6870,7 +6870,7 @@ Disassembly of section .text:
 
 00805e6c <setlocale>:
   805e6c:	01802074 	movhi	r6,129
-  805e70:	31929d04 	addi	r6,r6,19060
+  805e70:	31928204 	addi	r6,r6,18952
   805e74:	2007883a 	mov	r3,r4
   805e78:	31000017 	ldw	r4,0(r6)
   805e7c:	280d883a 	mov	r6,r5
@@ -7027,7 +7027,7 @@ Disassembly of section .text:
   8060c8:	880cd0fa 	srli	r6,r17,3
   8060cc:	300490fa 	slli	r2,r6,3
   8060d0:	02c02074 	movhi	r11,129
-  8060d4:	5accee04 	addi	r11,r11,13240
+  8060d4:	5accd304 	addi	r11,r11,13132
   8060d8:	12cb883a 	add	r5,r2,r11
   8060dc:	2c000317 	ldw	r16,12(r5)
   8060e0:	580f883a 	mov	r7,r11
@@ -7045,7 +7045,7 @@ Disassembly of section .text:
   806110:	31bfffc4 	addi	r6,r6,-1
   806114:	32400044 	addi	r9,r6,1
   806118:	02802074 	movhi	r10,129
-  80611c:	528cf004 	addi	r10,r10,13248
+  80611c:	528cd504 	addi	r10,r10,13140
   806120:	54000217 	ldw	r16,8(r10)
   806124:	8280a026 	beq	r16,r10,8063a8 <_malloc_r+0x38c>
   806128:	80800117 	ldw	r2,4(r16)
@@ -7066,7 +7066,7 @@ Disassembly of section .text:
   806164:	80c00204 	addi	r3,r16,8
   806168:	003fc006 	br	80606c <_malloc_r+0x50>
   80616c:	02c02074 	movhi	r11,129
-  806170:	5accee04 	addi	r11,r11,13240
+  806170:	5accd304 	addi	r11,r11,13132
   806174:	8ac5883a 	add	r2,r17,r11
   806178:	14000317 	ldw	r16,12(r2)
   80617c:	580f883a 	mov	r7,r11
@@ -7248,7 +7248,7 @@ Disassembly of section .text:
   80643c:	0007883a 	mov	r3,zero
   806440:	003f0a06 	br	80606c <_malloc_r+0x50>
   806444:	05c02074 	movhi	r23,129
-  806448:	bdd9ba04 	addi	r23,r23,26344
+  806448:	bdd99f04 	addi	r23,r23,26236
   80644c:	b8800017 	ldw	r2,0(r23)
   806450:	988d883a 	add	r6,r19,r2
   806454:	b9800015 	stw	r6,0(r23)
@@ -7305,7 +7305,7 @@ Disassembly of section .text:
   806520:	82000315 	stw	r8,12(r16)
   806524:	81800215 	stw	r6,8(r16)
   806528:	07002074 	movhi	fp,129
-  80652c:	e70cee04 	addi	fp,fp,13240
+  80652c:	e70cd304 	addi	fp,fp,13132
   806530:	34000315 	stw	r16,12(r6)
   806534:	44000215 	stw	r16,8(r8)
   806538:	003f3e06 	br	806234 <_malloc_r+0x218>
@@ -7325,7 +7325,7 @@ Disassembly of section .text:
   806570:	48c000c4 	addi	r3,r9,3
   806574:	003f3106 	br	80623c <_malloc_r+0x220>
   806578:	05c02074 	movhi	r23,129
-  80657c:	bdd9ba04 	addi	r23,r23,26344
+  80657c:	bdd99f04 	addi	r23,r23,26236
   806580:	b8800017 	ldw	r2,0(r23)
   806584:	988d883a 	add	r6,r19,r2
   806588:	b9800015 	stw	r6,0(r23)
@@ -7387,7 +7387,7 @@ Disassembly of section .text:
   806668:	003e9906 	br	8060d0 <_malloc_r+0xb4>
   80666c:	2009d0ba 	srai	r4,r4,2
   806670:	01402074 	movhi	r5,129
-  806674:	294cee04 	addi	r5,r5,13240
+  806674:	294cd304 	addi	r5,r5,13132
   806678:	00c00044 	movi	r3,1
   80667c:	28800117 	ldw	r2,4(r5)
   806680:	1906983a 	sll	r3,r3,r4
@@ -7927,7 +7927,7 @@ Disassembly of section .text:
   806e78:	11000c16 	blt	r2,r4,806eac <_mprec_log10+0x48>
   806e7c:	200490fa 	slli	r2,r4,3
   806e80:	00c02074 	movhi	r3,129
-  806e84:	18ca8304 	addi	r3,r3,10764
+  806e84:	18ca6804 	addi	r3,r3,10656
   806e88:	10c5883a 	add	r2,r2,r3
   806e8c:	12400117 	ldw	r9,4(r2)
   806e90:	12000017 	ldw	r8,0(r2)
@@ -8652,7 +8652,7 @@ Disassembly of section .text:
   80797c:	003fe106 	br	807904 <__pow5mult+0x60>
   807980:	1085883a 	add	r2,r2,r2
   807984:	00c02074 	movhi	r3,129
-  807988:	18cac904 	addi	r3,r3,11044
+  807988:	18caae04 	addi	r3,r3,10936
   80798c:	1085883a 	add	r2,r2,r2
   807990:	10c5883a 	add	r2,r2,r3
   807994:	11bfff17 	ldw	r6,-4(r2)
@@ -8811,7 +8811,7 @@ Disassembly of section .text:
   807be8:	dec00c04 	addi	sp,sp,48
   807bec:	f800283a 	ret
   807bf0:	00802074 	movhi	r2,129
-  807bf4:	108cee04 	addi	r2,r2,13240
+  807bf4:	108cd304 	addi	r2,r2,13132
   807bf8:	12400217 	ldw	r9,8(r2)
   807bfc:	84cd883a 	add	r6,r16,r19
   807c00:	802b883a 	mov	r21,r16
@@ -9012,7 +9012,7 @@ Disassembly of section .text:
   807f0c:	28800115 	stw	r2,4(r5)
   807f10:	80c00117 	ldw	r3,4(r16)
   807f14:	00802074 	movhi	r2,129
-  807f18:	108cee04 	addi	r2,r2,13240
+  807f18:	108cd304 	addi	r2,r2,13132
   807f1c:	b009883a 	mov	r4,r22
   807f20:	18c0004c 	andi	r3,r3,1
   807f24:	e0c6b03a 	or	r3,fp,r3
@@ -9067,7 +9067,7 @@ Disassembly of section .text:
   807fe8:	28800115 	stw	r2,4(r5)
   807fec:	b8c00117 	ldw	r3,4(r23)
   807ff0:	00802074 	movhi	r2,129
-  807ff4:	108cee04 	addi	r2,r2,13240
+  807ff4:	108cd304 	addi	r2,r2,13132
   807ff8:	11400215 	stw	r5,8(r2)
   807ffc:	18c0004c 	andi	r3,r3,1
   808000:	e0c6b03a 	or	r3,fp,r3
@@ -9161,7 +9161,7 @@ Disassembly of section .text:
   808148:	defffd04 	addi	sp,sp,-12
   80814c:	dc000015 	stw	r16,0(sp)
   808150:	04002074 	movhi	r16,129
-  808154:	84198a04 	addi	r16,r16,26152
+  808154:	84196f04 	addi	r16,r16,26044
   808158:	dc400115 	stw	r17,4(sp)
   80815c:	80000015 	stw	zero,0(r16)
   808160:	2023883a 	mov	r17,r4
@@ -9331,7 +9331,7 @@ Disassembly of section .text:
   8083c0:	defffd04 	addi	sp,sp,-12
   8083c4:	dc000015 	stw	r16,0(sp)
   8083c8:	04002074 	movhi	r16,129
-  8083cc:	84198a04 	addi	r16,r16,26152
+  8083cc:	84196f04 	addi	r16,r16,26044
   8083d0:	dc400115 	stw	r17,4(sp)
   8083d4:	80000015 	stw	zero,0(r16)
   8083d8:	2023883a 	mov	r17,r4
@@ -9415,7 +9415,7 @@ Disassembly of section .text:
   808500:	defffd04 	addi	sp,sp,-12
   808504:	dc000015 	stw	r16,0(sp)
   808508:	04002074 	movhi	r16,129
-  80850c:	84198a04 	addi	r16,r16,26152
+  80850c:	84196f04 	addi	r16,r16,26044
   808510:	dc400115 	stw	r17,4(sp)
   808514:	80000015 	stw	zero,0(r16)
   808518:	2023883a 	mov	r17,r4
@@ -9513,7 +9513,7 @@ Disassembly of section .text:
 
 00808680 <fclose>:
   808680:	00802074 	movhi	r2,129
-  808684:	10929d04 	addi	r2,r2,19060
+  808684:	10928204 	addi	r2,r2,18952
   808688:	200b883a 	mov	r5,r4
   80868c:	11000017 	ldw	r4,0(r2)
   808690:	08085701 	jmpi	808570 <_fclose_r>
@@ -9522,7 +9522,7 @@ Disassembly of section .text:
   808694:	defffd04 	addi	sp,sp,-12
   808698:	dc000015 	stw	r16,0(sp)
   80869c:	04002074 	movhi	r16,129
-  8086a0:	84198a04 	addi	r16,r16,26152
+  8086a0:	84196f04 	addi	r16,r16,26044
   8086a4:	dc400115 	stw	r17,4(sp)
   8086a8:	80000015 	stw	zero,0(r16)
   8086ac:	2023883a 	mov	r17,r4
@@ -9553,7 +9553,7 @@ Disassembly of section .text:
   808708:	defffd04 	addi	sp,sp,-12
   80870c:	dc000015 	stw	r16,0(sp)
   808710:	04002074 	movhi	r16,129
-  808714:	84198a04 	addi	r16,r16,26152
+  808714:	84196f04 	addi	r16,r16,26044
   808718:	dc400115 	stw	r17,4(sp)
   80871c:	80000015 	stw	zero,0(r16)
   808720:	2023883a 	mov	r17,r4
@@ -9583,7 +9583,7 @@ Disassembly of section .text:
   808778:	defffd04 	addi	sp,sp,-12
   80877c:	dc000015 	stw	r16,0(sp)
   808780:	04002074 	movhi	r16,129
-  808784:	84198a04 	addi	r16,r16,26152
+  808784:	84196f04 	addi	r16,r16,26044
   808788:	dc400115 	stw	r17,4(sp)
   80878c:	80000015 	stw	zero,0(r16)
   808790:	2023883a 	mov	r17,r4
@@ -9615,7 +9615,7 @@ Disassembly of section .text:
   8087f0:	defffd04 	addi	sp,sp,-12
   8087f4:	dc000015 	stw	r16,0(sp)
   8087f8:	04002074 	movhi	r16,129
-  8087fc:	84198a04 	addi	r16,r16,26152
+  8087fc:	84196f04 	addi	r16,r16,26044
   808800:	dc400115 	stw	r17,4(sp)
   808804:	80000015 	stw	zero,0(r16)
   808808:	2023883a 	mov	r17,r4
@@ -9674,7 +9674,7 @@ Disassembly of section .text:
   8088d4:	0005883a 	mov	r2,zero
   8088d8:	9884d83a 	srl	r2,r19,r2
   8088dc:	01002074 	movhi	r4,129
-  8088e0:	210ad104 	addi	r4,r4,11076
+  8088e0:	210ab604 	addi	r4,r4,10968
   8088e4:	01800804 	movi	r6,32
   8088e8:	1105883a 	add	r2,r2,r4
   8088ec:	10c00003 	ldbu	r3,0(r2)
@@ -9738,7 +9738,7 @@ Disassembly of section .text:
   8089d4:	0005883a 	mov	r2,zero
   8089d8:	3084d83a 	srl	r2,r6,r2
   8089dc:	01002074 	movhi	r4,129
-  8089e0:	210ad104 	addi	r4,r4,11076
+  8089e0:	210ab604 	addi	r4,r4,10968
   8089e4:	01c00804 	movi	r7,32
   8089e8:	1105883a 	add	r2,r2,r4
   8089ec:	10c00003 	ldbu	r3,0(r2)
@@ -9751,8 +9751,8 @@ Disassembly of section .text:
   808a08:	0009883a 	mov	r4,zero
   808a0c:	d8800315 	stw	r2,12(sp)
   808a10:	d9400317 	ldw	r5,12(sp)
-  808a14:	d9000415 	stw	r4,16(sp)
-  808a18:	2007883a 	mov	r3,r4
+  808a14:	2007883a 	mov	r3,r4
+  808a18:	d9000415 	stw	r4,16(sp)
   808a1c:	2805883a 	mov	r2,r5
   808a20:	dfc00e17 	ldw	ra,56(sp)
   808a24:	df000d17 	ldw	fp,52(sp)
@@ -9774,7 +9774,7 @@ Disassembly of section .text:
   808a64:	0005883a 	mov	r2,zero
   808a68:	9884d83a 	srl	r2,r19,r2
   808a6c:	01002074 	movhi	r4,129
-  808a70:	210ad104 	addi	r4,r4,11076
+  808a70:	210ab604 	addi	r4,r4,10968
   808a74:	01800804 	movi	r6,32
   808a78:	1105883a 	add	r2,r2,r4
   808a7c:	10c00003 	ldbu	r3,0(r2)
@@ -10087,7 +10087,7 @@ Disassembly of section .text:
   808f40:	0005883a 	mov	r2,zero
   808f44:	9884d83a 	srl	r2,r19,r2
   808f48:	01002074 	movhi	r4,129
-  808f4c:	210ad104 	addi	r4,r4,11076
+  808f4c:	210ab604 	addi	r4,r4,10968
   808f50:	01800804 	movi	r6,32
   808f54:	1105883a 	add	r2,r2,r4
   808f58:	10c00003 	ldbu	r3,0(r2)
@@ -10150,7 +10150,7 @@ Disassembly of section .text:
   80903c:	0005883a 	mov	r2,zero
   809040:	3084d83a 	srl	r2,r6,r2
   809044:	01002074 	movhi	r4,129
-  809048:	210ad104 	addi	r4,r4,11076
+  809048:	210ab604 	addi	r4,r4,10968
   80904c:	01c00804 	movi	r7,32
   809050:	1105883a 	add	r2,r2,r4
   809054:	10c00003 	ldbu	r3,0(r2)
@@ -10172,7 +10172,7 @@ Disassembly of section .text:
   809094:	0005883a 	mov	r2,zero
   809098:	9884d83a 	srl	r2,r19,r2
   80909c:	01002074 	movhi	r4,129
-  8090a0:	210ad104 	addi	r4,r4,11076
+  8090a0:	210ab604 	addi	r4,r4,10968
   8090a4:	01800804 	movi	r6,32
   8090a8:	1105883a 	add	r2,r2,r4
   8090ac:	10c00003 	ldbu	r3,0(r2)
@@ -10711,7 +10711,7 @@ Disassembly of section .text:
   8098f8:	98800117 	ldw	r2,4(r19)
   8098fc:	10ff7f26 	beq	r2,r3,8096fc <_fpadd_parts+0x1c8>
   809900:	04c02074 	movhi	r19,129
-  809904:	9ccacc04 	addi	r19,r19,11056
+  809904:	9ccab104 	addi	r19,r19,10948
   809908:	003f7c06 	br	8096fc <_fpadd_parts+0x1c8>
   80990c:	2006d07a 	srli	r3,r4,1
   809910:	008007c4 	movi	r2,31
@@ -11033,7 +11033,7 @@ Disassembly of section .text:
   809de8:	00800084 	movi	r2,2
   809dec:	20bf351e 	bne	r4,r2,809ac4 <__muldf3+0x8c>
   809df0:	01002074 	movhi	r4,129
-  809df4:	210acc04 	addi	r4,r4,11056
+  809df4:	210ab104 	addi	r4,r4,10948
   809df8:	003f3f06 	br	809af8 <__muldf3+0xc0>
 
 00809dfc <__divdf3>:
@@ -11081,7 +11081,7 @@ Disassembly of section .text:
   809ea0:	dec01304 	addi	sp,sp,76
   809ea4:	f800283a 	ret
   809ea8:	01002074 	movhi	r4,129
-  809eac:	210acc04 	addi	r4,r4,11056
+  809eac:	210ab104 	addi	r4,r4,10948
   809eb0:	080a9500 	call	80a950 <__pack_d>
   809eb4:	dfc01217 	ldw	ra,72(sp)
   809eb8:	dcc01117 	ldw	r19,68(sp)
@@ -11769,7 +11769,7 @@ Disassembly of section .text:
   80a8e8:	000b883a 	mov	r5,zero
   80a8ec:	20c6d83a 	srl	r3,r4,r3
   80a8f0:	00802074 	movhi	r2,129
-  80a8f4:	108ad104 	addi	r2,r2,11076
+  80a8f4:	108ab604 	addi	r2,r2,10968
   80a8f8:	1887883a 	add	r3,r3,r2
   80a8fc:	18800003 	ldbu	r2,0(r3)
   80a900:	00c00804 	movi	r3,32
@@ -11785,7 +11785,7 @@ Disassembly of section .text:
   80a928:	2807883a 	mov	r3,r5
   80a92c:	20c6d83a 	srl	r3,r4,r3
   80a930:	00802074 	movhi	r2,129
-  80a934:	108ad104 	addi	r2,r2,11076
+  80a934:	108ab604 	addi	r2,r2,10968
   80a938:	1887883a 	add	r3,r3,r2
   80a93c:	18800003 	ldbu	r2,0(r3)
   80a940:	00c00804 	movi	r3,32
@@ -12148,45 +12148,45 @@ Disassembly of section .text:
   80aea4:	df000415 	stw	fp,16(sp)
   80aea8:	df000404 	addi	fp,sp,16
   80aeac:	00802074 	movhi	r2,129
-  80aeb0:	108e8104 	addi	r2,r2,14852
+  80aeb0:	108e6604 	addi	r2,r2,14744
   80aeb4:	10800017 	ldw	r2,0(r2)
   80aeb8:	10800058 	cmpnei	r2,r2,1
   80aebc:	1000031e 	bne	r2,zero,80aecc <alt_main+0x30>
   80aec0:	01002074 	movhi	r4,129
-  80aec4:	210b1104 	addi	r4,r4,11332
+  80aec4:	210af604 	addi	r4,r4,11224
   80aec8:	080f5b40 	call	80f5b4 <alt_log_printf_proc>
   80aecc:	0009883a 	mov	r4,zero
   80aed0:	08104000 	call	810400 <alt_irq_init>
   80aed4:	00802074 	movhi	r2,129
-  80aed8:	108e8104 	addi	r2,r2,14852
+  80aed8:	108e6604 	addi	r2,r2,14744
   80aedc:	10800017 	ldw	r2,0(r2)
   80aee0:	10800058 	cmpnei	r2,r2,1
   80aee4:	1000031e 	bne	r2,zero,80aef4 <alt_main+0x58>
   80aee8:	01002074 	movhi	r4,129
-  80aeec:	210b1f04 	addi	r4,r4,11388
+  80aeec:	210b0404 	addi	r4,r4,11280
   80aef0:	080f5b40 	call	80f5b4 <alt_log_printf_proc>
   80aef4:	01000104 	movi	r4,4
   80aef8:	080b3400 	call	80b340 <xQueueCreateMutex>
   80aefc:	1007883a 	mov	r3,r2
   80af00:	00802074 	movhi	r2,129
-  80af04:	10998e04 	addi	r2,r2,26168
+  80af04:	10997304 	addi	r2,r2,26060
   80af08:	10c00015 	stw	r3,0(r2)
   80af0c:	01000104 	movi	r4,4
   80af10:	080b3400 	call	80b340 <xQueueCreateMutex>
   80af14:	1007883a 	mov	r3,r2
   80af18:	00802074 	movhi	r2,129
-  80af1c:	1099a804 	addi	r2,r2,26272
+  80af1c:	10998d04 	addi	r2,r2,26164
   80af20:	10c00015 	stw	r3,0(r2)
   80af24:	00802074 	movhi	r2,129
-  80af28:	108e8104 	addi	r2,r2,14852
+  80af28:	108e6604 	addi	r2,r2,14744
   80af2c:	10800017 	ldw	r2,0(r2)
   80af30:	10800058 	cmpnei	r2,r2,1
   80af34:	1000031e 	bne	r2,zero,80af44 <alt_main+0xa8>
   80af38:	01002074 	movhi	r4,129
-  80af3c:	210b2d04 	addi	r4,r4,11444
+  80af3c:	210b1204 	addi	r4,r4,11336
   80af40:	080f5b40 	call	80f5b4 <alt_log_printf_proc>
   80af44:	00802074 	movhi	r2,129
-  80af48:	1099a104 	addi	r2,r2,26244
+  80af48:	10998604 	addi	r2,r2,26136
   80af4c:	e0bffc15 	stw	r2,-16(fp)
   80af50:	00800044 	movi	r2,1
   80af54:	e0bffd0d 	sth	r2,-12(fp)
@@ -12205,66 +12205,66 @@ Disassembly of section .text:
   80af88:	e0bffc17 	ldw	r2,-16(fp)
   80af8c:	10c00015 	stw	r3,0(r2)
   80af90:	00802074 	movhi	r2,129
-  80af94:	108e8104 	addi	r2,r2,14852
+  80af94:	108e6604 	addi	r2,r2,14744
   80af98:	10800017 	ldw	r2,0(r2)
   80af9c:	10800058 	cmpnei	r2,r2,1
   80afa0:	1000031e 	bne	r2,zero,80afb0 <alt_main+0x114>
   80afa4:	01002074 	movhi	r4,129
-  80afa8:	210b3b04 	addi	r4,r4,11500
+  80afa8:	210b2004 	addi	r4,r4,11392
   80afac:	080f5b40 	call	80f5b4 <alt_log_printf_proc>
   80afb0:	08104340 	call	810434 <alt_sys_init>
   80afb4:	00802074 	movhi	r2,129
-  80afb8:	108e8104 	addi	r2,r2,14852
+  80afb8:	108e6604 	addi	r2,r2,14744
   80afbc:	10800017 	ldw	r2,0(r2)
   80afc0:	10800058 	cmpnei	r2,r2,1
   80afc4:	1000031e 	bne	r2,zero,80afd4 <alt_main+0x138>
   80afc8:	01002074 	movhi	r4,129
-  80afcc:	210b4504 	addi	r4,r4,11540
+  80afcc:	210b2a04 	addi	r4,r4,11432
   80afd0:	080f5b40 	call	80f5b4 <alt_log_printf_proc>
   80afd4:	00802074 	movhi	r2,129
-  80afd8:	108e8104 	addi	r2,r2,14852
+  80afd8:	108e6604 	addi	r2,r2,14744
   80afdc:	10800017 	ldw	r2,0(r2)
   80afe0:	10800058 	cmpnei	r2,r2,1
   80afe4:	1000031e 	bne	r2,zero,80aff4 <alt_main+0x158>
   80afe8:	01002074 	movhi	r4,129
-  80afec:	210b4e04 	addi	r4,r4,11576
+  80afec:	210b3304 	addi	r4,r4,11468
   80aff0:	080f5b40 	call	80f5b4 <alt_log_printf_proc>
   80aff4:	01002074 	movhi	r4,129
-  80aff8:	210b5604 	addi	r4,r4,11608
+  80aff8:	210b3b04 	addi	r4,r4,11500
   80affc:	01402074 	movhi	r5,129
-  80b000:	294b5604 	addi	r5,r5,11608
+  80b000:	294b3b04 	addi	r5,r5,11500
   80b004:	01802074 	movhi	r6,129
-  80b008:	318b5604 	addi	r6,r6,11608
+  80b008:	318b3b04 	addi	r6,r6,11500
   80b00c:	080ec400 	call	80ec40 <alt_io_redirect>
   80b010:	080ae640 	call	80ae64 <pre_constructors>
   80b014:	00802074 	movhi	r2,129
-  80b018:	108e8104 	addi	r2,r2,14852
+  80b018:	108e6604 	addi	r2,r2,14744
   80b01c:	10800017 	ldw	r2,0(r2)
   80b020:	10800058 	cmpnei	r2,r2,1
   80b024:	1000031e 	bne	r2,zero,80b034 <alt_main+0x198>
   80b028:	01002074 	movhi	r4,129
-  80b02c:	210b5a04 	addi	r4,r4,11624
+  80b02c:	210b3f04 	addi	r4,r4,11516
   80b030:	080f5b40 	call	80f5b4 <alt_log_printf_proc>
   80b034:	080e9680 	call	80e968 <_do_ctors>
   80b038:	080ae800 	call	80ae80 <post_constructors>
   80b03c:	00802074 	movhi	r2,129
-  80b040:	108e8104 	addi	r2,r2,14852
+  80b040:	108e6604 	addi	r2,r2,14744
   80b044:	10800017 	ldw	r2,0(r2)
   80b048:	10800058 	cmpnei	r2,r2,1
   80b04c:	1000031e 	bne	r2,zero,80b05c <alt_main+0x1c0>
   80b050:	01002074 	movhi	r4,129
-  80b054:	210b6504 	addi	r4,r4,11668
+  80b054:	210b4a04 	addi	r4,r4,11560
   80b058:	080f5b40 	call	80f5b4 <alt_log_printf_proc>
   80b05c:	01002074 	movhi	r4,129
   80b060:	213a7304 	addi	r4,r4,-5684
   80b064:	0811fa80 	call	811fa8 <atexit>
   80b068:	00802074 	movhi	r2,129
-  80b06c:	108e8104 	addi	r2,r2,14852
+  80b06c:	108e6604 	addi	r2,r2,14744
   80b070:	10800017 	ldw	r2,0(r2)
   80b074:	10800058 	cmpnei	r2,r2,1
   80b078:	1000031e 	bne	r2,zero,80b088 <alt_main+0x1ec>
   80b07c:	01002074 	movhi	r4,129
-  80b080:	210b6d04 	addi	r4,r4,11700
+  80b080:	210b5204 	addi	r4,r4,11592
   80b084:	080f5b40 	call	80f5b4 <alt_log_printf_proc>
   80b088:	d126ef17 	ldw	r4,-25668(gp)
   80b08c:	d166f017 	ldw	r5,-25664(gp)
@@ -13527,7 +13527,7 @@ Disassembly of section .text:
   80c358:	08013f80 	call	8013f8 <__mulsi3>
   80c35c:	1007883a 	mov	r3,r2
   80c360:	00802074 	movhi	r2,129
-  80c364:	1099d604 	addi	r2,r2,26456
+  80c364:	1099bb04 	addi	r2,r2,26348
   80c368:	1889883a 	add	r4,r3,r2
   80c36c:	e0bffa17 	ldw	r2,-24(fp)
   80c370:	11400104 	addi	r5,r2,4
@@ -13596,7 +13596,7 @@ Disassembly of section .text:
   80c464:	e0bffd17 	ldw	r2,-12(fp)
   80c468:	11400104 	addi	r5,r2,4
   80c46c:	01002074 	movhi	r4,129
-  80c470:	2119fe04 	addi	r4,r4,26616
+  80c470:	2119e304 	addi	r4,r4,26508
   80c474:	08113c00 	call	8113c0 <vListInsertEnd>
   80c478:	d0a6f417 	ldw	r2,-25648(gp)
   80c47c:	10800044 	addi	r2,r2,1
@@ -13825,7 +13825,7 @@ Disassembly of section .text:
   80c7d8:	08013f80 	call	8013f8 <__mulsi3>
   80c7dc:	1007883a 	mov	r3,r2
   80c7e0:	00802074 	movhi	r2,129
-  80c7e4:	1099d604 	addi	r2,r2,26456
+  80c7e4:	1099bb04 	addi	r2,r2,26348
   80c7e8:	1885883a 	add	r2,r3,r2
   80c7ec:	8080151e 	bne	r16,r2,80c844 <vTaskPrioritySet+0x194>
   80c7f0:	e0bffc17 	ldw	r2,-16(fp)
@@ -13844,7 +13844,7 @@ Disassembly of section .text:
   80c824:	08013f80 	call	8013f8 <__mulsi3>
   80c828:	1007883a 	mov	r3,r2
   80c82c:	00802074 	movhi	r2,129
-  80c830:	1099d604 	addi	r2,r2,26456
+  80c830:	1099bb04 	addi	r2,r2,26348
   80c834:	1889883a 	add	r4,r3,r2
   80c838:	e0bffc17 	ldw	r2,-16(fp)
   80c83c:	11400104 	addi	r5,r2,4
@@ -13901,7 +13901,7 @@ Disassembly of section .text:
   80c900:	e0bffd17 	ldw	r2,-12(fp)
   80c904:	11400104 	addi	r5,r2,4
   80c908:	01002074 	movhi	r4,129
-  80c90c:	211a0304 	addi	r4,r4,26636
+  80c90c:	2119e804 	addi	r4,r4,26528
   80c910:	08113c00 	call	8113c0 <vListInsertEnd>
   80c914:	080dc4c0 	call	80dc4c <xTaskGetSchedulerState>
   80c918:	1005003a 	cmpeq	r2,r2,zero
@@ -13916,7 +13916,7 @@ Disassembly of section .text:
   80c93c:	003b683a 	trap	0
   80c940:	00000806 	br	80c964 <vTaskSuspend+0xe8>
   80c944:	00802074 	movhi	r2,129
-  80c948:	109a0304 	addi	r2,r2,26636
+  80c948:	1099e804 	addi	r2,r2,26528
   80c94c:	10c00017 	ldw	r3,0(r2)
   80c950:	d0a6f517 	ldw	r2,-25644(gp)
   80c954:	1880021e 	bne	r3,r2,80c960 <vTaskSuspend+0xe4>
@@ -13940,12 +13940,12 @@ Disassembly of section .text:
   80c994:	e0bffd17 	ldw	r2,-12(fp)
   80c998:	10c00517 	ldw	r3,20(r2)
   80c99c:	00802074 	movhi	r2,129
-  80c9a0:	109a0304 	addi	r2,r2,26636
+  80c9a0:	1099e804 	addi	r2,r2,26528
   80c9a4:	18800b1e 	bne	r3,r2,80c9d4 <xTaskIsTaskSuspended+0x5c>
   80c9a8:	e0bffd17 	ldw	r2,-12(fp)
   80c9ac:	10c00a17 	ldw	r3,40(r2)
   80c9b0:	00802074 	movhi	r2,129
-  80c9b4:	1099f904 	addi	r2,r2,26596
+  80c9b4:	1099de04 	addi	r2,r2,26488
   80c9b8:	18800626 	beq	r3,r2,80c9d4 <xTaskIsTaskSuspended+0x5c>
   80c9bc:	e0bffd17 	ldw	r2,-12(fp)
   80c9c0:	10800a17 	ldw	r2,40(r2)
@@ -13997,7 +13997,7 @@ Disassembly of section .text:
   80ca70:	08013f80 	call	8013f8 <__mulsi3>
   80ca74:	1007883a 	mov	r3,r2
   80ca78:	00802074 	movhi	r2,129
-  80ca7c:	1099d604 	addi	r2,r2,26456
+  80ca7c:	1099bb04 	addi	r2,r2,26348
   80ca80:	1889883a 	add	r4,r3,r2
   80ca84:	e0bffe17 	ldw	r2,-8(fp)
   80ca88:	11400104 	addi	r5,r2,4
@@ -14057,7 +14057,7 @@ Disassembly of section .text:
   80cb58:	08013f80 	call	8013f8 <__mulsi3>
   80cb5c:	1007883a 	mov	r3,r2
   80cb60:	00802074 	movhi	r2,129
-  80cb64:	1099d604 	addi	r2,r2,26456
+  80cb64:	1099bb04 	addi	r2,r2,26348
   80cb68:	1889883a 	add	r4,r3,r2
   80cb6c:	e0bffd17 	ldw	r2,-12(fp)
   80cb70:	11400104 	addi	r5,r2,4
@@ -14066,7 +14066,7 @@ Disassembly of section .text:
   80cb7c:	e0bffd17 	ldw	r2,-12(fp)
   80cb80:	11400604 	addi	r5,r2,24
   80cb84:	01002074 	movhi	r4,129
-  80cb88:	2119f904 	addi	r4,r4,26596
+  80cb88:	2119de04 	addi	r4,r4,26488
   80cb8c:	08113c00 	call	8113c0 <vListInsertEnd>
   80cb90:	e0bffe17 	ldw	r2,-8(fp)
   80cb94:	e037883a 	mov	sp,fp
@@ -14081,7 +14081,7 @@ Disassembly of section .text:
   80cbb0:	df000615 	stw	fp,24(sp)
   80cbb4:	df000604 	addi	fp,sp,24
   80cbb8:	01402074 	movhi	r5,129
-  80cbbc:	294b7504 	addi	r5,r5,11732
+  80cbbc:	294b5a04 	addi	r5,r5,11624
   80cbc0:	d8000015 	stw	zero,0(sp)
   80cbc4:	d8000115 	stw	zero,4(sp)
   80cbc8:	d8000215 	stw	zero,8(sp)
@@ -14169,7 +14169,7 @@ Disassembly of section .text:
   80ccf8:	e03ffd15 	stw	zero,-12(fp)
   80ccfc:	00002406 	br	80cd90 <xTaskResumeAll+0xe0>
   80cd00:	00802074 	movhi	r2,129
-  80cd04:	1099f904 	addi	r2,r2,26596
+  80cd04:	1099de04 	addi	r2,r2,26488
   80cd08:	10800317 	ldw	r2,12(r2)
   80cd0c:	10800317 	ldw	r2,12(r2)
   80cd10:	e0bfff15 	stw	r2,-4(fp)
@@ -14192,7 +14192,7 @@ Disassembly of section .text:
   80cd54:	08013f80 	call	8013f8 <__mulsi3>
   80cd58:	1007883a 	mov	r3,r2
   80cd5c:	00802074 	movhi	r2,129
-  80cd60:	1099d604 	addi	r2,r2,26456
+  80cd60:	1099bb04 	addi	r2,r2,26348
   80cd64:	1889883a 	add	r4,r3,r2
   80cd68:	e0ffff17 	ldw	r3,-4(fp)
   80cd6c:	19400104 	addi	r5,r3,4
@@ -14205,7 +14205,7 @@ Disassembly of section .text:
   80cd88:	00800044 	movi	r2,1
   80cd8c:	e0bffd15 	stw	r2,-12(fp)
   80cd90:	00802074 	movhi	r2,129
-  80cd94:	1099f904 	addi	r2,r2,26596
+  80cd94:	1099de04 	addi	r2,r2,26488
   80cd98:	10800017 	ldw	r2,0(r2)
   80cd9c:	1004c03a 	cmpne	r2,r2,zero
   80cda0:	103fd71e 	bne	r2,zero,80cd00 <xTaskResumeAll+0x50>
@@ -14319,7 +14319,7 @@ Disassembly of section .text:
   80cf30:	08013f80 	call	8013f8 <__mulsi3>
   80cf34:	1007883a 	mov	r3,r2
   80cf38:	00802074 	movhi	r2,129
-  80cf3c:	1099d604 	addi	r2,r2,26456
+  80cf3c:	1099bb04 	addi	r2,r2,26348
   80cf40:	1885883a 	add	r2,r3,r2
   80cf44:	10800017 	ldw	r2,0(r2)
   80cf48:	1005003a 	cmpeq	r2,r2,zero
@@ -14329,7 +14329,7 @@ Disassembly of section .text:
   80cf58:	08013f80 	call	8013f8 <__mulsi3>
   80cf5c:	1007883a 	mov	r3,r2
   80cf60:	00802074 	movhi	r2,129
-  80cf64:	1099d604 	addi	r2,r2,26456
+  80cf64:	1099bb04 	addi	r2,r2,26348
   80cf68:	188b883a 	add	r5,r3,r2
   80cf6c:	e13fff17 	ldw	r4,-4(fp)
   80cf70:	01801484 	movi	r6,82
@@ -14354,23 +14354,23 @@ Disassembly of section .text:
   80cfbc:	01801084 	movi	r6,66
   80cfc0:	080d9cc0 	call	80d9cc <prvListTaskWithinSingleList>
   80cfc4:	00802074 	movhi	r2,129
-  80cfc8:	1099fe04 	addi	r2,r2,26616
+  80cfc8:	1099e304 	addi	r2,r2,26508
   80cfcc:	10800017 	ldw	r2,0(r2)
   80cfd0:	1005003a 	cmpeq	r2,r2,zero
   80cfd4:	1000051e 	bne	r2,zero,80cfec <vTaskList+0x128>
   80cfd8:	e13fff17 	ldw	r4,-4(fp)
   80cfdc:	01402074 	movhi	r5,129
-  80cfe0:	2959fe04 	addi	r5,r5,26616
+  80cfe0:	2959e304 	addi	r5,r5,26508
   80cfe4:	01801104 	movi	r6,68
   80cfe8:	080d9cc0 	call	80d9cc <prvListTaskWithinSingleList>
   80cfec:	00802074 	movhi	r2,129
-  80cff0:	109a0304 	addi	r2,r2,26636
+  80cff0:	1099e804 	addi	r2,r2,26528
   80cff4:	10800017 	ldw	r2,0(r2)
   80cff8:	1005003a 	cmpeq	r2,r2,zero
   80cffc:	1000051e 	bne	r2,zero,80d014 <vTaskList+0x150>
   80d000:	e13fff17 	ldw	r4,-4(fp)
   80d004:	01402074 	movhi	r5,129
-  80d008:	295a0304 	addi	r5,r5,26636
+  80d008:	2959e804 	addi	r5,r5,26528
   80d00c:	018014c4 	movi	r6,83
   80d010:	080d9cc0 	call	80d9cc <prvListTaskWithinSingleList>
   80d014:	080ccb00 	call	80ccb0 <xTaskResumeAll>
@@ -14464,7 +14464,7 @@ Disassembly of section .text:
   80d16c:	08013f80 	call	8013f8 <__mulsi3>
   80d170:	1007883a 	mov	r3,r2
   80d174:	00802074 	movhi	r2,129
-  80d178:	1099d604 	addi	r2,r2,26456
+  80d178:	1099bb04 	addi	r2,r2,26348
   80d17c:	1889883a 	add	r4,r3,r2
   80d180:	e0bfff17 	ldw	r2,-4(fp)
   80d184:	11400104 	addi	r5,r2,4
@@ -14498,7 +14498,7 @@ Disassembly of section .text:
   80d1ec:	08013f80 	call	8013f8 <__mulsi3>
   80d1f0:	1007883a 	mov	r3,r2
   80d1f4:	00802074 	movhi	r2,129
-  80d1f8:	1099d604 	addi	r2,r2,26456
+  80d1f8:	1099bb04 	addi	r2,r2,26348
   80d1fc:	1885883a 	add	r2,r3,r2
   80d200:	10800017 	ldw	r2,0(r2)
   80d204:	1005003a 	cmpeq	r2,r2,zero
@@ -14508,7 +14508,7 @@ Disassembly of section .text:
   80d214:	08013f80 	call	8013f8 <__mulsi3>
   80d218:	1007883a 	mov	r3,r2
   80d21c:	00802074 	movhi	r2,129
-  80d220:	1099d604 	addi	r2,r2,26456
+  80d220:	1099bb04 	addi	r2,r2,26348
   80d224:	1885883a 	add	r2,r3,r2
   80d228:	e0bfff15 	stw	r2,-4(fp)
   80d22c:	e0bfff17 	ldw	r2,-4(fp)
@@ -14556,7 +14556,7 @@ Disassembly of section .text:
   80d2cc:	d0a6f317 	ldw	r2,-25652(gp)
   80d2d0:	11400104 	addi	r5,r2,4
   80d2d4:	01002074 	movhi	r4,129
-  80d2d8:	211a0304 	addi	r4,r4,26636
+  80d2d8:	2119e804 	addi	r4,r4,26528
   80d2dc:	08113c00 	call	8113c0 <vListInsertEnd>
   80d2e0:	00000606 	br	80d2fc <vTaskPlaceOnEventList+0x70>
   80d2e4:	d0a6f617 	ldw	r2,-25640(gp)
@@ -14629,7 +14629,7 @@ Disassembly of section .text:
   80d3e0:	08013f80 	call	8013f8 <__mulsi3>
   80d3e4:	1007883a 	mov	r3,r2
   80d3e8:	00802074 	movhi	r2,129
-  80d3ec:	1099d604 	addi	r2,r2,26456
+  80d3ec:	1099bb04 	addi	r2,r2,26348
   80d3f0:	1889883a 	add	r4,r3,r2
   80d3f4:	e0bffe17 	ldw	r2,-8(fp)
   80d3f8:	11400104 	addi	r5,r2,4
@@ -14638,7 +14638,7 @@ Disassembly of section .text:
   80d404:	e0bffe17 	ldw	r2,-8(fp)
   80d408:	11400604 	addi	r5,r2,24
   80d40c:	01002074 	movhi	r4,129
-  80d410:	2119f904 	addi	r4,r4,26596
+  80d410:	2119de04 	addi	r4,r4,26488
   80d414:	08113c00 	call	8113c0 <vListInsertEnd>
   80d418:	e0bffe17 	ldw	r2,-8(fp)
   80d41c:	10c00b17 	ldw	r3,44(r2)
@@ -14860,7 +14860,7 @@ Disassembly of section .text:
   80d73c:	08013f80 	call	8013f8 <__mulsi3>
   80d740:	1007883a 	mov	r3,r2
   80d744:	00802074 	movhi	r2,129
-  80d748:	1099d604 	addi	r2,r2,26456
+  80d748:	1099bb04 	addi	r2,r2,26348
   80d74c:	1889883a 	add	r4,r3,r2
   80d750:	08113280 	call	811328 <vListInitialise>
   80d754:	e0bfff17 	ldw	r2,-4(fp)
@@ -14870,25 +14870,25 @@ Disassembly of section .text:
   80d764:	10800170 	cmpltui	r2,r2,5
   80d768:	103ff21e 	bne	r2,zero,80d734 <prvInitialiseTaskLists+0x18>
   80d76c:	01002074 	movhi	r4,129
-  80d770:	2119ef04 	addi	r4,r4,26556
+  80d770:	2119d404 	addi	r4,r4,26448
   80d774:	08113280 	call	811328 <vListInitialise>
   80d778:	01002074 	movhi	r4,129
-  80d77c:	2119f404 	addi	r4,r4,26576
+  80d77c:	2119d904 	addi	r4,r4,26468
   80d780:	08113280 	call	811328 <vListInitialise>
   80d784:	01002074 	movhi	r4,129
-  80d788:	2119f904 	addi	r4,r4,26596
+  80d788:	2119de04 	addi	r4,r4,26488
   80d78c:	08113280 	call	811328 <vListInitialise>
   80d790:	01002074 	movhi	r4,129
-  80d794:	2119fe04 	addi	r4,r4,26616
+  80d794:	2119e304 	addi	r4,r4,26508
   80d798:	08113280 	call	811328 <vListInitialise>
   80d79c:	01002074 	movhi	r4,129
-  80d7a0:	211a0304 	addi	r4,r4,26636
+  80d7a0:	2119e804 	addi	r4,r4,26528
   80d7a4:	08113280 	call	811328 <vListInitialise>
   80d7a8:	00802074 	movhi	r2,129
-  80d7ac:	1099ef04 	addi	r2,r2,26556
+  80d7ac:	1099d404 	addi	r2,r2,26448
   80d7b0:	d0a6ff15 	stw	r2,-25604(gp)
   80d7b4:	00802074 	movhi	r2,129
-  80d7b8:	1099f404 	addi	r2,r2,26576
+  80d7b8:	1099d904 	addi	r2,r2,26468
   80d7bc:	d0a70015 	stw	r2,-25600(gp)
   80d7c0:	e037883a 	mov	sp,fp
   80d7c4:	dfc00117 	ldw	ra,4(sp)
@@ -14904,7 +14904,7 @@ Disassembly of section .text:
   80d7e4:	00002206 	br	80d870 <prvCheckTasksWaitingTermination+0x9c>
   80d7e8:	080cc880 	call	80cc88 <vTaskSuspendAll>
   80d7ec:	00802074 	movhi	r2,129
-  80d7f0:	1099fe04 	addi	r2,r2,26616
+  80d7f0:	1099e304 	addi	r2,r2,26508
   80d7f4:	10800017 	ldw	r2,0(r2)
   80d7f8:	1005003a 	cmpeq	r2,r2,zero
   80d7fc:	e0bfff15 	stw	r2,-4(fp)
@@ -14917,7 +14917,7 @@ Disassembly of section .text:
   80d818:	1000011e 	bne	r2,zero,80d820 <prvCheckTasksWaitingTermination+0x4c>
   80d81c:	080de800 	call	80de80 <vTaskEnterCritical>
   80d820:	00802074 	movhi	r2,129
-  80d824:	1099fe04 	addi	r2,r2,26616
+  80d824:	1099e304 	addi	r2,r2,26508
   80d828:	10800317 	ldw	r2,12(r2)
   80d82c:	10800317 	ldw	r2,12(r2)
   80d830:	e0bffe15 	stw	r2,-8(fp)
@@ -15095,13 +15095,13 @@ Disassembly of section .text:
   80dac8:	d9000115 	stw	r4,4(sp)
   80dacc:	d8800215 	stw	r2,8(sp)
   80dad0:	01002074 	movhi	r4,129
-  80dad4:	2119c404 	addi	r4,r4,26384
+  80dad4:	2119a904 	addi	r4,r4,26276
   80dad8:	01402074 	movhi	r5,129
-  80dadc:	294b7704 	addi	r5,r5,11740
+  80dadc:	294b5c04 	addi	r5,r5,11632
   80dae0:	08120a00 	call	8120a0 <sprintf>
   80dae4:	e13ffd17 	ldw	r4,-12(fp)
   80dae8:	01402074 	movhi	r5,129
-  80daec:	2959c404 	addi	r5,r5,26384
+  80daec:	2959a904 	addi	r5,r5,26276
   80daf0:	08121740 	call	812174 <strcat>
   80daf4:	e0fffc17 	ldw	r3,-16(fp)
   80daf8:	e0bffb17 	ldw	r2,-20(fp)
@@ -15252,7 +15252,7 @@ Disassembly of section .text:
   80dd0c:	08013f80 	call	8013f8 <__mulsi3>
   80dd10:	1007883a 	mov	r3,r2
   80dd14:	00802074 	movhi	r2,129
-  80dd18:	1099d604 	addi	r2,r2,26456
+  80dd18:	1099bb04 	addi	r2,r2,26348
   80dd1c:	1885883a 	add	r2,r3,r2
   80dd20:	80801a1e 	bne	r16,r2,80dd8c <vTaskPriorityInherit+0xec>
   80dd24:	e0bffe17 	ldw	r2,-8(fp)
@@ -15275,7 +15275,7 @@ Disassembly of section .text:
   80dd68:	08013f80 	call	8013f8 <__mulsi3>
   80dd6c:	1007883a 	mov	r3,r2
   80dd70:	00802074 	movhi	r2,129
-  80dd74:	1099d604 	addi	r2,r2,26456
+  80dd74:	1099bb04 	addi	r2,r2,26348
   80dd78:	1889883a 	add	r4,r3,r2
   80dd7c:	e0bffe17 	ldw	r2,-8(fp)
   80dd80:	11400104 	addi	r5,r2,4
@@ -15334,7 +15334,7 @@ Disassembly of section .text:
   80de4c:	08013f80 	call	8013f8 <__mulsi3>
   80de50:	1007883a 	mov	r3,r2
   80de54:	00802074 	movhi	r2,129
-  80de58:	1099d604 	addi	r2,r2,26456
+  80de58:	1099bb04 	addi	r2,r2,26348
   80de5c:	1889883a 	add	r4,r3,r2
   80de60:	e0bffe17 	ldw	r2,-8(fp)
   80de64:	11400104 	addi	r5,r2,4
@@ -15406,7 +15406,7 @@ Disassembly of section .text:
   80df54:	1005003a 	cmpeq	r2,r2,zero
   80df58:	10000d1e 	bne	r2,zero,80df90 <xTimerCreateTimerTask+0x58>
   80df5c:	01402074 	movhi	r5,129
-  80df60:	294b7c04 	addi	r5,r5,11760
+  80df60:	294b6104 	addi	r5,r5,11652
   80df64:	00800144 	movi	r2,5
   80df68:	d8800015 	stw	r2,0(sp)
   80df6c:	d8000115 	stw	zero,4(sp)
@@ -15909,16 +15909,16 @@ Disassembly of section .text:
   80e6d8:	1004c03a 	cmpne	r2,r2,zero
   80e6dc:	1000111e 	bne	r2,zero,80e724 <prvCheckForValidListAndQueue+0x70>
   80e6e0:	01002074 	movhi	r4,129
-  80e6e4:	211a0804 	addi	r4,r4,26656
+  80e6e4:	2119ed04 	addi	r4,r4,26548
   80e6e8:	08113280 	call	811328 <vListInitialise>
   80e6ec:	01002074 	movhi	r4,129
-  80e6f0:	211a0d04 	addi	r4,r4,26676
+  80e6f0:	2119f204 	addi	r4,r4,26568
   80e6f4:	08113280 	call	811328 <vListInitialise>
   80e6f8:	00802074 	movhi	r2,129
-  80e6fc:	109a0804 	addi	r2,r2,26656
+  80e6fc:	1099ed04 	addi	r2,r2,26548
   80e700:	d0a70315 	stw	r2,-25588(gp)
   80e704:	00802074 	movhi	r2,129
-  80e708:	109a0d04 	addi	r2,r2,26676
+  80e708:	1099f204 	addi	r2,r2,26568
   80e70c:	d0a70415 	stw	r2,-25584(gp)
   80e710:	01000284 	movi	r4,10
   80e714:	01400304 	movi	r5,12
@@ -15990,7 +15990,7 @@ Disassembly of section .text:
   80e804:	08013f80 	call	8013f8 <__mulsi3>
   80e808:	1007883a 	mov	r3,r2
   80e80c:	00802074 	movhi	r2,129
-  80e810:	108dfa04 	addi	r2,r2,14312
+  80e810:	108ddf04 	addi	r2,r2,14204
   80e814:	1887883a 	add	r3,r3,r2
   80e818:	e0ffff15 	stw	r3,-4(fp)
   80e81c:	00000106 	br	80e824 <close+0x48>
@@ -16048,18 +16048,18 @@ Disassembly of section .text:
   80e8e4:	df000115 	stw	fp,4(sp)
   80e8e8:	df000104 	addi	fp,sp,4
   80e8ec:	00802074 	movhi	r2,129
-  80e8f0:	1092a904 	addi	r2,r2,19108
+  80e8f0:	10928e04 	addi	r2,r2,19000
   80e8f4:	10800017 	ldw	r2,0(r2)
   80e8f8:	1005003a 	cmpeq	r2,r2,zero
   80e8fc:	1000061e 	bne	r2,zero,80e918 <alt_get_errno+0x3c>
   80e900:	00802074 	movhi	r2,129
-  80e904:	1092a904 	addi	r2,r2,19108
+  80e904:	10928e04 	addi	r2,r2,19000
   80e908:	10800017 	ldw	r2,0(r2)
   80e90c:	103ee83a 	callr	r2
   80e910:	e0bfff15 	stw	r2,-4(fp)
   80e914:	00000306 	br	80e924 <alt_get_errno+0x48>
   80e918:	00802074 	movhi	r2,129
-  80e91c:	10998a04 	addi	r2,r2,26152
+  80e91c:	10996f04 	addi	r2,r2,26044
   80e920:	e0bfff15 	stw	r2,-4(fp)
   80e924:	e0bfff17 	ldw	r2,-4(fp)
   80e928:	e037883a 	mov	sp,fp
@@ -16088,7 +16088,7 @@ Disassembly of section .text:
   80e974:	df000104 	addi	fp,sp,4
   80e978:	00bfff04 	movi	r2,-4
   80e97c:	00c02074 	movhi	r3,129
-  80e980:	18c9ea04 	addi	r3,r3,10152
+  80e980:	18c9cf04 	addi	r3,r3,10044
   80e984:	1885883a 	add	r2,r3,r2
   80e988:	e0bfff15 	stw	r2,-4(fp)
   80e98c:	00000606 	br	80e9a8 <_do_ctors+0x40>
@@ -16100,7 +16100,7 @@ Disassembly of section .text:
   80e9a4:	e0bfff15 	stw	r2,-4(fp)
   80e9a8:	e0ffff17 	ldw	r3,-4(fp)
   80e9ac:	00802074 	movhi	r2,129
-  80e9b0:	1089e904 	addi	r2,r2,10148
+  80e9b0:	1089ce04 	addi	r2,r2,10040
   80e9b4:	18bff62e 	bgeu	r3,r2,80e990 <_do_ctors+0x28>
   80e9b8:	e037883a 	mov	sp,fp
   80e9bc:	dfc00117 	ldw	ra,4(sp)
@@ -16115,7 +16115,7 @@ Disassembly of section .text:
   80e9d8:	df000104 	addi	fp,sp,4
   80e9dc:	00bfff04 	movi	r2,-4
   80e9e0:	00c02074 	movhi	r3,129
-  80e9e4:	18c9ea04 	addi	r3,r3,10152
+  80e9e4:	18c9cf04 	addi	r3,r3,10044
   80e9e8:	1885883a 	add	r2,r3,r2
   80e9ec:	e0bfff15 	stw	r2,-4(fp)
   80e9f0:	00000606 	br	80ea0c <_do_dtors+0x40>
@@ -16127,7 +16127,7 @@ Disassembly of section .text:
   80ea08:	e0bfff15 	stw	r2,-4(fp)
   80ea0c:	e0ffff17 	ldw	r3,-4(fp)
   80ea10:	00802074 	movhi	r2,129
-  80ea14:	1089ea04 	addi	r2,r2,10152
+  80ea14:	1089cf04 	addi	r2,r2,10044
   80ea18:	18bff62e 	bgeu	r3,r2,80e9f4 <_do_dtors+0x28>
   80ea1c:	e037883a 	mov	sp,fp
   80ea20:	dfc00117 	ldw	ra,4(sp)
@@ -16150,7 +16150,7 @@ Disassembly of section .text:
   80ea5c:	08013f80 	call	8013f8 <__mulsi3>
   80ea60:	1007883a 	mov	r3,r2
   80ea64:	00802074 	movhi	r2,129
-  80ea68:	108dfa04 	addi	r2,r2,14312
+  80ea68:	108ddf04 	addi	r2,r2,14204
   80ea6c:	1887883a 	add	r3,r3,r2
   80ea70:	e0ffff15 	stw	r3,-4(fp)
   80ea74:	00000106 	br	80ea7c <fstat+0x4c>
@@ -16197,18 +16197,18 @@ Disassembly of section .text:
   80eb10:	df000115 	stw	fp,4(sp)
   80eb14:	df000104 	addi	fp,sp,4
   80eb18:	00802074 	movhi	r2,129
-  80eb1c:	1092a904 	addi	r2,r2,19108
+  80eb1c:	10928e04 	addi	r2,r2,19000
   80eb20:	10800017 	ldw	r2,0(r2)
   80eb24:	1005003a 	cmpeq	r2,r2,zero
   80eb28:	1000061e 	bne	r2,zero,80eb44 <alt_get_errno+0x3c>
   80eb2c:	00802074 	movhi	r2,129
-  80eb30:	1092a904 	addi	r2,r2,19108
+  80eb30:	10928e04 	addi	r2,r2,19000
   80eb34:	10800017 	ldw	r2,0(r2)
   80eb38:	103ee83a 	callr	r2
   80eb3c:	e0bfff15 	stw	r2,-4(fp)
   80eb40:	00000306 	br	80eb50 <alt_get_errno+0x48>
   80eb44:	00802074 	movhi	r2,129
-  80eb48:	10998a04 	addi	r2,r2,26152
+  80eb48:	10996f04 	addi	r2,r2,26044
   80eb4c:	e0bfff15 	stw	r2,-4(fp)
   80eb50:	e0bfff17 	ldw	r2,-4(fp)
   80eb54:	e037883a 	mov	sp,fp
@@ -16237,7 +16237,7 @@ Disassembly of section .text:
   80eba8:	10001f1e 	bne	r2,zero,80ec28 <alt_open_fd+0xc0>
   80ebac:	e13ffb17 	ldw	r4,-20(fp)
   80ebb0:	04002074 	movhi	r16,129
-  80ebb4:	840dfa04 	addi	r16,r16,14312
+  80ebb4:	840ddf04 	addi	r16,r16,14204
   80ebb8:	01400304 	movi	r5,12
   80ebbc:	08013f80 	call	8013f8 <__mulsi3>
   80ebc0:	1405883a 	add	r2,r2,r16
@@ -16246,7 +16246,7 @@ Disassembly of section .text:
   80ebcc:	10c00015 	stw	r3,0(r2)
   80ebd0:	e13ffb17 	ldw	r4,-20(fp)
   80ebd4:	04002074 	movhi	r16,129
-  80ebd8:	840dfa04 	addi	r16,r16,14312
+  80ebd8:	840ddf04 	addi	r16,r16,14204
   80ebdc:	01400304 	movi	r5,12
   80ebe0:	08013f80 	call	8013f8 <__mulsi3>
   80ebe4:	1405883a 	add	r2,r2,r16
@@ -16256,7 +16256,7 @@ Disassembly of section .text:
   80ebf4:	10c00115 	stw	r3,4(r2)
   80ebf8:	e13ffb17 	ldw	r4,-20(fp)
   80ebfc:	04002074 	movhi	r16,129
-  80ec00:	840dfa04 	addi	r16,r16,14312
+  80ec00:	840ddf04 	addi	r16,r16,14204
   80ec04:	01400304 	movi	r5,12
   80ec08:	08013f80 	call	8013f8 <__mulsi3>
   80ec0c:	1405883a 	add	r2,r2,r16
@@ -16282,19 +16282,19 @@ Disassembly of section .text:
   80ec54:	e17ffe15 	stw	r5,-8(fp)
   80ec58:	e1bfff15 	stw	r6,-4(fp)
   80ec5c:	01002074 	movhi	r4,129
-  80ec60:	210dfd04 	addi	r4,r4,14324
+  80ec60:	210de204 	addi	r4,r4,14216
   80ec64:	e17ffd17 	ldw	r5,-12(fp)
   80ec68:	01800044 	movi	r6,1
   80ec6c:	01c07fc4 	movi	r7,511
   80ec70:	080eb680 	call	80eb68 <alt_open_fd>
   80ec74:	01002074 	movhi	r4,129
-  80ec78:	210dfa04 	addi	r4,r4,14312
+  80ec78:	210ddf04 	addi	r4,r4,14204
   80ec7c:	e17ffe17 	ldw	r5,-8(fp)
   80ec80:	000d883a 	mov	r6,zero
   80ec84:	01c07fc4 	movi	r7,511
   80ec88:	080eb680 	call	80eb68 <alt_open_fd>
   80ec8c:	01002074 	movhi	r4,129
-  80ec90:	210e0004 	addi	r4,r4,14336
+  80ec90:	210de504 	addi	r4,r4,14228
   80ec94:	e17fff17 	ldw	r5,-4(fp)
   80ec98:	01800044 	movi	r6,1
   80ec9c:	01c07fc4 	movi	r7,511
@@ -16319,7 +16319,7 @@ Disassembly of section .text:
   80ece0:	08013f80 	call	8013f8 <__mulsi3>
   80ece4:	1007883a 	mov	r3,r2
   80ece8:	00802074 	movhi	r2,129
-  80ecec:	108dfa04 	addi	r2,r2,14312
+  80ecec:	108ddf04 	addi	r2,r2,14204
   80ecf0:	1887883a 	add	r3,r3,r2
   80ecf4:	e0ffff15 	stw	r3,-4(fp)
   80ecf8:	00000106 	br	80ed00 <isatty+0x48>
@@ -16362,18 +16362,18 @@ Disassembly of section .text:
   80ed84:	df000115 	stw	fp,4(sp)
   80ed88:	df000104 	addi	fp,sp,4
   80ed8c:	00802074 	movhi	r2,129
-  80ed90:	1092a904 	addi	r2,r2,19108
+  80ed90:	10928e04 	addi	r2,r2,19000
   80ed94:	10800017 	ldw	r2,0(r2)
   80ed98:	1005003a 	cmpeq	r2,r2,zero
   80ed9c:	1000061e 	bne	r2,zero,80edb8 <alt_get_errno+0x3c>
   80eda0:	00802074 	movhi	r2,129
-  80eda4:	1092a904 	addi	r2,r2,19108
+  80eda4:	10928e04 	addi	r2,r2,19000
   80eda8:	10800017 	ldw	r2,0(r2)
   80edac:	103ee83a 	callr	r2
   80edb0:	e0bfff15 	stw	r2,-4(fp)
   80edb4:	00000306 	br	80edc4 <alt_get_errno+0x48>
   80edb8:	00802074 	movhi	r2,129
-  80edbc:	10998a04 	addi	r2,r2,26152
+  80edbc:	10996f04 	addi	r2,r2,26044
   80edc0:	e0bfff15 	stw	r2,-4(fp)
   80edc4:	e0bfff17 	ldw	r2,-4(fp)
   80edc8:	e037883a 	mov	sp,fp
@@ -16388,11 +16388,11 @@ Disassembly of section .text:
   80ede4:	df000015 	stw	fp,0(sp)
   80ede8:	d839883a 	mov	fp,sp
   80edec:	01002074 	movhi	r4,129
-  80edf0:	2112ae04 	addi	r4,r4,19128
+  80edf0:	21129304 	addi	r4,r4,19020
   80edf4:	01402074 	movhi	r5,129
-  80edf8:	294bdf04 	addi	r5,r5,12156
+  80edf8:	294bc404 	addi	r5,r5,12048
   80edfc:	01802074 	movhi	r6,129
-  80ee00:	3192ae04 	addi	r6,r6,19128
+  80ee00:	31929304 	addi	r6,r6,19020
   80ee04:	080ee5c0 	call	80ee5c <alt_load_section>
   80ee08:	01002034 	movhi	r4,128
   80ee0c:	21000804 	addi	r4,r4,32
@@ -16402,11 +16402,11 @@ Disassembly of section .text:
   80ee1c:	31809d04 	addi	r6,r6,628
   80ee20:	080ee5c0 	call	80ee5c <alt_load_section>
   80ee24:	01002074 	movhi	r4,129
-  80ee28:	2109ea04 	addi	r4,r4,10152
+  80ee28:	2109cf04 	addi	r4,r4,10044
   80ee2c:	01402074 	movhi	r5,129
-  80ee30:	2949ea04 	addi	r5,r5,10152
+  80ee30:	2949cf04 	addi	r5,r5,10044
   80ee34:	01802074 	movhi	r6,129
-  80ee38:	318bdf04 	addi	r6,r6,12156
+  80ee38:	318bc404 	addi	r6,r6,12048
   80ee3c:	080ee5c0 	call	80ee5c <alt_load_section>
   80ee40:	08118a80 	call	8118a8 <alt_dcache_flush_all>
   80ee44:	0811ca00 	call	811ca0 <alt_icache_flush_all>
@@ -16938,7 +16938,7 @@ Disassembly of section .text:
   80f62c:	e0bffe17 	ldw	r2,-8(fp)
   80f630:	e0bffd15 	stw	r2,-12(fp)
   80f634:	00802074 	movhi	r2,129
-  80f638:	108b8104 	addi	r2,r2,11780
+  80f638:	108b6604 	addi	r2,r2,11672
   80f63c:	e0bffc15 	stw	r2,-16(fp)
   80f640:	e0bffd17 	ldw	r2,-12(fp)
   80f644:	10800017 	ldw	r2,0(r2)
@@ -16947,7 +16947,7 @@ Disassembly of section .text:
   80f650:	e1bffc17 	ldw	r6,-16(fp)
   80f654:	080f6940 	call	80f694 <alt_log_jtag_uart_print_control_reg>
   80f658:	00802074 	movhi	r2,129
-  80f65c:	1099a604 	addi	r2,r2,26264
+  80f65c:	10998b04 	addi	r2,r2,26156
   80f660:	10800017 	ldw	r2,0(r2)
   80f664:	1009883a 	mov	r4,r2
   80f668:	01400284 	movi	r5,10
@@ -17013,7 +17013,7 @@ Disassembly of section .text:
   80f750:	e0bff617 	ldw	r2,-40(fp)
   80f754:	d8800415 	stw	r2,16(sp)
   80f758:	01002074 	movhi	r4,129
-  80f75c:	210b8404 	addi	r4,r4,11792
+  80f75c:	210b6904 	addi	r4,r4,11684
   80f760:	e17fff17 	ldw	r5,-4(fp)
   80f764:	e1fffb17 	ldw	r7,-20(fp)
   80f768:	080f5b40 	call	80f5b4 <alt_log_printf_proc>
@@ -17031,7 +17031,7 @@ Disassembly of section .text:
   80f790:	e13ffe15 	stw	r4,-8(fp)
   80f794:	e17fff15 	stw	r5,-4(fp)
   80f798:	00802074 	movhi	r2,129
-  80f79c:	108b9604 	addi	r2,r2,11864
+  80f79c:	108b7b04 	addi	r2,r2,11756
   80f7a0:	e0bffd15 	stw	r2,-12(fp)
   80f7a4:	e13ffe17 	ldw	r4,-8(fp)
   80f7a8:	e17fff17 	ldw	r5,-4(fp)
@@ -17055,7 +17055,7 @@ Disassembly of section .text:
   80f7e8:	1005003a 	cmpeq	r2,r2,zero
   80f7ec:	1000071e 	bne	r2,zero,80f80c <alt_log_jtag_uart_isr_proc+0x44>
   80f7f0:	00802074 	movhi	r2,129
-  80f7f4:	108b9b04 	addi	r2,r2,11884
+  80f7f4:	108b8004 	addi	r2,r2,11776
   80f7f8:	e0bffd15 	stw	r2,-12(fp)
   80f7fc:	e13fff17 	ldw	r4,-4(fp)
   80f800:	e17ffe17 	ldw	r5,-8(fp)
@@ -17093,32 +17093,32 @@ Disassembly of section .text:
   80f878:	e17ffd17 	ldw	r5,-12(fp)
   80f87c:	e1bffb17 	ldw	r6,-20(fp)
   80f880:	01002074 	movhi	r4,129
-  80f884:	211a1204 	addi	r4,r4,26696
+  80f884:	2119f704 	addi	r4,r4,26588
   80f888:	08122900 	call	812290 <strncpy>
   80f88c:	e0bffb17 	ldw	r2,-20(fp)
   80f890:	10ffffc4 	addi	r3,r2,-1
   80f894:	00802074 	movhi	r2,129
-  80f898:	109a1204 	addi	r2,r2,26696
+  80f898:	1099f704 	addi	r2,r2,26588
   80f89c:	10c7883a 	add	r3,r2,r3
   80f8a0:	00800284 	movi	r2,10
   80f8a4:	18800005 	stb	r2,0(r3)
   80f8a8:	e0fffb17 	ldw	r3,-20(fp)
   80f8ac:	00802074 	movhi	r2,129
-  80f8b0:	109a1204 	addi	r2,r2,26696
+  80f8b0:	1099f704 	addi	r2,r2,26588
   80f8b4:	10c7883a 	add	r3,r2,r3
   80f8b8:	00800344 	movi	r2,13
   80f8bc:	18800005 	stb	r2,0(r3)
   80f8c0:	e0bffb17 	ldw	r2,-20(fp)
   80f8c4:	10c00044 	addi	r3,r2,1
   80f8c8:	00802074 	movhi	r2,129
-  80f8cc:	109a1204 	addi	r2,r2,26696
+  80f8cc:	1099f704 	addi	r2,r2,26588
   80f8d0:	10c5883a 	add	r2,r2,r3
   80f8d4:	10000005 	stb	zero,0(r2)
   80f8d8:	e03ffc15 	stw	zero,-16(fp)
   80f8dc:	00001306 	br	80f92c <alt_log_write+0x10c>
   80f8e0:	e0fffc17 	ldw	r3,-16(fp)
   80f8e4:	00802074 	movhi	r2,129
-  80f8e8:	109a1204 	addi	r2,r2,26696
+  80f8e8:	1099f704 	addi	r2,r2,26588
   80f8ec:	10c5883a 	add	r2,r2,r3
   80f8f0:	10800003 	ldbu	r2,0(r2)
   80f8f4:	10803fcc 	andi	r2,r2,255
@@ -17128,7 +17128,7 @@ Disassembly of section .text:
   80f904:	1000061e 	bne	r2,zero,80f920 <alt_log_write+0x100>
   80f908:	e0fffc17 	ldw	r3,-16(fp)
   80f90c:	00802074 	movhi	r2,129
-  80f910:	109a1204 	addi	r2,r2,26696
+  80f910:	1099f704 	addi	r2,r2,26588
   80f914:	10c7883a 	add	r3,r2,r3
   80f918:	00801104 	movi	r2,68
   80f91c:	18800005 	stb	r2,0(r3)
@@ -17139,9 +17139,9 @@ Disassembly of section .text:
   80f930:	e0bffb17 	ldw	r2,-20(fp)
   80f934:	18bfea16 	blt	r3,r2,80f8e0 <alt_log_write+0xc0>
   80f938:	01002074 	movhi	r4,129
-  80f93c:	210b9e04 	addi	r4,r4,11896
+  80f93c:	210b8304 	addi	r4,r4,11788
   80f940:	01402074 	movhi	r5,129
-  80f944:	295a1204 	addi	r5,r5,26696
+  80f944:	2959f704 	addi	r5,r5,26588
   80f948:	080f5b40 	call	80f5b4 <alt_log_printf_proc>
   80f94c:	e037883a 	mov	sp,fp
   80f950:	dfc00117 	ldw	ra,4(sp)
@@ -17164,7 +17164,7 @@ Disassembly of section .text:
   80f98c:	d0a70917 	ldw	r2,-25564(gp)
   80f990:	1007883a 	mov	r3,r2
   80f994:	00802074 	movhi	r2,129
-  80f998:	1099a604 	addi	r2,r2,26264
+  80f998:	10998b04 	addi	r2,r2,26156
   80f99c:	10800017 	ldw	r2,0(r2)
   80f9a0:	10c0082e 	bgeu	r2,r3,80f9c4 <alt_log_system_clock+0x64>
   80f9a4:	d0270915 	stw	zero,-25564(gp)
@@ -17173,7 +17173,7 @@ Disassembly of section .text:
   80f9b0:	10800044 	addi	r2,r2,1
   80f9b4:	d0a70815 	stw	r2,-25568(gp)
   80f9b8:	01002074 	movhi	r4,129
-  80f9bc:	210ba204 	addi	r4,r4,11912
+  80f9bc:	210b8704 	addi	r4,r4,11804
   80f9c0:	080f5b40 	call	80f5b4 <alt_log_printf_proc>
   80f9c4:	e037883a 	mov	sp,fp
   80f9c8:	dfc00117 	ldw	ra,4(sp)
@@ -17198,7 +17198,7 @@ Disassembly of section .text:
   80fa0c:	08013f80 	call	8013f8 <__mulsi3>
   80fa10:	1007883a 	mov	r3,r2
   80fa14:	00802074 	movhi	r2,129
-  80fa18:	108dfa04 	addi	r2,r2,14312
+  80fa18:	108ddf04 	addi	r2,r2,14204
   80fa1c:	1887883a 	add	r3,r3,r2
   80fa20:	e0ffff15 	stw	r3,-4(fp)
   80fa24:	00000106 	br	80fa2c <lseek+0x54>
@@ -17250,18 +17250,18 @@ Disassembly of section .text:
   80fad4:	df000115 	stw	fp,4(sp)
   80fad8:	df000104 	addi	fp,sp,4
   80fadc:	00802074 	movhi	r2,129
-  80fae0:	1092a904 	addi	r2,r2,19108
+  80fae0:	10928e04 	addi	r2,r2,19000
   80fae4:	10800017 	ldw	r2,0(r2)
   80fae8:	1005003a 	cmpeq	r2,r2,zero
   80faec:	1000061e 	bne	r2,zero,80fb08 <alt_get_errno+0x3c>
   80faf0:	00802074 	movhi	r2,129
-  80faf4:	1092a904 	addi	r2,r2,19108
+  80faf4:	10928e04 	addi	r2,r2,19000
   80faf8:	10800017 	ldw	r2,0(r2)
   80fafc:	103ee83a 	callr	r2
   80fb00:	e0bfff15 	stw	r2,-4(fp)
   80fb04:	00000306 	br	80fb14 <alt_get_errno+0x48>
   80fb08:	00802074 	movhi	r2,129
-  80fb0c:	10998a04 	addi	r2,r2,26152
+  80fb0c:	10996f04 	addi	r2,r2,26044
   80fb10:	e0bfff15 	stw	r2,-4(fp)
   80fb14:	e0bfff17 	ldw	r2,-4(fp)
   80fb18:	e037883a 	mov	sp,fp
@@ -17286,7 +17286,7 @@ Disassembly of section .text:
   80fb5c:	00002306 	br	80fbec <alt_file_locked+0xc0>
   80fb60:	e13ffd17 	ldw	r4,-12(fp)
   80fb64:	04002074 	movhi	r16,129
-  80fb68:	840dfa04 	addi	r16,r16,14312
+  80fb68:	840ddf04 	addi	r16,r16,14204
   80fb6c:	01400304 	movi	r5,12
   80fb70:	08013f80 	call	8013f8 <__mulsi3>
   80fb74:	1405883a 	add	r2,r2,r16
@@ -17296,7 +17296,7 @@ Disassembly of section .text:
   80fb84:	1880161e 	bne	r3,r2,80fbe0 <alt_file_locked+0xb4>
   80fb88:	e13ffd17 	ldw	r4,-12(fp)
   80fb8c:	04002074 	movhi	r16,129
-  80fb90:	840dfa04 	addi	r16,r16,14312
+  80fb90:	840ddf04 	addi	r16,r16,14204
   80fb94:	01400304 	movi	r5,12
   80fb98:	08013f80 	call	8013f8 <__mulsi3>
   80fb9c:	1405883a 	add	r2,r2,r16
@@ -17309,7 +17309,7 @@ Disassembly of section .text:
   80fbb8:	08013f80 	call	8013f8 <__mulsi3>
   80fbbc:	1007883a 	mov	r3,r2
   80fbc0:	00802074 	movhi	r2,129
-  80fbc4:	108dfa04 	addi	r2,r2,14312
+  80fbc4:	108ddf04 	addi	r2,r2,14204
   80fbc8:	1887883a 	add	r3,r3,r2
   80fbcc:	e0bffe17 	ldw	r2,-8(fp)
   80fbd0:	18800326 	beq	r3,r2,80fbe0 <alt_file_locked+0xb4>
@@ -17320,7 +17320,7 @@ Disassembly of section .text:
   80fbe4:	10800044 	addi	r2,r2,1
   80fbe8:	e0bffd15 	stw	r2,-12(fp)
   80fbec:	00802074 	movhi	r2,129
-  80fbf0:	1092a804 	addi	r2,r2,19104
+  80fbf0:	10928d04 	addi	r2,r2,18996
   80fbf4:	10800017 	ldw	r2,0(r2)
   80fbf8:	1007883a 	mov	r3,r2
   80fbfc:	e0bffd17 	ldw	r2,-12(fp)
@@ -17349,7 +17349,7 @@ Disassembly of section .text:
   80fc50:	e03ff615 	stw	zero,-40(fp)
   80fc54:	e13ffb17 	ldw	r4,-20(fp)
   80fc58:	01402074 	movhi	r5,129
-  80fc5c:	2952a604 	addi	r5,r5,19096
+  80fc5c:	29528b04 	addi	r5,r5,18988
   80fc60:	08119d80 	call	8119d8 <alt_find_dev>
   80fc64:	e0bffa15 	stw	r2,-24(fp)
   80fc68:	e0bffa17 	ldw	r2,-24(fp)
@@ -17377,7 +17377,7 @@ Disassembly of section .text:
   80fcc0:	08013f80 	call	8013f8 <__mulsi3>
   80fcc4:	1007883a 	mov	r3,r2
   80fcc8:	00802074 	movhi	r2,129
-  80fccc:	108dfa04 	addi	r2,r2,14312
+  80fccc:	108ddf04 	addi	r2,r2,14204
   80fcd0:	1885883a 	add	r2,r3,r2
   80fcd4:	e0bff915 	stw	r2,-28(fp)
   80fcd8:	e0fffc17 	ldw	r3,-16(fp)
@@ -17441,18 +17441,18 @@ Disassembly of section .text:
   80fdb8:	df000115 	stw	fp,4(sp)
   80fdbc:	df000104 	addi	fp,sp,4
   80fdc0:	00802074 	movhi	r2,129
-  80fdc4:	1092a904 	addi	r2,r2,19108
+  80fdc4:	10928e04 	addi	r2,r2,19000
   80fdc8:	10800017 	ldw	r2,0(r2)
   80fdcc:	1005003a 	cmpeq	r2,r2,zero
   80fdd0:	1000061e 	bne	r2,zero,80fdec <alt_get_errno+0x3c>
   80fdd4:	00802074 	movhi	r2,129
-  80fdd8:	1092a904 	addi	r2,r2,19108
+  80fdd8:	10928e04 	addi	r2,r2,19000
   80fddc:	10800017 	ldw	r2,0(r2)
   80fde0:	103ee83a 	callr	r2
   80fde4:	e0bfff15 	stw	r2,-4(fp)
   80fde8:	00000306 	br	80fdf8 <alt_get_errno+0x48>
   80fdec:	00802074 	movhi	r2,129
-  80fdf0:	10998a04 	addi	r2,r2,26152
+  80fdf0:	10996f04 	addi	r2,r2,26044
   80fdf4:	e0bfff15 	stw	r2,-4(fp)
   80fdf8:	e0bfff17 	ldw	r2,-4(fp)
   80fdfc:	e037883a 	mov	sp,fp
@@ -17477,7 +17477,7 @@ Disassembly of section .text:
   80fe40:	08013f80 	call	8013f8 <__mulsi3>
   80fe44:	1007883a 	mov	r3,r2
   80fe48:	00802074 	movhi	r2,129
-  80fe4c:	108dfa04 	addi	r2,r2,14312
+  80fe4c:	108ddf04 	addi	r2,r2,14204
   80fe50:	1887883a 	add	r3,r3,r2
   80fe54:	e0ffff15 	stw	r3,-4(fp)
   80fe58:	00000106 	br	80fe60 <read+0x50>
@@ -17542,18 +17542,18 @@ Disassembly of section .text:
   80ff3c:	df000115 	stw	fp,4(sp)
   80ff40:	df000104 	addi	fp,sp,4
   80ff44:	00802074 	movhi	r2,129
-  80ff48:	1092a904 	addi	r2,r2,19108
+  80ff48:	10928e04 	addi	r2,r2,19000
   80ff4c:	10800017 	ldw	r2,0(r2)
   80ff50:	1005003a 	cmpeq	r2,r2,zero
   80ff54:	1000061e 	bne	r2,zero,80ff70 <alt_get_errno+0x3c>
   80ff58:	00802074 	movhi	r2,129
-  80ff5c:	1092a904 	addi	r2,r2,19108
+  80ff5c:	10928e04 	addi	r2,r2,19000
   80ff60:	10800017 	ldw	r2,0(r2)
   80ff64:	103ee83a 	callr	r2
   80ff68:	e0bfff15 	stw	r2,-4(fp)
   80ff6c:	00000306 	br	80ff7c <alt_get_errno+0x48>
   80ff70:	00802074 	movhi	r2,129
-  80ff74:	10998a04 	addi	r2,r2,26152
+  80ff74:	10996f04 	addi	r2,r2,26044
   80ff78:	e0bfff15 	stw	r2,-4(fp)
   80ff7c:	e0bfff17 	ldw	r2,-4(fp)
   80ff80:	e037883a 	mov	sp,fp
@@ -17574,7 +17574,7 @@ Disassembly of section .text:
   80ffb4:	10000f1e 	bne	r2,zero,80fff4 <alt_release_fd+0x60>
   80ffb8:	e13fff17 	ldw	r4,-4(fp)
   80ffbc:	04002074 	movhi	r16,129
-  80ffc0:	840dfa04 	addi	r16,r16,14312
+  80ffc0:	840ddf04 	addi	r16,r16,14204
   80ffc4:	01400304 	movi	r5,12
   80ffc8:	08013f80 	call	8013f8 <__mulsi3>
   80ffcc:	1405883a 	add	r2,r2,r16
@@ -17582,7 +17582,7 @@ Disassembly of section .text:
   80ffd4:	10000015 	stw	zero,0(r2)
   80ffd8:	e13fff17 	ldw	r4,-4(fp)
   80ffdc:	04002074 	movhi	r16,129
-  80ffe0:	840dfa04 	addi	r16,r16,14312
+  80ffe0:	840ddf04 	addi	r16,r16,14204
   80ffe4:	01400304 	movi	r5,12
   80ffe8:	08013f80 	call	8013f8 <__mulsi3>
   80ffec:	1405883a 	add	r2,r2,r16
@@ -17769,7 +17769,7 @@ Disassembly of section .text:
   8102a0:	08013f80 	call	8013f8 <__mulsi3>
   8102a4:	1007883a 	mov	r3,r2
   8102a8:	00802074 	movhi	r2,129
-  8102ac:	108dfa04 	addi	r2,r2,14312
+  8102ac:	108ddf04 	addi	r2,r2,14204
   8102b0:	1887883a 	add	r3,r3,r2
   8102b4:	e0ffff15 	stw	r3,-4(fp)
   8102b8:	00000106 	br	8102c0 <write+0x50>
@@ -17837,18 +17837,18 @@ Disassembly of section .text:
   8103a8:	df000115 	stw	fp,4(sp)
   8103ac:	df000104 	addi	fp,sp,4
   8103b0:	00802074 	movhi	r2,129
-  8103b4:	1092a904 	addi	r2,r2,19108
+  8103b4:	10928e04 	addi	r2,r2,19000
   8103b8:	10800017 	ldw	r2,0(r2)
   8103bc:	1005003a 	cmpeq	r2,r2,zero
   8103c0:	1000061e 	bne	r2,zero,8103dc <alt_get_errno+0x3c>
   8103c4:	00802074 	movhi	r2,129
-  8103c8:	1092a904 	addi	r2,r2,19108
+  8103c8:	10928e04 	addi	r2,r2,19000
   8103cc:	10800017 	ldw	r2,0(r2)
   8103d0:	103ee83a 	callr	r2
   8103d4:	e0bfff15 	stw	r2,-4(fp)
   8103d8:	00000306 	br	8103e8 <alt_get_errno+0x48>
   8103dc:	00802074 	movhi	r2,129
-  8103e0:	10998a04 	addi	r2,r2,26152
+  8103e0:	10996f04 	addi	r2,r2,26044
   8103e4:	e0bfff15 	stw	r2,-4(fp)
   8103e8:	e0bfff17 	ldw	r2,-4(fp)
   8103ec:	e037883a 	mov	sp,fp
@@ -17884,12 +17884,12 @@ Disassembly of section .text:
   810454:	01c0fa04 	movi	r7,1000
   810458:	08111840 	call	811184 <alt_avalon_timer_sc_init>
   81045c:	01002074 	movhi	r4,129
-  810460:	210e8c04 	addi	r4,r4,14896
+  810460:	210e7104 	addi	r4,r4,14788
   810464:	000b883a 	mov	r5,zero
   810468:	01800404 	movi	r6,16
   81046c:	08106100 	call	810610 <altera_avalon_jtag_uart_init>
   810470:	01002074 	movhi	r4,129
-  810474:	210e8204 	addi	r4,r4,14856
+  810474:	210e6704 	addi	r4,r4,14748
   810478:	08104900 	call	810490 <alt_dev_reg>
   81047c:	e037883a 	mov	sp,fp
   810480:	dfc00117 	ldw	ra,4(sp)
@@ -17905,7 +17905,7 @@ Disassembly of section .text:
   8104a0:	e13fff15 	stw	r4,-4(fp)
   8104a4:	e13fff17 	ldw	r4,-4(fp)
   8104a8:	01402074 	movhi	r5,129
-  8104ac:	2952a604 	addi	r5,r5,19096
+  8104ac:	29528b04 	addi	r5,r5,18988
   8104b0:	08118c40 	call	8118c4 <alt_dev_llist_insert>
   8104b4:	e037883a 	mov	sp,fp
   8104b8:	dfc00117 	ldw	ra,4(sp)
@@ -18072,7 +18072,7 @@ Disassembly of section .text:
   810714:	e0bffb17 	ldw	r2,-20(fp)
   810718:	11000204 	addi	r4,r2,8
   81071c:	00802074 	movhi	r2,129
-  810720:	1099a604 	addi	r2,r2,26264
+  810720:	10998b04 	addi	r2,r2,26156
   810724:	10800017 	ldw	r2,0(r2)
   810728:	100b883a 	mov	r5,r2
   81072c:	01802074 	movhi	r6,129
@@ -18086,26 +18086,26 @@ Disassembly of section .text:
   81074c:	10bfffc4 	addi	r2,r2,-1
   810750:	18800115 	stw	r2,4(r3)
   810754:	00802074 	movhi	r2,129
-  810758:	1099a284 	addi	r2,r2,26250
+  810758:	10998784 	addi	r2,r2,26142
   81075c:	10800003 	ldbu	r2,0(r2)
   810760:	10803fcc 	andi	r2,r2,255
   810764:	10800058 	cmpnei	r2,r2,1
   810768:	10000d1e 	bne	r2,zero,8107a0 <altera_avalon_jtag_uart_init+0x190>
   81076c:	00802074 	movhi	r2,129
-  810770:	1099a604 	addi	r2,r2,26264
+  810770:	10998b04 	addi	r2,r2,26156
   810774:	10800017 	ldw	r2,0(r2)
   810778:	1009883a 	mov	r4,r2
   81077c:	01400284 	movi	r5,10
   810780:	080a79c0 	call	80a79c <__udivsi3>
   810784:	100b883a 	mov	r5,r2
   810788:	01002074 	movhi	r4,129
-  81078c:	211a1704 	addi	r4,r4,26716
+  81078c:	2119fc04 	addi	r4,r4,26608
   810790:	01802074 	movhi	r6,129
   810794:	31bd8204 	addi	r6,r6,-2552
   810798:	e1fffb17 	ldw	r7,-20(fp)
   81079c:	08117540 	call	811754 <alt_alarm_start>
   8107a0:	00802074 	movhi	r2,129
-  8107a4:	1099a304 	addi	r2,r2,26252
+  8107a4:	10998804 	addi	r2,r2,26144
   8107a8:	10800003 	ldbu	r2,0(r2)
   8107ac:	10803fcc 	andi	r2,r2,255
   8107b0:	10800058 	cmpnei	r2,r2,1
@@ -18305,7 +18305,7 @@ Disassembly of section .text:
   810aa8:	e0bffe17 	ldw	r2,-8(fp)
   810aac:	10c00915 	stw	r3,36(r2)
   810ab0:	00802074 	movhi	r2,129
-  810ab4:	1099a604 	addi	r2,r2,26264
+  810ab4:	10998b04 	addi	r2,r2,26156
   810ab8:	10800017 	ldw	r2,0(r2)
   810abc:	e037883a 	mov	sp,fp
   810ac0:	df000017 	ldw	fp,0(sp)
@@ -18764,12 +18764,12 @@ Disassembly of section .text:
   8111a4:	e0bfff17 	ldw	r2,-4(fp)
   8111a8:	e0bffb15 	stw	r2,-20(fp)
   8111ac:	00802074 	movhi	r2,129
-  8111b0:	1099a604 	addi	r2,r2,26264
+  8111b0:	10998b04 	addi	r2,r2,26156
   8111b4:	10800017 	ldw	r2,0(r2)
   8111b8:	1004c03a 	cmpne	r2,r2,zero
   8111bc:	1000041e 	bne	r2,zero,8111d0 <alt_avalon_timer_sc_init+0x4c>
   8111c0:	00c02074 	movhi	r3,129
-  8111c4:	18d9a604 	addi	r3,r3,26264
+  8111c4:	18d98b04 	addi	r3,r3,26156
   8111c8:	e0bffb17 	ldw	r2,-20(fp)
   8111cc:	18800015 	stw	r2,0(r3)
   8111d0:	e0bffc17 	ldw	r2,-16(fp)
@@ -19164,7 +19164,7 @@ Disassembly of section .text:
   81176c:	e1fffe15 	stw	r7,-8(fp)
   811770:	e03ff915 	stw	zero,-28(fp)
   811774:	00802074 	movhi	r2,129
-  811778:	1099a604 	addi	r2,r2,26264
+  811778:	10998b04 	addi	r2,r2,26156
   81177c:	10800017 	ldw	r2,0(r2)
   811780:	1005003a 	cmpeq	r2,r2,zero
   811784:	1000411e 	bne	r2,zero,81188c <alt_alarm_start+0x138>
@@ -19186,7 +19186,7 @@ Disassembly of section .text:
   8117c4:	e0bff817 	ldw	r2,-32(fp)
   8117c8:	e0bffa15 	stw	r2,-24(fp)
   8117cc:	00802074 	movhi	r2,129
-  8117d0:	1099a704 	addi	r2,r2,26268
+  8117d0:	10998c04 	addi	r2,r2,26160
   8117d4:	10800017 	ldw	r2,0(r2)
   8117d8:	e0bff915 	stw	r2,-28(fp)
   8117dc:	e0fffc17 	ldw	r3,-16(fp)
@@ -19207,7 +19207,7 @@ Disassembly of section .text:
   811818:	10000405 	stb	zero,16(r2)
   81181c:	e0fffb17 	ldw	r3,-20(fp)
   811820:	00802074 	movhi	r2,129
-  811824:	1092ab04 	addi	r2,r2,19116
+  811824:	10929004 	addi	r2,r2,19008
   811828:	e0bff615 	stw	r2,-40(fp)
   81182c:	e0fff715 	stw	r3,-36(fp)
   811830:	e0fff717 	ldw	r3,-36(fp)
@@ -19303,18 +19303,18 @@ Disassembly of section .text:
   811980:	df000115 	stw	fp,4(sp)
   811984:	df000104 	addi	fp,sp,4
   811988:	00802074 	movhi	r2,129
-  81198c:	1092a904 	addi	r2,r2,19108
+  81198c:	10928e04 	addi	r2,r2,19000
   811990:	10800017 	ldw	r2,0(r2)
   811994:	1005003a 	cmpeq	r2,r2,zero
   811998:	1000061e 	bne	r2,zero,8119b4 <alt_get_errno+0x3c>
   81199c:	00802074 	movhi	r2,129
-  8119a0:	1092a904 	addi	r2,r2,19108
+  8119a0:	10928e04 	addi	r2,r2,19000
   8119a4:	10800017 	ldw	r2,0(r2)
   8119a8:	103ee83a 	callr	r2
   8119ac:	e0bfff15 	stw	r2,-4(fp)
   8119b0:	00000306 	br	8119c0 <alt_get_errno+0x48>
   8119b4:	00802074 	movhi	r2,129
-  8119b8:	10998a04 	addi	r2,r2,26152
+  8119b8:	10996f04 	addi	r2,r2,26044
   8119bc:	e0bfff15 	stw	r2,-4(fp)
   8119c0:	e0bfff17 	ldw	r2,-4(fp)
   8119c4:	e037883a 	mov	sp,fp
@@ -19369,7 +19369,7 @@ Disassembly of section .text:
   811a78:	df000404 	addi	fp,sp,16
   811a7c:	e13ffe15 	stw	r4,-8(fp)
   811a80:	00802074 	movhi	r2,129
-  811a84:	1092a404 	addi	r2,r2,19088
+  811a84:	10928904 	addi	r2,r2,18980
   811a88:	10800017 	ldw	r2,0(r2)
   811a8c:	e0bffd15 	stw	r2,-12(fp)
   811a90:	00003306 	br	811b60 <alt_find_file+0xf4>
@@ -19425,7 +19425,7 @@ Disassembly of section .text:
   811b58:	10800017 	ldw	r2,0(r2)
   811b5c:	e0bffd15 	stw	r2,-12(fp)
   811b60:	00c02074 	movhi	r3,129
-  811b64:	18d2a404 	addi	r3,r3,19088
+  811b64:	18d28904 	addi	r3,r3,18980
   811b68:	e0bffd17 	ldw	r2,-12(fp)
   811b6c:	10ffc91e 	bne	r2,r3,811a94 <alt_find_file+0x28>
   811b70:	e03fff15 	stw	zero,-4(fp)
@@ -19446,7 +19446,7 @@ Disassembly of section .text:
   811ba4:	00bffa04 	movi	r2,-24
   811ba8:	e0bffd15 	stw	r2,-12(fp)
   811bac:	00802074 	movhi	r2,129
-  811bb0:	1099a104 	addi	r2,r2,26244
+  811bb0:	10998604 	addi	r2,r2,26136
   811bb4:	10800017 	ldw	r2,0(r2)
   811bb8:	e0bffb15 	stw	r2,-20(fp)
   811bbc:	e03ffc0d 	sth	zero,-16(fp)
@@ -19459,7 +19459,7 @@ Disassembly of section .text:
   811bd8:	00002006 	br	811c5c <alt_get_fd+0xd0>
   811bdc:	e13ffe17 	ldw	r4,-8(fp)
   811be0:	04002074 	movhi	r16,129
-  811be4:	840dfa04 	addi	r16,r16,14312
+  811be4:	840ddf04 	addi	r16,r16,14204
   811be8:	01400304 	movi	r5,12
   811bec:	08013f80 	call	8013f8 <__mulsi3>
   811bf0:	1405883a 	add	r2,r2,r16
@@ -19468,19 +19468,19 @@ Disassembly of section .text:
   811bfc:	1000141e 	bne	r2,zero,811c50 <alt_get_fd+0xc4>
   811c00:	e13ffe17 	ldw	r4,-8(fp)
   811c04:	04002074 	movhi	r16,129
-  811c08:	840dfa04 	addi	r16,r16,14312
+  811c08:	840ddf04 	addi	r16,r16,14204
   811c0c:	01400304 	movi	r5,12
   811c10:	08013f80 	call	8013f8 <__mulsi3>
   811c14:	1407883a 	add	r3,r2,r16
   811c18:	e0bfff17 	ldw	r2,-4(fp)
   811c1c:	18800015 	stw	r2,0(r3)
   811c20:	00802074 	movhi	r2,129
-  811c24:	1092a804 	addi	r2,r2,19104
+  811c24:	10928d04 	addi	r2,r2,18996
   811c28:	10c00017 	ldw	r3,0(r2)
   811c2c:	e0bffe17 	ldw	r2,-8(fp)
   811c30:	1880040e 	bge	r3,r2,811c44 <alt_get_fd+0xb8>
   811c34:	00c02074 	movhi	r3,129
-  811c38:	18d2a804 	addi	r3,r3,19104
+  811c38:	18d28d04 	addi	r3,r3,18996
   811c3c:	e0bffe17 	ldw	r2,-8(fp)
   811c40:	18800015 	stw	r2,0(r3)
   811c44:	e0bffe17 	ldw	r2,-8(fp)
@@ -19493,7 +19493,7 @@ Disassembly of section .text:
   811c60:	10800810 	cmplti	r2,r2,32
   811c64:	103fdd1e 	bne	r2,zero,811bdc <alt_get_fd+0x50>
   811c68:	00802074 	movhi	r2,129
-  811c6c:	1099a104 	addi	r2,r2,26244
+  811c6c:	10998604 	addi	r2,r2,26136
   811c70:	11000017 	ldw	r4,0(r2)
   811c74:	000b883a 	mov	r5,zero
   811c78:	000d883a 	mov	r6,zero
@@ -19559,14 +19559,14 @@ Disassembly of section .text:
   811d50:	10c4983a 	sll	r2,r2,r3
   811d54:	1007883a 	mov	r3,r2
   811d58:	00802074 	movhi	r2,129
-  811d5c:	1099a904 	addi	r2,r2,26276
+  811d5c:	10998e04 	addi	r2,r2,26168
   811d60:	10800017 	ldw	r2,0(r2)
   811d64:	1886b03a 	or	r3,r3,r2
   811d68:	00802074 	movhi	r2,129
-  811d6c:	1099a904 	addi	r2,r2,26276
+  811d6c:	10998e04 	addi	r2,r2,26168
   811d70:	10c00015 	stw	r3,0(r2)
   811d74:	00802074 	movhi	r2,129
-  811d78:	1099a904 	addi	r2,r2,26276
+  811d78:	10998e04 	addi	r2,r2,26168
   811d7c:	10800017 	ldw	r2,0(r2)
   811d80:	100170fa 	wrctl	ienable,r2
   811d84:	e0bffd17 	ldw	r2,-12(fp)
@@ -19601,14 +19601,14 @@ Disassembly of section .text:
   811df0:	0084303a 	nor	r2,zero,r2
   811df4:	1007883a 	mov	r3,r2
   811df8:	00802074 	movhi	r2,129
-  811dfc:	1099a904 	addi	r2,r2,26276
+  811dfc:	10998e04 	addi	r2,r2,26168
   811e00:	10800017 	ldw	r2,0(r2)
   811e04:	1886703a 	and	r3,r3,r2
   811e08:	00802074 	movhi	r2,129
-  811e0c:	1099a904 	addi	r2,r2,26276
+  811e0c:	10998e04 	addi	r2,r2,26168
   811e10:	10c00015 	stw	r3,0(r2)
   811e14:	00802074 	movhi	r2,129
-  811e18:	1099a904 	addi	r2,r2,26276
+  811e18:	10998e04 	addi	r2,r2,26168
   811e1c:	10800017 	ldw	r2,0(r2)
   811e20:	100170fa 	wrctl	ienable,r2
   811e24:	e0bffd17 	ldw	r2,-12(fp)
@@ -19667,14 +19667,14 @@ Disassembly of section .text:
   811ee8:	e0bff815 	stw	r2,-32(fp)
   811eec:	e0bff917 	ldw	r2,-28(fp)
   811ef0:	00c02074 	movhi	r3,129
-  811ef4:	18da1d04 	addi	r3,r3,26740
+  811ef4:	18da0204 	addi	r3,r3,26632
   811ef8:	100490fa 	slli	r2,r2,3
   811efc:	10c7883a 	add	r3,r2,r3
   811f00:	e0bffd17 	ldw	r2,-12(fp)
   811f04:	18800015 	stw	r2,0(r3)
   811f08:	e0bff917 	ldw	r2,-28(fp)
   811f0c:	00c02074 	movhi	r3,129
-  811f10:	18da1d04 	addi	r3,r3,26740
+  811f10:	18da0204 	addi	r3,r3,26632
   811f14:	100490fa 	slli	r2,r2,3
   811f18:	10c5883a 	add	r2,r2,r3
   811f1c:	10c00104 	addi	r3,r2,4
@@ -19724,7 +19724,7 @@ Disassembly of section .text:
 
 00811fbc <__errno>:
   811fbc:	00c02074 	movhi	r3,129
-  811fc0:	18d29d04 	addi	r3,r3,19060
+  811fc0:	18d28204 	addi	r3,r3,18952
   811fc4:	18800017 	ldw	r2,0(r3)
   811fc8:	f800283a 	ret
 
@@ -19736,7 +19736,7 @@ Disassembly of section .text:
   811fdc:	2021883a 	mov	r16,r4
   811fe0:	08124840 	call	812484 <__call_exitprocs>
   811fe4:	00802074 	movhi	r2,129
-  811fe8:	10929e04 	addi	r2,r2,19064
+  811fe8:	10928304 	addi	r2,r2,18956
   811fec:	11000017 	ldw	r4,0(r2)
   811ff0:	20800f17 	ldw	r2,60(r4)
   811ff4:	10000126 	beq	r2,zero,811ffc <exit+0x30>
@@ -19746,14 +19746,14 @@ Disassembly of section .text:
 
 00812004 <free>:
   812004:	00802074 	movhi	r2,129
-  812008:	10929d04 	addi	r2,r2,19060
+  812008:	10928204 	addi	r2,r2,18952
   81200c:	200b883a 	mov	r5,r4
   812010:	11000017 	ldw	r4,0(r2)
   812014:	08054941 	jmpi	805494 <_free_r>
 
 00812018 <malloc>:
   812018:	00802074 	movhi	r2,129
-  81201c:	10929d04 	addi	r2,r2,19060
+  81201c:	10928204 	addi	r2,r2,18952
   812020:	200b883a 	mov	r5,r4
   812024:	11000017 	ldw	r4,0(r2)
   812028:	080601c1 	jmpi	80601c <_malloc_r>
@@ -19798,7 +19798,7 @@ Disassembly of section .text:
   8120b4:	d8801904 	addi	r2,sp,100
   8120b8:	d8800015 	stw	r2,0(sp)
   8120bc:	00802074 	movhi	r2,129
-  8120c0:	10929d04 	addi	r2,r2,19060
+  8120c0:	10928204 	addi	r2,r2,18952
   8120c4:	11000017 	ldw	r4,0(r2)
   8120c8:	d9c00017 	ldw	r7,0(sp)
   8120cc:	00808204 	movi	r2,520
@@ -19973,7 +19973,7 @@ Disassembly of section .text:
 0081234c <__register_exitproc>:
   81234c:	defffa04 	addi	sp,sp,-24
   812350:	00802074 	movhi	r2,129
-  812354:	10929e04 	addi	r2,r2,19064
+  812354:	10928304 	addi	r2,r2,18956
   812358:	dc000015 	stw	r16,0(sp)
   81235c:	14000017 	ldw	r16,0(r2)
   812360:	dd000415 	stw	r20,16(sp)
@@ -20025,7 +20025,7 @@ Disassembly of section .text:
   812418:	30804115 	stw	r2,260(r6)
   81241c:	003fdf06 	br	81239c <__register_exitproc+0x50>
   812420:	00802074 	movhi	r2,129
-  812424:	109a5d04 	addi	r2,r2,26996
+  812424:	109a4204 	addi	r2,r2,26888
   812428:	100b883a 	mov	r5,r2
   81242c:	80805215 	stw	r2,328(r16)
   812430:	003fd606 	br	81238c <__register_exitproc+0x40>
@@ -20054,7 +20054,7 @@ Disassembly of section .text:
 
 00812484 <__call_exitprocs>:
   812484:	00802074 	movhi	r2,129
-  812488:	10929e04 	addi	r2,r2,19064
+  812488:	10928304 	addi	r2,r2,18956
   81248c:	10800017 	ldw	r2,0(r2)
   812490:	defff304 	addi	sp,sp,-52
   812494:	df000b15 	stw	fp,44(sp)
@@ -20187,74 +20187,47 @@ Disassembly of section .text:
   812680:	df000104 	addi	fp,sp,4
   812684:	e13fff15 	stw	r4,-4(fp)
   812688:	00802074 	movhi	r2,129
-  81268c:	108e8104 	addi	r2,r2,14852
+  81268c:	108e6604 	addi	r2,r2,14744
   812690:	10800017 	ldw	r2,0(r2)
   812694:	10800058 	cmpnei	r2,r2,1
   812698:	1000031e 	bne	r2,zero,8126a8 <_exit+0x34>
   81269c:	01002074 	movhi	r4,129
-  8126a0:	210bac04 	addi	r4,r4,11952
+  8126a0:	210b9104 	addi	r4,r4,11844
   8126a4:	080f5b40 	call	80f5b4 <alt_log_printf_proc>
   8126a8:	00802074 	movhi	r2,129
-  8126ac:	108e8104 	addi	r2,r2,14852
+  8126ac:	108e6604 	addi	r2,r2,14744
   8126b0:	10800017 	ldw	r2,0(r2)
   8126b4:	10800058 	cmpnei	r2,r2,1
   8126b8:	1000041e 	bne	r2,zero,8126cc <_exit+0x58>
   8126bc:	01002074 	movhi	r4,129
-  8126c0:	210bb704 	addi	r4,r4,11996
+  8126c0:	210b9c04 	addi	r4,r4,11888
   8126c4:	e17fff17 	ldw	r5,-4(fp)
   8126c8:	080f5b40 	call	80f5b4 <alt_log_printf_proc>
   8126cc:	00802074 	movhi	r2,129
-  8126d0:	108e8104 	addi	r2,r2,14852
+  8126d0:	108e6604 	addi	r2,r2,14744
   8126d4:	10800017 	ldw	r2,0(r2)
   8126d8:	10800058 	cmpnei	r2,r2,1
   8126dc:	1000031e 	bne	r2,zero,8126ec <_exit+0x78>
   8126e0:	01002074 	movhi	r4,129
-  8126e4:	210bc204 	addi	r4,r4,12040
+  8126e4:	210ba704 	addi	r4,r4,11932
   8126e8:	080f5b40 	call	80f5b4 <alt_log_printf_proc>
   8126ec:	00802074 	movhi	r2,129
-  8126f0:	108e8104 	addi	r2,r2,14852
+  8126f0:	108e6604 	addi	r2,r2,14744
   8126f4:	10800017 	ldw	r2,0(r2)
   8126f8:	10800058 	cmpnei	r2,r2,1
   8126fc:	1000031e 	bne	r2,zero,81270c <_exit+0x98>
   812700:	01002074 	movhi	r4,129
-  812704:	210bcc04 	addi	r4,r4,12080
+  812704:	210bb104 	addi	r4,r4,11972
   812708:	080f5b40 	call	80f5b4 <alt_log_printf_proc>
   81270c:	e13fff17 	ldw	r4,-4(fp)
   812710:	08126340 	call	812634 <alt_sim_halt>
   812714:	00802074 	movhi	r2,129
-  812718:	108e8104 	addi	r2,r2,14852
+  812718:	108e6604 	addi	r2,r2,14744
   81271c:	10800017 	ldw	r2,0(r2)
   812720:	10800058 	cmpnei	r2,r2,1
   812724:	1000031e 	bne	r2,zero,812734 <_exit+0xc0>
   812728:	01002074 	movhi	r4,129
-  81272c:	210bd604 	addi	r4,r4,12120
+  81272c:	210bbb04 	addi	r4,r4,12012
   812730:	080f5b40 	call	80f5b4 <alt_log_printf_proc>
   812734:	003fff06 	br	812734 <_exit+0xc0>
-  812738:	00000010 	cmplti	zero,zero,0
-  81273c:	00000000 	call	0 <__alt_mem_sdram-0x800000>
-  812740:	00527a01 	jmpi	527a0 <__alt_mem_sdram-0x7ad860>
-  812744:	011f7c01 	jmpi	11f7c0 <__alt_mem_sdram-0x6e0840>
-  812748:	001b0c0b 	ldhu	zero,27696(zero)
-  81274c:	00000028 	cmpgeui	zero,zero,0
-  812750:	00000018 	cmpnei	zero,zero,0
-  812754:	00808868 	cmpgeui	r2,zero,545
-  812758:	0000066c 	andhi	zero,zero,25
-  81275c:	3c0e4400 	call	3c0e440 <__alt_data_end+0x2c0e440>
-  812760:	910a9074 	orhi	r4,r18,10817
-  812764:	94089209 	0x94089209
-  812768:	97049606 	br	8139c4 <alt_log_msg_stackpointer+0x20>
-  81276c:	93019f03 	ldbu	r12,1660(r18)
-  812770:	9c059507 	ldb	r16,5716(r19)
-  812774:	00000002 	0x2
-  812778:	00000028 	cmpgeui	zero,zero,0
-  81277c:	00000044 	movi	zero,1
-  812780:	00808ed4 	movui	r2,571
-  812784:	00000660 	cmpeqi	zero,zero,25
-  812788:	400e4400 	call	400e440 <__alt_data_end+0x300e440>
-  81278c:	92099170 	cmpltui	r8,r18,9797
-  812790:	96069408 	cmpgei	et,r18,6736
-  812794:	9c039704 	addi	r16,r19,3676
-  812798:	90019f02 	0x90019f02
-  81279c:	9507930a 	0x9507930a
-  8127a0:	00000005 	stb	zero,0(zero)
-  8127a4:	00812480 	call	81248 <__alt_mem_sdram-0x77edb8>
+  812738:	00812480 	call	81248 <__alt_mem_sdram-0x77edb8>

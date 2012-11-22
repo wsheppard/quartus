@@ -78,12 +78,12 @@ ALT_CPPFLAGS += -DSYSTEM_BUS_WIDTH=32 \
 
 # This following VERSION comment indicates the version of the tool used to 
 # generate this makefile. A makefile variable is provided for VERSION as well. 
-# ACDS_VERSION: 12.0sp2
-ACDS_VERSION := 12.0sp2
+# ACDS_VERSION: 12.1
+ACDS_VERSION := 12.1
 
 # This following BUILD_NUMBER comment indicates the build number of the tool 
 # used to generate this makefile. 
-# BUILD_NUMBER: 263
+# BUILD_NUMBER: 177
 
 # Quartus Generated JDI File. Required for resolving node instance ID's with 
 # design component names. 
@@ -146,9 +146,9 @@ SOPC_NAME := first_nios2_system
 ELF_PATCH_FLAG  += --simulation_enabled false
 
 # The SOPC System ID 
-# setting SOPC_SYSID is 0
-SOPC_SYSID_FLAG += --id=0
-ELF_PATCH_FLAG  += --id 0
+# setting SOPC_SYSID is 4660
+SOPC_SYSID_FLAG += --id=4660
+ELF_PATCH_FLAG  += --id 4660
 
 # The SOPC System ID Base Address 
 # setting SOPC_SYSID_BASE_ADDRESS is 0x1001030
@@ -156,9 +156,9 @@ SOPC_SYSID_FLAG += --sidp=0x1001030
 ELF_PATCH_FLAG  += --sidp 0x1001030
 
 # The SOPC Timestamp 
-# setting SOPC_TIMESTAMP is 1353163993
-SOPC_SYSID_FLAG += --timestamp=1353163993
-ELF_PATCH_FLAG  += --timestamp 1353163993
+# setting SOPC_TIMESTAMP is 1353592830
+SOPC_SYSID_FLAG += --timestamp=1353592830
+ELF_PATCH_FLAG  += --timestamp 1353592830
 
 # Small-footprint (polled mode) driver none 
 # setting altera_avalon_jtag_uart_driver.enable_small_driver is false

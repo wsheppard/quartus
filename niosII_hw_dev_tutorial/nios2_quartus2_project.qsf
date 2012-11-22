@@ -28,7 +28,7 @@
 set_global_assignment -name SMART_RECOMPILE ON
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 5.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "08:30:26  DECEMBER 11, 2004"
-set_global_assignment -name LAST_QUARTUS_VERSION "12.0 SP2"
+set_global_assignment -name LAST_QUARTUS_VERSION 12.1
 set_parameter -name MRAM_BYTEENA_LATCH ON
 
 # Pin & Location Assignments
@@ -83,7 +83,6 @@ set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name ENABLE_SIGNALTAP OFF
 set_global_assignment -name USE_SIGNALTAP_FILE stp1.stp
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to PLD_CLOCKINPUT
-set_global_assignment -name VERILOG_FILE first_nios2_system/synthesis/first_nios2_system.v -library lib_first_nios2_system
 set_global_assignment -name QIP_FILE first_nios2_system/synthesis/first_nios2_system.qip
 set_global_assignment -name SDC_FILE hw_dev_tutorial.sdc
 set_global_assignment -name BDF_FILE nios2_quartus2_project.bdf

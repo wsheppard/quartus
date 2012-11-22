@@ -1,6 +1,6 @@
 Assembler report for nios2_quartus2_project
-Sat Nov 17 18:58:56 2012
-Quartus II 32-bit Version 12.0 Build 263 08/02/2012 Service Pack 2 SJ Web Edition
+Thu Nov 22 14:45:49 2012
+Quartus II 64-Bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
 
 
 ---------------------
@@ -11,9 +11,10 @@ Quartus II 32-bit Version 12.0 Build 263 08/02/2012 Service Pack 2 SJ Web Editio
   3. Assembler Settings
   4. Assembler Encrypted IP Cores Summary
   5. Assembler Generated Files
-  6. Assembler Device Options: C:/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/nios2_quartus2_project.sof
-  7. Assembler Device Options: C:/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/nios2_quartus2_project.pof
-  8. Assembler Messages
+  6. Assembler Device Options: C:/Users/Will/Dev/quartus/niosII_hw_dev_tutorial/nios2_quartus2_project.sof
+  7. Assembler Device Options: C:/Users/Will/Dev/quartus/niosII_hw_dev_tutorial/nios2_quartus2_project.pof
+  8. Assembler Device Options: C:/Users/Will/Dev/quartus/niosII_hw_dev_tutorial/nios2_quartus2_project.ttf
+  9. Assembler Messages
 
 
 
@@ -39,7 +40,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sat Nov 17 18:58:56 2012 ;
+; Assembler Status      ; Successful - Thu Nov 22 14:45:49 2012 ;
 ; Revision Name         ; nios2_quartus2_project                ;
 ; Top-level Entity Name ; nios2_quartus2_project                ;
 ; Family                ; Cyclone III                           ;
@@ -89,54 +90,63 @@ applicable agreement for further details.
 +--------+------------------------+--------------+
 
 
-+-------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                           ;
-+-------------------------------------------------------------------------------------+
-; File Name                                                                           ;
-+-------------------------------------------------------------------------------------+
-; C:/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/nios2_quartus2_project.sof ;
-; C:/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/nios2_quartus2_project.pof ;
-; C:/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/nios2_quartus2_project.ttf ;
-+-------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------+
+; Assembler Generated Files                                                   ;
++-----------------------------------------------------------------------------+
+; File Name                                                                   ;
++-----------------------------------------------------------------------------+
+; C:/Users/Will/Dev/quartus/niosII_hw_dev_tutorial/nios2_quartus2_project.sof ;
+; C:/Users/Will/Dev/quartus/niosII_hw_dev_tutorial/nios2_quartus2_project.pof ;
+; C:/Users/Will/Dev/quartus/niosII_hw_dev_tutorial/nios2_quartus2_project.ttf ;
++-----------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/nios2_quartus2_project.sof ;
-+----------------+----------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                      ;
-+----------------+----------------------------------------------------------------------------------------------+
-; Device         ; EP3C16F484C6                                                                                 ;
-; JTAG usercode  ; 0xFFFFFFFF                                                                                   ;
-; Checksum       ; 0x0025C66A                                                                                   ;
-+----------------+----------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/Will/Dev/quartus/niosII_hw_dev_tutorial/nios2_quartus2_project.sof ;
++----------------+--------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                              ;
++----------------+--------------------------------------------------------------------------------------+
+; Device         ; EP3C16F484C6                                                                         ;
+; JTAG usercode  ; 0xFFFFFFFF                                                                           ;
+; Checksum       ; 0x00250F90                                                                           ;
++----------------+--------------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/nios2_quartus2_project.pof ;
-+--------------------+------------------------------------------------------------------------------------------+
-; Option             ; Setting                                                                                  ;
-+--------------------+------------------------------------------------------------------------------------------+
-; Device             ; EPCS4                                                                                    ;
-; JTAG usercode      ; 0x00000000                                                                               ;
-; Checksum           ; 0x05AD2374                                                                               ;
-; Compression Ratio  ; 2                                                                                        ;
-+--------------------+------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/Will/Dev/quartus/niosII_hw_dev_tutorial/nios2_quartus2_project.pof ;
++--------------------+----------------------------------------------------------------------------------+
+; Option             ; Setting                                                                          ;
++--------------------+----------------------------------------------------------------------------------+
+; Device             ; EPCS4                                                                            ;
+; JTAG usercode      ; 0x00000000                                                                       ;
+; Checksum           ; 0x05AF6AFB                                                                       ;
+; Compression Ratio  ; 2                                                                                ;
++--------------------+----------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/Will/Dev/quartus/niosII_hw_dev_tutorial/nios2_quartus2_project.ttf ;
++--------------------+----------------------------------------------------------------------------------+
+; Option             ; Setting                                                                          ;
++--------------------+----------------------------------------------------------------------------------+
+; Tabular Text File  ;                                                                                  ;
++--------------------+----------------------------------------------------------------------------------+
 
 
 +--------------------+
 ; Assembler Messages ;
 +--------------------+
 Info: *******************************************************************
-Info: Running Quartus II 32-bit Assembler
-    Info: Version 12.0 Build 263 08/02/2012 Service Pack 2 SJ Web Edition
-    Info: Processing started: Sat Nov 17 18:58:50 2012
+Info: Running Quartus II 64-Bit Assembler
+    Info: Version 12.1 Build 177 11/07/2012 SJ Web Edition
+    Info: Processing started: Thu Nov 22 14:45:46 2012
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off nios2_quartus2_project -c nios2_quartus2_project
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
-Info: Quartus II 32-bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 332 megabytes
-    Info: Processing ended: Sat Nov 17 18:58:56 2012
-    Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:06
+Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 430 megabytes
+    Info: Processing ended: Thu Nov 22 14:45:49 2012
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
 
 

@@ -1,7 +1,10 @@
 <sld_project_info>
+  <project>
+    <hash md5_digest_80b="efd7610c10702bf2fa20"/>
+  </project>
   <file_info>
-    <file checksum="0x0025C66A" device="EP3C16F484C6" path="nios2_quartus2_project.sof" usercode="0xFFFFFFFF"/>
-    <file checksum="0x05AD2374" device="EPCS4" path="nios2_quartus2_project.pof" usercode="0x00000000"/>
+    <file checksum="0x00250F90" device="EP3C16F484C6" path="nios2_quartus2_project.sof" usercode="0xFFFFFFFF"/>
+    <file checksum="0x05AF6AFB" device="EPCS4" path="nios2_quartus2_project.pof" usercode="0x00000000"/>
     <file path="nios2_quartus2_project.ttf"/>
   </file_info>
   <hub_info ir_width="2" node_count="2"/>
@@ -140,4 +143,12 @@
       </outputs>
     </node>
   </node_info>
+  <sld_infos>
+    <sld_info hpath="first_nios2_system:inst" name="inst">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME first_nios2_system HAS_SOPCINFO 1 GENERATION_ID 1353592830"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+  </sld_infos>
 </sld_project_info>

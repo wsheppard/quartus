@@ -1329,32 +1329,39 @@ module first_nios2_system_cpu_nios2_oci_itrace (
   input            xbrk_traceon;
   input            xbrk_wrap_traceoff;
 
-  wire             advanced_exception;
+  wire             curr_pid;
   reg     [ 29: 0] dct_buffer /* synthesis ALTERA_ATTRIBUTE = "SUPPRESS_DA_RULE_INTERNAL=R101"  */;
   wire    [  1: 0] dct_code;
   reg     [  3: 0] dct_count /* synthesis ALTERA_ATTRIBUTE = "SUPPRESS_DA_RULE_INTERNAL=R101"  */;
   wire             dct_is_taken;
   wire    [ 31: 0] excaddr;
   wire             instr_retired;
+  wire             is_advanced_exception;
   wire             is_cond_dct;
   wire             is_dct;
-  wire             is_exception;
+  wire             is_exception_no_break;
   wire             is_fast_tlb_miss_exception;
   wire             is_idct;
   reg     [ 35: 0] itm /* synthesis ALTERA_ATTRIBUTE = "SUPPRESS_DA_RULE_INTERNAL=R101"  */;
   wire             not_in_debug_mode;
+  reg              pending_curr_pid /* synthesis ALTERA_ATTRIBUTE = "SUPPRESS_DA_RULE_INTERNAL=R101"  */;
   reg     [ 31: 0] pending_excaddr /* synthesis ALTERA_ATTRIBUTE = "SUPPRESS_DA_RULE_INTERNAL=R101"  */;
   reg              pending_exctype /* synthesis ALTERA_ATTRIBUTE = "SUPPRESS_DA_RULE_INTERNAL=R101"  */;
   reg     [  3: 0] pending_frametype /* synthesis ALTERA_ATTRIBUTE = "SUPPRESS_DA_RULE_INTERNAL=R101"  */;
+  reg              pending_prev_pid /* synthesis ALTERA_ATTRIBUTE = "SUPPRESS_DA_RULE_INTERNAL=R101"  */;
+  reg              prev_pid /* synthesis ALTERA_ATTRIBUTE = "SUPPRESS_DA_RULE_INTERNAL=R101"  */;
+  reg              prev_pid_valid /* synthesis ALTERA_ATTRIBUTE = "SUPPRESS_DA_RULE_INTERNAL=R101"  */;
   wire             record_dct_outcome_in_sync;
   wire             record_itrace;
   wire    [ 31: 0] retired_pcb;
+  reg              snapped_curr_pid /* synthesis ALTERA_ATTRIBUTE = "SUPPRESS_DA_RULE_INTERNAL=R101"  */;
+  reg              snapped_pid /* synthesis ALTERA_ATTRIBUTE = "SUPPRESS_DA_RULE_INTERNAL=R101"  */;
+  reg              snapped_prev_pid /* synthesis ALTERA_ATTRIBUTE = "SUPPRESS_DA_RULE_INTERNAL=R101"  */;
   wire    [  1: 0] sync_code;
   wire    [  6: 0] sync_interval;
   wire             sync_pending;
   reg     [  6: 0] sync_timer /* synthesis ALTERA_ATTRIBUTE = "SUPPRESS_DA_RULE_INTERNAL=R101"  */;
   wire    [  6: 0] sync_timer_next;
-  wire             synced;
   reg              trc_clear /* synthesis ALTERA_ATTRIBUTE = "SUPPRESS_DA_RULE_INTERNAL=D101"  */;
   wire    [ 15: 0] trc_ctrl;
   reg     [ 10: 0] trc_ctrl_reg /* synthesis ALTERA_ATTRIBUTE = "SUPPRESS_DA_RULE_INTERNAL=\"D101,D103,R101\""  */;
@@ -1366,9 +1373,10 @@ module first_nios2_system_cpu_nios2_oci_itrace (
   assign retired_pcb = 32'b0;
   assign not_in_debug_mode = 1'b0;
   assign instr_retired = 1'b0;
-  assign advanced_exception = 1'b0;
-  assign is_exception = 1'b0;
+  assign is_advanced_exception = 1'b0;
+  assign is_exception_no_break = 1'b0;
   assign is_fast_tlb_miss_exception = 1'b0;
+  assign curr_pid = 1'b0;
   assign excaddr = 32'b0;
   assign sync_code = trc_ctrl[3 : 2];
   assign sync_interval = { sync_code[1] & sync_code[0], 1'b0, sync_code[1] & ~sync_code[0], 1'b0, ~sync_code[1] & sync_code[0], 2'b00 };
@@ -1376,7 +1384,6 @@ module first_nios2_system_cpu_nios2_oci_itrace (
   assign record_dct_outcome_in_sync = dct_is_taken & sync_pending;
   assign sync_timer_next = sync_pending ? sync_timer : (sync_timer - 1);
   assign record_itrace = trc_on & trc_ctrl[4];
-  assign synced = pending_frametype != 4'b1010;
   assign dct_code = {is_cond_dct, dct_is_taken};
   always @(posedge clk or negedge jrst_n)
     begin
@@ -1400,6 +1407,13 @@ module first_nios2_system_cpu_nios2_oci_itrace (
           pending_frametype <= 4'b0000;
           pending_exctype <= 1'b0;
           pending_excaddr <= 0;
+          prev_pid <= 0;
+          prev_pid_valid <= 0;
+          snapped_pid <= 0;
+          snapped_curr_pid <= 0;
+          snapped_prev_pid <= 0;
+          pending_curr_pid <= 0;
+          pending_prev_pid <= 0;
         end
       else if (trc_clear || (!0 && !0))
         begin
@@ -1410,70 +1424,114 @@ module first_nios2_system_cpu_nios2_oci_itrace (
           pending_frametype <= 4'b0000;
           pending_exctype <= 1'b0;
           pending_excaddr <= 0;
-        end
-      else if (instr_retired | advanced_exception)
-        begin
-          if (~record_itrace)
-              pending_frametype <= 4'b1010;
-          else if (is_exception)
-            begin
-              pending_frametype <= 4'b0010;
-              pending_excaddr <= excaddr;
-              if (is_fast_tlb_miss_exception)
-                  pending_exctype <= 1'b1;
-              else 
-                pending_exctype <= 1'b0;
-            end
-          else if (is_idct)
-              pending_frametype <= 4'b1001;
-          else if (record_dct_outcome_in_sync)
-              pending_frametype <= 4'b1000;
-          else 
-            pending_frametype <= 4'b0000;
-          if ((dct_count != 0) & (
-                     ~record_itrace | 
-                     is_idct | 
-                     is_exception | 
-                     record_dct_outcome_in_sync
-                   ))
-            begin
-              itm <= {4'b0001, dct_buffer, 2'b00};
-              dct_buffer <= 0;
-              dct_count <= 0;
-              sync_timer <= sync_timer_next;
-            end
-          else 
-            begin
-              if (record_itrace & (is_dct & (dct_count != 4'd15)) & ~record_dct_outcome_in_sync & ~advanced_exception)
-                begin
-                  dct_buffer <= {dct_code, dct_buffer[29 : 2]};
-                  dct_count <= dct_count + 1;
-                end
-              if (record_itrace & synced & (pending_frametype == 4'b0010))
-                  itm <= {4'b0010, pending_excaddr[31 : 1], pending_exctype};
-              else if (record_itrace & (pending_frametype != 4'b0000))
-                begin
-                  itm <= {pending_frametype, retired_pcb};
-                  sync_timer <= sync_interval;
-                end
-              else if (record_itrace & synced & is_dct)
-                begin
-                  if (dct_count == 4'd15)
-                    begin
-                      itm <= {4'b0001, dct_code, dct_buffer};
-                      dct_buffer <= 0;
-                      dct_count <= 0;
-                      sync_timer <= sync_timer_next;
-                    end
-                  else 
-                    itm <= 4'b0000;
-                end
-              else 
-                itm <= 4'b0000;
-            end
+          prev_pid <= 0;
+          prev_pid_valid <= 0;
+          snapped_pid <= 0;
+          snapped_curr_pid <= 0;
+          snapped_prev_pid <= 0;
+          pending_curr_pid <= 0;
+          pending_prev_pid <= 0;
         end
       else 
-        itm <= 4'b0000;
+        begin
+          if (!prev_pid_valid)
+            begin
+              prev_pid <= curr_pid;
+              prev_pid_valid <= 1;
+            end
+          if ((curr_pid != prev_pid) & prev_pid_valid & !snapped_pid)
+            begin
+              snapped_pid <= 1;
+              snapped_curr_pid <= curr_pid;
+              snapped_prev_pid <= prev_pid;
+              prev_pid <= curr_pid;
+              prev_pid_valid <= 1;
+            end
+          if (instr_retired | is_advanced_exception)
+            begin
+              if (~record_itrace)
+                  pending_frametype <= 4'b1010;
+              else if (is_exception_no_break)
+                begin
+                  pending_frametype <= 4'b0010;
+                  pending_excaddr <= excaddr;
+                  if (is_fast_tlb_miss_exception)
+                      pending_exctype <= 1'b1;
+                  else 
+                    pending_exctype <= 1'b0;
+                end
+              else if (is_idct)
+                  pending_frametype <= 4'b1001;
+              else if (record_dct_outcome_in_sync)
+                  pending_frametype <= 4'b1000;
+              else if (!is_dct & snapped_pid)
+                begin
+                  pending_frametype <= 4'b0011;
+                  pending_curr_pid <= snapped_curr_pid;
+                  pending_prev_pid <= snapped_prev_pid;
+                  snapped_pid <= 0;
+                end
+              else 
+                pending_frametype <= 4'b0000;
+              if ((dct_count != 0) & 
+           (~record_itrace | 
+            is_exception_no_break |
+            is_idct |
+            record_dct_outcome_in_sync |
+            (!is_dct & snapped_pid)))
+                begin
+                  itm <= {4'b0001, dct_buffer, 2'b00};
+                  dct_buffer <= 0;
+                  dct_count <= 0;
+                  sync_timer <= sync_timer_next;
+                end
+              else 
+                begin
+                  if (record_itrace & (is_dct & (dct_count != 4'd15)) & ~record_dct_outcome_in_sync & ~is_advanced_exception)
+                    begin
+                      dct_buffer <= {dct_code, dct_buffer[29 : 2]};
+                      dct_count <= dct_count + 1;
+                    end
+                  if (record_itrace & (pending_frametype == 4'b0010))
+                      itm <= {4'b0010, pending_excaddr[31 : 1], pending_exctype};
+                  else if (record_itrace & (
+                (pending_frametype == 4'b1000) |
+                (pending_frametype == 4'b1010) |
+                (pending_frametype == 4'b1001)))
+                    begin
+                      itm <= {pending_frametype, retired_pcb};
+                      sync_timer <= sync_interval;
+                      if (0 &
+                    ((pending_frametype == 4'b1000) | (pending_frametype == 4'b1010)) &
+                    !snapped_pid & prev_pid_valid)
+                        begin
+                          snapped_pid <= 1;
+                          snapped_curr_pid <= curr_pid;
+                          snapped_prev_pid <= prev_pid;
+                        end
+                    end
+                  else if (record_itrace & 
+                0 & (pending_frametype == 4'b0011))
+                      itm <= {4'b0011, 2'b00, pending_prev_pid, 2'b00, pending_curr_pid};
+                  else if (record_itrace & is_dct)
+                    begin
+                      if (dct_count == 4'd15)
+                        begin
+                          itm <= {4'b0001, dct_code, dct_buffer};
+                          dct_buffer <= 0;
+                          dct_count <= 0;
+                          sync_timer <= sync_timer_next;
+                        end
+                      else 
+                        itm <= 4'b0000;
+                    end
+                  else 
+                    itm <= {4'b0000, 32'b0};
+                end
+            end
+          else 
+            itm <= {4'b0000, 32'b0};
+        end
     end
 
 

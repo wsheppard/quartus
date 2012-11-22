@@ -2,9 +2,9 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>freertos</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>17-Nov-2012 15:52:43</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1353167563184</BspGeneratedUnixTimeStamp>
-        <BspGeneratedLocation>C:\Users\Will\Development\Quartus\niosII_hw_dev_tutorial\software\test5</BspGeneratedLocation>
+        <BspGeneratedTimeStamp>22-Nov-2012 14:48:07</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1353595687649</BspGeneratedUnixTimeStamp>
+        <BspGeneratedLocation>C:\Users\Will\Dev\quartus\niosII_hw_dev_tutorial\software\test5</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\first_nios2_system.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>

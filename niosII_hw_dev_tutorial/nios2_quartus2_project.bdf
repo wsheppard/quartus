@@ -34,7 +34,6 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8))
 	)
 	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect -176 -440 -120 -424))
 )
 (pin
 	(output)
@@ -52,7 +51,6 @@ applicable agreement for further details.
 		(line (pt 98 4)(pt 94 8))
 	)
 	(rotate180)
-	(annotation_block (location)(rect 80 -280 136 -264))
 )
 (pin
 	(output)
@@ -70,7 +68,6 @@ applicable agreement for further details.
 		(line (pt 98 4)(pt 94 8))
 	)
 	(rotate180)
-	(annotation_block (location)(rect -32 -240 24 -224))
 )
 (pin
 	(output)
@@ -88,7 +85,6 @@ applicable agreement for further details.
 		(line (pt 98 4)(pt 94 8))
 	)
 	(rotate180)
-	(annotation_block (location)(rect -32 -208 24 -192))
 )
 (pin
 	(output)
@@ -106,7 +102,6 @@ applicable agreement for further details.
 		(line (pt 98 4)(pt 94 8))
 	)
 	(rotate180)
-	(annotation_block (location)(rect 96 -176 144 -160))
 )
 (pin
 	(output)
@@ -124,7 +119,6 @@ applicable agreement for further details.
 		(line (pt 98 4)(pt 94 8))
 	)
 	(rotate180)
-	(annotation_block (location)(rect 176 -144 232 -128))
 )
 (pin
 	(output)
@@ -142,7 +136,6 @@ applicable agreement for further details.
 		(line (pt 98 4)(pt 94 8))
 	)
 	(rotate180)
-	(annotation_block (location)(rect 64 -72 112 -56))
 )
 (pin
 	(output)
@@ -160,7 +153,6 @@ applicable agreement for further details.
 		(line (pt 98 4)(pt 94 8))
 	)
 	(rotate180)
-	(annotation_block (location)(rect 64 8 112 24))
 )
 (pin
 	(output)
@@ -178,7 +170,6 @@ applicable agreement for further details.
 		(line (pt 98 4)(pt 94 8))
 	)
 	(rotate180)
-	(annotation_block (location)(rect 208 24 264 40))
 )
 (pin
 	(output)
@@ -195,7 +186,6 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1000 -344 1048 -328))
 )
 (pin
 	(output)
@@ -230,7 +220,6 @@ applicable agreement for further details.
 	)
 	(rotate180)
 	(text "VCC" (rect 152 -1 172 9)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 48 -104 104 -88))
 )
 (symbol
 	(rect -96 -344 -64 -328)
