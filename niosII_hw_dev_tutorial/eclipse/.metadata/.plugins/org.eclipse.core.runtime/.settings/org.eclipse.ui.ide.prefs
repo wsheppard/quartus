@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 IMPORT_FILES_AND_FOLDERS_RELATIVE=true
 IMPORT_FILES_AND_FOLDERS_TYPE=7,1
 PROBLEMS_FILTERS_MIGRATE=true
@@ -6,3 +7,15 @@ eclipse.preferences.version=1
 platformState=1353588713727
 quickStart=false
 tipsAndTricks=true
+=======
+#Sat Nov 17 20:47:59 GMT 2012
+IMPORT_FILES_AND_FOLDERS_RELATIVE=true
+PROBLEMS_FILTERS_MIGRATE=true
+quickStart=false
+tipsAndTricks=true
+TASKS_FILTERS_MIGRATE=true
+eclipse.preferences.version=1
+platformState=1353053951514
+EXIT_PROMPT_ON_CLOSE_LAST_WINDOW=false
+IMPORT_FILES_AND_FOLDERS_TYPE=7,1
+>>>>>>> 5f0fa4d91aa97f188f2e619db808c790c0793725

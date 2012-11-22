@@ -4,7 +4,11 @@
  * Machine generated for CPU 'cpu' in SOPC Builder design 'first_nios2_system'
  * SOPC Builder design path: ../../first_nios2_system.sopcinfo
  *
+<<<<<<< HEAD
  * Generated: Thu Nov 22 14:11:42 GMT 2012
+=======
+ * Generated: Tue Nov 20 11:33:55 GMT 2012
+>>>>>>> 5f0fa4d91aa97f188f2e619db808c790c0793725
  */
 
 /*
@@ -66,7 +70,7 @@
 #define ALT_CPU_CPU_FREQ 50000000u
 #define ALT_CPU_CPU_ID_SIZE 1
 #define ALT_CPU_CPU_ID_VALUE 0x00000000
-#define ALT_CPU_CPU_IMPLEMENTATION "tiny"
+#define ALT_CPU_CPU_IMPLEMENTATION "small"
 #define ALT_CPU_DATA_ADDR_WIDTH 0x19
 #define ALT_CPU_DCACHE_LINE_SIZE 0
 #define ALT_CPU_DCACHE_LINE_SIZE_LOG2 0
@@ -80,9 +84,9 @@
 #define ALT_CPU_HAS_DEBUG_CORE 1
 #define ALT_CPU_HAS_DEBUG_STUB
 #define ALT_CPU_HAS_JMPI_INSTRUCTION
-#define ALT_CPU_ICACHE_LINE_SIZE 0
-#define ALT_CPU_ICACHE_LINE_SIZE_LOG2 0
-#define ALT_CPU_ICACHE_SIZE 0
+#define ALT_CPU_ICACHE_LINE_SIZE 32
+#define ALT_CPU_ICACHE_LINE_SIZE_LOG2 5
+#define ALT_CPU_ICACHE_SIZE 2048
 #define ALT_CPU_INST_ADDR_WIDTH 0x19
 #define ALT_CPU_NAME "cpu"
 #define ALT_CPU_RESET_ADDR 0x800000
@@ -98,7 +102,7 @@
 #define NIOS2_CPU_FREQ 50000000u
 #define NIOS2_CPU_ID_SIZE 1
 #define NIOS2_CPU_ID_VALUE 0x00000000
-#define NIOS2_CPU_IMPLEMENTATION "tiny"
+#define NIOS2_CPU_IMPLEMENTATION "small"
 #define NIOS2_DATA_ADDR_WIDTH 0x19
 #define NIOS2_DCACHE_LINE_SIZE 0
 #define NIOS2_DCACHE_LINE_SIZE_LOG2 0
@@ -111,9 +115,9 @@
 #define NIOS2_HAS_DEBUG_CORE 1
 #define NIOS2_HAS_DEBUG_STUB
 #define NIOS2_HAS_JMPI_INSTRUCTION
-#define NIOS2_ICACHE_LINE_SIZE 0
-#define NIOS2_ICACHE_LINE_SIZE_LOG2 0
-#define NIOS2_ICACHE_SIZE 0
+#define NIOS2_ICACHE_LINE_SIZE 32
+#define NIOS2_ICACHE_LINE_SIZE_LOG2 5
+#define NIOS2_ICACHE_SIZE 2048
 #define NIOS2_INST_ADDR_WIDTH 0x19
 #define NIOS2_RESET_ADDR 0x800000
 
@@ -129,6 +133,7 @@
 #define __ALTERA_AVALON_SYSID_QSYS
 #define __ALTERA_AVALON_TIMER
 #define __ALTERA_NIOS2_QSYS
+#define __PWM_COMPONENT
 
 
 /*
@@ -266,6 +271,20 @@
 
 
 /*
+ * pwm_component_0 configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_pwm_component_0 pwm_component
+#define PWM_COMPONENT_0_BASE 0x0
+#define PWM_COMPONENT_0_IRQ -1
+#define PWM_COMPONENT_0_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define PWM_COMPONENT_0_NAME "/dev/pwm_component_0"
+#define PWM_COMPONENT_0_SPAN 16
+#define PWM_COMPONENT_0_TYPE "pwm_component"
+
+
+/*
  * sdram configuration
  *
  */
@@ -342,7 +361,11 @@
 #define SYSID_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define SYSID_NAME "/dev/sysid"
 #define SYSID_SPAN 8
+<<<<<<< HEAD
 #define SYSID_TIMESTAMP 1353592830
+=======
+#define SYSID_TIMESTAMP 1353410341
+>>>>>>> 5f0fa4d91aa97f188f2e619db808c790c0793725
 #define SYSID_TYPE "altera_avalon_sysid_qsys"
 
 #endif /* __SYSTEM_H_ */

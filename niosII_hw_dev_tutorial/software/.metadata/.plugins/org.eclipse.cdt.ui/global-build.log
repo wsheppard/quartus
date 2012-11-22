@@ -1,0 +1,27 @@
+
+**** Build of configuration Nios II for project test5_app ****
+
+make all 
+Info: Building ../test5/
+make --no-print-directory -C ../test5/
+[BSP build complete]
+Info: Linking test5_app.elf
+nios2-elf-g++  -T'../test5//linker.x' -msys-crt0='../test5//obj/HAL/src/crt0.o' -msys-lib=freertos_bsp -L../test5/   -Wl,-Map=test5_app.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o test5_app.elf obj/default/ECD/source/display.o obj/default/ECD/source/keypad.o obj/default/ECD/source/main.o obj/default/ECD/source/manager.o obj/default/ECD/source/messaging.o obj/default/ECD/source/movement.o obj/default/ECD/source/pwm.o -lm 
+nios2-elf-insert test5_app.elf --thread_model freertos --cpu_name cpu --qsys true --simulation_enabled false --id 4660 --sidp 0x1001030 --timestamp 1353592830 --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name first_nios2_system --jdi C:/Users/Will/Dev/quartus/niosII_hw_dev_tutorial/software/test5/../../nios2_quartus2_project.jdi --sopcinfo C:/Users/Will/Dev/quartus/niosII_hw_dev_tutorial/software/test5/../../first_nios2_system.sopcinfo
+Info: (test5_app.elf) 83 KBytes program size (code + initialized data).
+Info:                 8101 KBytes free for stack + heap.
+Info: Creating test5_app.objdump
+nios2-elf-objdump --disassemble --syms --all-header test5_app.elf >test5_app.objdump
+[test5_app build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project test5_app ****
+
+make all 
+Info: Building ../test5/
+make --no-print-directory -C ../test5/
+[BSP build complete]
+[test5_app build complete]
+
+**** Build Finished ****

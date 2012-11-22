@@ -68,11 +68,27 @@
          type = "int";
       }
    }
+<<<<<<< HEAD
    element sys_clk_timer.s1
    {
       datum baseAddress
       {
          value = "16781312";
+=======
+   element pwm_component_0
+   {
+      datum _sortIndex
+      {
+         value = "8";
+         type = "int";
+      }
+   }
+   element leds.s1
+   {
+      datum baseAddress
+      {
+         value = "16781344";
+>>>>>>> 5f0fa4d91aa97f188f2e619db808c790c0793725
          type = "long";
       }
    }
@@ -84,11 +100,11 @@
          type = "long";
       }
    }
-   element leds.s1
+   element sdram.s1
    {
       datum baseAddress
       {
-         value = "16781344";
+         value = "8388608";
          type = "long";
       }
    }
@@ -144,7 +160,11 @@
  <parameter name="projectName">nios2_quartus2_project.qpf</parameter>
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
+<<<<<<< HEAD
  <parameter name="timeStamp" value="1353592775445" />
+=======
+ <parameter name="timeStamp" value="1353410185464" />
+>>>>>>> 5f0fa4d91aa97f188f2e619db808c790c0793725
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface name="clk_in" internal="clk_0.clk_in" type="clock" dir="end">
@@ -168,7 +188,16 @@
    internal="leds.external_connection"
    type="conduit"
    dir="end" />
+<<<<<<< HEAD
  <module kind="clock_source" version="12.1" enabled="1" name="clk_0">
+=======
+ <interface
+   name="pwm"
+   internal="pwm_component_0.conduit_end"
+   type="conduit"
+   dir="end" />
+ <module kind="clock_source" version="12.0" enabled="1" name="clk_0">
+>>>>>>> 5f0fa4d91aa97f188f2e619db808c790c0793725
   <parameter name="clockFrequency" value="50000000" />
   <parameter name="clockFrequencyKnown" value="true" />
   <parameter name="inputClockFrequency" value="0" />
@@ -244,7 +273,7 @@
   <parameter name="mmu_tlbPtrSz" value="7" />
   <parameter name="mmu_tlbNumWays" value="16" />
   <parameter name="mmu_processIDNumBits" value="8" />
-  <parameter name="impl" value="Tiny" />
+  <parameter name="impl" value="Small" />
   <parameter name="icache_size" value="2048" />
   <parameter name="icache_ramBlockType" value="Automatic" />
   <parameter name="icache_numTCIM" value="0" />
@@ -267,7 +296,7 @@
   <parameter name="tightlyCoupledInstructionMaster2AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster3AddrWidth" value="1" />
   <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='sdram.s1' start='0x800000' end='0x1000000' /><slave name='cpu.jtag_debug_module' start='0x1000800' end='0x1001000' /></address-map>]]></parameter>
-  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='sdram.s1' start='0x800000' end='0x1000000' /><slave name='cpu.jtag_debug_module' start='0x1000800' end='0x1001000' /><slave name='sys_clk_timer.s1' start='0x1001000' end='0x1001020' /><slave name='leds.s1' start='0x1001020' end='0x1001030' /><slave name='sysid.control_slave' start='0x1001030' end='0x1001038' /><slave name='jtag_uart.avalon_jtag_slave' start='0x1001038' end='0x1001040' /></address-map>]]></parameter>
+  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='pwm_component_0.s1' start='0x0' end='0x10' /><slave name='sdram.s1' start='0x800000' end='0x1000000' /><slave name='cpu.jtag_debug_module' start='0x1000800' end='0x1001000' /><slave name='sys_clk_timer.s1' start='0x1001000' end='0x1001020' /><slave name='leds.s1' start='0x1001020' end='0x1001030' /><slave name='sysid.control_slave' start='0x1001030' end='0x1001038' /><slave name='jtag_uart.avalon_jtag_slave' start='0x1001038' end='0x1001040' /></address-map>]]></parameter>
   <parameter name="clockFrequency" value="50000000" />
   <parameter name="deviceFamilyName" value="Cyclone III" />
   <parameter name="internalIrqMaskSystemInfo" value="65538" />
@@ -378,8 +407,16 @@
   <parameter name="simDrivenValue" value="0" />
   <parameter name="width" value="10" />
  </module>
+<<<<<<< HEAD
  <connection kind="clock" version="12.1" start="clk_0.clk" end="cpu.clk" />
  <connection kind="reset" version="12.1" start="clk_0.clk_reset" end="cpu.reset_n" />
+=======
+ <module kind="pwm_component" version="1.0" enabled="1" name="pwm_component_0">
+  <parameter name="AUTO_S1_CLK_CLOCK_RATE" value="50000000" />
+ </module>
+ <connection kind="clock" version="12.0" start="clk_0.clk" end="cpu.clk" />
+ <connection kind="reset" version="12.0" start="clk_0.clk_reset" end="cpu.reset_n" />
+>>>>>>> 5f0fa4d91aa97f188f2e619db808c790c0793725
  <connection
    kind="avalon"
    version="12.1"
@@ -474,4 +511,22 @@
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x01001020" />
  </connection>
+ <connection
+   kind="avalon"
+   version="12.0"
+   start="cpu.data_master"
+   end="pwm_component_0.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0000" />
+ </connection>
+ <connection
+   kind="reset"
+   version="12.0"
+   start="clk_0.clk_reset"
+   end="pwm_component_0.reset_sink" />
+ <connection
+   kind="clock"
+   version="12.0"
+   start="clk_0.clk"
+   end="pwm_component_0.s1_clk" />
 </system>

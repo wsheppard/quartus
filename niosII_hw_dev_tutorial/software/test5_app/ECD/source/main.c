@@ -24,11 +24,10 @@
 int main( void )
 {
 
-	void* pLEDS = (void*)LEDS_BASE;
 
 	printf("Starting the RTOS demo.....\n");
 
-	*(int*)pLEDS = 0x01;
+
 
 
 	/* Starting off the manager thread */

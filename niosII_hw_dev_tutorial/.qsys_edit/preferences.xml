@@ -12,6 +12,7 @@
  </systemtable>
  <clocktable>
   <columns>
+<<<<<<< HEAD
    <clockname preferredWidth="334" />
    <clocksource preferredWidth="333" />
    <frequency preferredWidth="317" />
@@ -20,6 +21,16 @@
  <library
    expandedCategories="Project,Library,Library/Peripherals/Microcontroller Peripherals,Library/Peripherals" />
  <window width="1280" height="984" x="0" y="0" />
+=======
+   <clockname preferredWidth="358" />
+   <clocksource preferredWidth="356" />
+   <frequency preferredWidth="340" />
+  </columns>
+ </clocktable>
+ <library
+   expandedCategories="Library/Peripherals/Microcontroller Peripherals,Library,Project,Library/Peripherals,Library/Microcontroller Peripherals" />
+ <window width="1366" height="728" x="1468" y="184" />
+>>>>>>> 5f0fa4d91aa97f188f2e619db808c790c0793725
  <generation block_symbol_file="1" path="_PROJECT_NAME_" synthesis="1" />
  <hdlexample language="VHDL" />
 </preferences>

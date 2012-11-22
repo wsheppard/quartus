@@ -28,10 +28,15 @@
 // ------------------------------------------
 // Generation parameters:
 //   output_name:         first_nios2_system_cmd_xbar_demux
+<<<<<<< HEAD
 //   ST_DATA_W:           98
 //   ST_CHANNEL_W:        6
+=======
+//   ST_DATA_W:           96
+//   ST_CHANNEL_W:        7
+>>>>>>> 5f0fa4d91aa97f188f2e619db808c790c0793725
 //   NUM_OUTPUTS:         2
-//   VALID_WIDTH:         1
+//   VALID_WIDTH:         7
 // ------------------------------------------
 
 //------------------------------------------
@@ -45,9 +50,15 @@ module first_nios2_system_cmd_xbar_demux
     // -------------------
     // Sink
     // -------------------
+<<<<<<< HEAD
     input  [1-1      : 0]   sink_valid,
     input  [98-1    : 0]   sink_data, // ST_DATA_W=98
     input  [6-1 : 0]   sink_channel, // ST_CHANNEL_W=6
+=======
+    input  [7-1      : 0]   sink_valid,
+    input  [96-1    : 0]   sink_data, // ST_DATA_W=96
+    input  [7-1 : 0]   sink_channel, // ST_CHANNEL_W=7
+>>>>>>> 5f0fa4d91aa97f188f2e619db808c790c0793725
     input                         sink_startofpacket,
     input                         sink_endofpacket,
     output                        sink_ready,
@@ -56,15 +67,25 @@ module first_nios2_system_cmd_xbar_demux
     // Sources 
     // -------------------
     output reg                      src0_valid,
+<<<<<<< HEAD
     output reg [98-1    : 0] src0_data, // ST_DATA_W=98
     output reg [6-1 : 0] src0_channel, // ST_CHANNEL_W=6
+=======
+    output reg [96-1    : 0] src0_data, // ST_DATA_W=96
+    output reg [7-1 : 0] src0_channel, // ST_CHANNEL_W=7
+>>>>>>> 5f0fa4d91aa97f188f2e619db808c790c0793725
     output reg                      src0_startofpacket,
     output reg                      src0_endofpacket,
     input                           src0_ready,
 
     output reg                      src1_valid,
+<<<<<<< HEAD
     output reg [98-1    : 0] src1_data, // ST_DATA_W=98
     output reg [6-1 : 0] src1_channel, // ST_CHANNEL_W=6
+=======
+    output reg [96-1    : 0] src1_data, // ST_DATA_W=96
+    output reg [7-1 : 0] src1_channel, // ST_CHANNEL_W=7
+>>>>>>> 5f0fa4d91aa97f188f2e619db808c790c0793725
     output reg                      src1_startofpacket,
     output reg                      src1_endofpacket,
     input                           src1_ready,
@@ -92,14 +113,14 @@ module first_nios2_system_cmd_xbar_demux
         src0_endofpacket   = sink_endofpacket;
         src0_channel       = sink_channel >> NUM_OUTPUTS;
 
-        src0_valid         = sink_channel[0] && sink_valid;
+        src0_valid         = sink_channel[0] && sink_valid[0];
 
         src1_data          = sink_data;
         src1_startofpacket = sink_startofpacket;
         src1_endofpacket   = sink_endofpacket;
         src1_channel       = sink_channel >> NUM_OUTPUTS;
 
-        src1_valid         = sink_channel[1] && sink_valid;
+        src1_valid         = sink_channel[1] && sink_valid[1];
 
     end
 

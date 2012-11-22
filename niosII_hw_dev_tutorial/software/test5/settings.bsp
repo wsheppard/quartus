@@ -2,9 +2,15 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>freertos</BspType>
         <BspVersion>default</BspVersion>
+<<<<<<< HEAD
         <BspGeneratedTimeStamp>22-Nov-2012 14:48:07</BspGeneratedTimeStamp>
         <BspGeneratedUnixTimeStamp>1353595687649</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>C:\Users\Will\Dev\quartus\niosII_hw_dev_tutorial\software\test5</BspGeneratedLocation>
+=======
+        <BspGeneratedTimeStamp>20-Nov-2012 11:33:50</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1353411230746</BspGeneratedUnixTimeStamp>
+        <BspGeneratedLocation>C:\Users\Will\Development\Quartus\niosII_hw_dev_tutorial\software\test5</BspGeneratedLocation>
+>>>>>>> 5f0fa4d91aa97f188f2e619db808c790c0793725
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\first_nios2_system.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>
@@ -1268,6 +1274,12 @@ configQUEUE_REGISTRY_SIZE defines the maximum number of queues and semaphores th
                 <Enabled>false</Enabled>
                 <Group xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
         </Setting>
+        <MemoryMap>
+                <slaveDescriptor>pwm_component_0</slaveDescriptor>
+                <addressRange>0x00000000 - 0x0000000F</addressRange>
+                <addressSpan>16</addressSpan>
+                <attributes/>
+        </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>sdram</slaveDescriptor>
                 <addressRange>0x00800000 - 0x00FFFFFF</addressRange>

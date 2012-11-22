@@ -1612,14 +1612,67 @@ org.eclipse.ui.PartInitException: Could not create view: org.eclipse.cdt.debug.u
 
 !ENTRY com.altera.sbtgui.launch 1 0 2012-11-17 19:38:05.457
 !MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001030 --id=0x0 --timestamp=1353163993 /cygdrive/c/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/software/test5_app/test5_app.elf]
+<<<<<<< HEAD
 !SESSION 2012-11-22 12:51:52.120 -----------------------------------------------
 eclipse.buildId=M20120208-0800
+=======
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-17 20:47:52.966
+!MESSAGE The system console model is invalid. Cannot launch.
+!SESSION 2012-11-17 20:48:05.290 -----------------------------------------------
+eclipse.buildId=M20100909-0800
 java.version=1.6.0_23
 java.vendor=Sun Microsystems Inc.
 BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
 Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
 Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
 
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-17 20:49:14.731
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001030 --id=0x0 --timestamp=1353184580]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-17 20:49:19.766
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001030 --id=0x0 --timestamp=1353184580 /cygdrive/c/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/software/test5_app/test5_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-17 20:55:20.676
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001030 --id=0x0 --timestamp=1353184580]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-17 20:55:26.013
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001030 --id=0x0 --timestamp=1353184580 /cygdrive/c/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/software/test5_app/test5_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-17 20:58:09.771
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-17 20:58:13.020
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001030 --id=0x0 --timestamp=1353184580]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-17 20:58:18.111
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001030 --id=0x0 --timestamp=1353184580 /cygdrive/c/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/software/test5_app/test5_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-17 22:48:05.278
+!MESSAGE The system console model is invalid. Cannot launch.
+!SESSION 2012-11-17 22:50:14.220 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-17 22:51:11.882
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001030 --id=0x0 --timestamp=1353184580]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-17 22:51:17.015
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001030 --id=0x0 --timestamp=1353184580 /cygdrive/c/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/software/test5_app/test5_app.elf]
+!SESSION 2012-11-20 10:11:38.984 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+>>>>>>> 5f0fa4d91aa97f188f2e619db808c790c0793725
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+<<<<<<< HEAD
 !ENTRY org.eclipse.ui 4 0 2012-11-22 12:52:33.572
 !MESSAGE Unable to create editor ID org.eclipse.cdt.ui.editor.CEditor: The file does not exist.
 !STACK 1
@@ -1740,10 +1793,23 @@ org.eclipse.core.runtime.AssertionFailedException: unknown saveable: org.eclipse
 !MESSAGE Usage data uploaded to http://udc.eclipse.org/upload.php in 3859 milliseconds.
 !SESSION 2012-11-22 12:54:42.268 -----------------------------------------------
 eclipse.buildId=M20120208-0800
+=======
+!ENTRY org.eclipse.core.resources 2 10035 2012-11-20 10:12:15.052
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-20 10:19:14.504
+!MESSAGE The system console model is invalid. Cannot launch.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-20 10:19:43.222
+!MESSAGE The system console model is invalid. Cannot launch.
+!SESSION 2012-11-20 10:19:52.669 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+>>>>>>> 5f0fa4d91aa97f188f2e619db808c790c0793725
 java.version=1.6.0_23
 java.vendor=Sun Microsystems Inc.
 BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
 Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+<<<<<<< HEAD
 Command-line arguments:  -data C:\Users\Will\Dev\quartus\niosII_hw_dev_tutorial\eclipse -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
 
 !ENTRY org.eclipse.ui 4 0 2012-11-22 12:54:46.227
@@ -1883,3 +1949,40 @@ org.eclipse.core.runtime.AssertionFailedException: unknown saveable: org.eclipse
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+=======
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-20 10:21:58.069
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001030 --id=0x0 --timestamp=1353184580]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-20 10:22:03.320
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001030 --id=0x0 --timestamp=1353184580 /cygdrive/c/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/software/test5_app/test5_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-20 11:38:55.965
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-20 11:39:03.784
+!MESSAGE The system console model is invalid. Cannot launch.
+!SESSION 2012-11-20 11:39:14.002 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-20 11:39:48.880
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001030 --id=0x0 --timestamp=1353410341]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-20 11:39:54.302
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001030 --id=0x0 --timestamp=1353410341 /cygdrive/c/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/software/test5_app/test5_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-20 11:49:43.265
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-20 11:49:46.420
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001030 --id=0x0 --timestamp=1353410341]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-20 11:49:51.760
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/12.0sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001030 --id=0x0 --timestamp=1353410341 /cygdrive/c/Users/Will/Development/Quartus/niosII_hw_dev_tutorial/software/test5_app/test5_app.elf]
+>>>>>>> 5f0fa4d91aa97f188f2e619db808c790c0793725

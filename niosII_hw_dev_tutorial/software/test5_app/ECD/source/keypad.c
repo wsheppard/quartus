@@ -93,7 +93,7 @@ static void kp_getCurrent(unsigned short *KP_data){
 	static unsigned short output = 3;
 
 	//printf("Checking keypad....\n");
-
+//for 0 to 10
 	/* Now loop through all the combinations to find the button states */
 	for (x=0;x<4;x++){
 	
@@ -108,7 +108,9 @@ static void kp_getCurrent(unsigned short *KP_data){
 	}
 
 
+
+
 	*KP_data = output;
-	output <<= 1;
+	//output <<= 1;
 }
 

@@ -11,7 +11,7 @@ obj/default/ECD/source/display.o: ECD/source/display.c \
   ../test5//FreeRTOS/inc/task.h ../test5//FreeRTOS/inc/semphr.h \
   ../test5//FreeRTOS/inc/queue.h ECD/includes/ECD.h \
   ECD/includes/messaging.h ECD/includes/messages.h ECD/includes/pwm.h \
-  ECD/includes/movement.h ECD/includes/pwm.h
+  ECD/includes/movement.h ECD/includes/pwm.h ../test5/system.h
 
 ECD/includes/display.h:
 
@@ -64,3 +64,5 @@ ECD/includes/pwm.h:
 ECD/includes/movement.h:
 
 ECD/includes/pwm.h:
+
+../test5/system.h:
