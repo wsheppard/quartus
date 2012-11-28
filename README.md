@@ -1,14 +1,8 @@
 quartus
 =======
 
-Updated:
 
+This is the repo for the pwm component and the quartus archived project.
 
-COntains the quartus archive file of the most recent archived project.
+ALL OTHER FILES ARE IGNORED.
 
-This also contains the old quartus stuff in the old stuff directory.
-
-
-
-Outdated:
-Quartus Stuff. This will eventually include all the software source code as well.
