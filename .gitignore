@@ -1,6 +1,4 @@
 #Only interested in these three files.
-!*/
-!pwm_component/**
 !archive.qar
 !archive.qarlog
 !README.md
