@@ -1,9 +1,9 @@
-#Only interested in these three files.
+#Ignore everything else.
+*
 
+#Only interested in these three files.
 !archive.qar
 !archive.qarlog
 !README.md
-!pwm_component/*
+!pwm_component/
 
-#Ignore everything else.
-*
