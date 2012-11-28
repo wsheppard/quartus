@@ -1,19 +1,9 @@
-# Object files
-*.o
+# Only interested in these three files.
 
-# Libraries
-*.lib
-*.a
+archive.qar
+archive.qarlog
+README.md
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
 
-# Executables
-*.exe
-*.out
-*.app
-
-.metadata/
+#Ignore everything else.
+*
