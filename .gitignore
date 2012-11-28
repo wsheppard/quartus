@@ -3,7 +3,7 @@
 !archive.qar
 !archive.qarlog
 !README.md
-!pwm_component/*
+!pwm_component/*.*
 
 #Ignore everything else.
 *
