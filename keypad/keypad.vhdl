@@ -4,11 +4,11 @@ use ieee.numeric_std.all;
 
 entity keypad_entity is
   port (
-        --		sys_clk : in std_logic;
+         --		sys_clk : in std_logic;
          cols : out std_logic_vector(3 downto 0) :="ZZZZ";
          rows : in std_logic_vector(3 downto 0);
 
-        -- Will eventually need this stuff for integration into QSYS
+         -- Will eventually need this stuff for integration into QSYS
          s1_clk          : in    std_logic;
          s1_reset        : in    std_logic;
          s1_read         : in    std_logic;
@@ -26,7 +26,7 @@ architecture keypad_behaviour of keypad_entity is
 
 begin
 
-    -- These are hardwired states I guess!
+  -- These are hardwired states I guess!
   cols(0) <= '0' when cols_counter = "00" else 'Z';
   cols(1) <= '0' when cols_counter = "01" else 'Z';
   cols(2) <= '0' when cols_counter = "10" else 'Z';
@@ -60,27 +60,24 @@ begin
 
 
 proc_registers : process (s1_clk, s1_reset) begin
-        --    if(s1_reset = '0') then
-        --      reg0_data_int <= (others => '0');
+  --    if(s1_reset = '0') then
+  --      reg0_data_int <= (others => '0');
 
   if(rising_edge(s1_clk)) then
     if(s1_read = '1') then
       case s1_address is
         when "00" =>
-          s1_readdata <= X"CAFE0000"; --& keystate;
+          s1_readdata <= X"ADD00000"; 
         when "01" =>
-          s1_readdata <= X"CAFE0001"; --& keystate;
-        when "02" =>
-          s1_readdata <= X"CAFE0002"; --& keystate;
-        when "03" =>
-          s1_readdata <= X"CAFE0003"; --& keystate;
+          s1_readdata <= X"ADD10000";
+        when "10" =>
+          s1_readdata <= X"BEEF" & keystate;
         when others =>
-          s1_readdata <= X"DEADFACE"; --& keystate;
-                -- do nothing here
+          s1_readdata <= X"DEADDEAD";	-- do nothing here
       end case;
     end if;
   end if;
 end process proc_registers;
 
 
-    end;
+        end;
