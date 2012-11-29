@@ -1,77 +1,78 @@
-Quartus II Archive log --	C:/Users/Will/Development/Quartus/quartus_archive/archive.qarlog
+Quartus II Archive log --	C:/Users/Will/Dev/quartus/archive.qarlog
 
-Archive:	C:/Users/Will/Development/Quartus/quartus_archive/archive.qar
-Date:		Tue Nov 27 16:35:26 2012
-Quartus II 64-Bit		12.1 Build 177 11/07/2012 SJ Web Edition
+Archive:	C:/Users/Will/Dev/quartus/archive.qar
+Date:		Thu Nov 29 10:56:51 2012
+Quartus II 32-bit		12.1 Build 177 11/07/2012 SJ Web Edition
 
 	=========== Files Selected: ===========
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system.cmp
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system.qsys
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system.sopcinfo
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/first_nios2_system.qip
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/first_nios2_system.v
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/altera_avalon_sc_fifo.v
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/altera_avalon_st_pipeline_base.v
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/altera_merlin_address_alignment.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/altera_merlin_arbitrator.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/altera_merlin_burst_adapter.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/altera_merlin_master_agent.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/altera_merlin_master_translator.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/altera_merlin_slave_agent.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/altera_merlin_slave_translator.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/altera_merlin_traffic_limiter.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/altera_merlin_width_adapter.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/altera_reset_controller.sdc
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/altera_reset_controller.v
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/altera_reset_synchronizer.v
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_addr_router.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_addr_router_001.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_cmd_xbar_demux.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_cmd_xbar_demux_001.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_cmd_xbar_mux.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.ocp
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.sdc
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_ic_tag_ram.mif
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_jtag_debug_module_sysclk.v
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_jtag_debug_module_tck.v
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_jtag_debug_module_wrapper.v
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_oci_test_bench.v
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_ociram_default_contents.mif
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_rf_ram_a.mif
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_rf_ram_b.mif
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_test_bench.v
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_id_router.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_id_router_001.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_id_router_002.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_irq_mapper.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_jtag_uart.v
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_jtag_uart_input_mutex.dat
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_jtag_uart_input_stream.dat
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_jtag_uart_output_stream.dat
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_lcd_display.v
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_leds.v
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_demux.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_demux_002.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_mux.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_mux_001.sv
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_sdram.v
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_sys_clk_timer.v
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_sysid.v
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/first_nios2_system_up_clocks_0.v
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/pwm.vhd
-C:/Users/Will/Development/Quartus/ECD_Quartus/first_nios2_system/synthesis/submodules/pwm_component.vhd
-C:/Users/Will/Development/Quartus/ECD_Quartus/hw_dev_tutorial.sdc
-C:/Users/Will/Development/Quartus/ECD_Quartus/incremental_db/compiled_partitions/nios2_quartus2_project.db_info
-C:/Users/Will/Development/Quartus/ECD_Quartus/nios2_quartus2_project.bdf
-C:/Users/Will/Development/Quartus/ECD_Quartus/nios2_quartus2_project.cdf
-C:/Users/Will/Development/Quartus/ECD_Quartus/nios2_quartus2_project.qpf
-C:/Users/Will/Development/Quartus/ECD_Quartus/nios2_quartus2_project.qsf
-C:/Users/Will/Development/Quartus/ECD_Quartus/nios2_quartus2_project_assignment_defaults.qdf
-C:/Users/Will/Development/Quartus/ECD_Quartus/stp1.stp
-	======= Total: 65 files to archive =======
+C:/Users/Will/Dev/quartus/archive_restored/Chain3.cdf
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system.cmp
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system.qsys
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system.sopcinfo
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/first_nios2_system.qip
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/first_nios2_system.v
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/altera_avalon_sc_fifo.v
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/altera_avalon_st_pipeline_base.v
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/altera_merlin_address_alignment.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/altera_merlin_arbitrator.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/altera_merlin_burst_adapter.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/altera_merlin_master_agent.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/altera_merlin_master_translator.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/altera_merlin_slave_agent.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/altera_merlin_slave_translator.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/altera_merlin_traffic_limiter.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/altera_merlin_width_adapter.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/altera_reset_controller.sdc
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/altera_reset_controller.v
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/altera_reset_synchronizer.v
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_addr_router.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_addr_router_001.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cmd_xbar_demux.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cmd_xbar_demux_001.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cmd_xbar_mux.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.ocp
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.sdc
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_ic_tag_ram.mif
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_jtag_debug_module_sysclk.v
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_jtag_debug_module_tck.v
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_jtag_debug_module_wrapper.v
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_oci_test_bench.v
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_ociram_default_contents.mif
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_rf_ram_a.mif
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_rf_ram_b.mif
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_test_bench.v
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_id_router.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_id_router_001.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_id_router_002.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_irq_mapper.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_jtag_uart.v
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_jtag_uart_input_mutex.dat
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_jtag_uart_input_stream.dat
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_jtag_uart_output_stream.dat
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_lcd_display.v
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_leds.v
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_demux.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_demux_002.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_mux.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_mux_001.sv
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_sdram.v
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_sys_clk_timer.v
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_sysid.v
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/first_nios2_system_up_clocks_0.v
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/keypad.vhdl
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/pwm.vhd
+C:/Users/Will/Dev/quartus/archive_restored/first_nios2_system/synthesis/submodules/pwm_component.vhd
+C:/Users/Will/Dev/quartus/archive_restored/hw_dev_tutorial.sdc
+C:/Users/Will/Dev/quartus/archive_restored/incremental_db/compiled_partitions/nios2_quartus2_project.db_info
+C:/Users/Will/Dev/quartus/archive_restored/nios2_quartus2_project.bdf
+C:/Users/Will/Dev/quartus/archive_restored/nios2_quartus2_project.cdf
+C:/Users/Will/Dev/quartus/archive_restored/nios2_quartus2_project.qpf
+C:/Users/Will/Dev/quartus/archive_restored/nios2_quartus2_project.qsf
+C:/Users/Will/Dev/quartus/archive_restored/nios2_quartus2_project_assignment_defaults.qdf
+C:/Users/Will/Dev/quartus/archive_restored/stp1.stp
+	======= Total: 67 files to archive =======
 
 	================ Status: ===============
 All files archived successfully.
-

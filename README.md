@@ -1,8 +1,6 @@
 quartus
 =======
+This is the repo for the ECD ip's and the quartus archived project.
 
-
-This is the repo for the pwm component and the quartus archived project.
-
-ALL OTHER FILES ARE IGNORED.
+The folders with our IP blocks in them need to go in the altera ip directory.
 
