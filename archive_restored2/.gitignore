@@ -6,3 +6,4 @@ first_nios2_system/
 
 # Don't need the reports
 *.rpt
+*.sopcinfo

@@ -2,3 +2,8 @@
 
 
 
+*.bdf binary
+*.qpf binary
+*.cdf binary
+*.qsf binary
+*.qsys binary
