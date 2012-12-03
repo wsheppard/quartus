@@ -1,6 +1,7 @@
 quartus
 =======
-This is the repo for the ECD ip's and the quartus archived project.
 
-The folders with our IP blocks in them need to go in the altera ip directory.
+ok so put the occasional archive in the archives folder just in case.
+
+The quartus folder should be version controlled stuff... God knows if it'll work..
 
