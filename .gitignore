@@ -1,9 +1,0 @@
-#Only interested in these three files.
-!archive.qar
-!archive.qarlog
-!README.md
-
-#Ignore everything else.
-*~
-archive_restored/
-archive.qarlog
