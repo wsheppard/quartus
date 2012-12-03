@@ -8,3 +8,5 @@ first_nios2_system/
 *.rpt
 *.sopcinfo
 *.qdf
+
+*
