@@ -1,0 +1,8 @@
+# Ignore as many machine generated files as possible.
+
+db/
+incremental_db/
+first_nios2_system/
+
+# Don't need the reports
+*.rpt
