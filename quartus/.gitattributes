@@ -8,3 +8,4 @@
 *.qsf binary
 *.qsys binary
 *.qws binary
+*.bsf binary
