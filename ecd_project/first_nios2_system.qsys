@@ -32,7 +32,7 @@
    {
       datum _sortIndex
       {
-         value = "1";
+         value = "0";
          type = "int";
       }
    }
@@ -121,27 +121,11 @@
          type = "int";
       }
    }
-   element eulerblock_0.s1
-   {
-      datum baseAddress
-      {
-         value = "16781344";
-         type = "String";
-      }
-   }
    element sys_clk_timer.s1
    {
       datum baseAddress
       {
          value = "16781312";
-         type = "String";
-      }
-   }
-   element leds.s1
-   {
-      datum baseAddress
-      {
-         value = "16781408";
          type = "String";
       }
    }
@@ -158,6 +142,22 @@
       datum baseAddress
       {
          value = "16781392";
+         type = "String";
+      }
+   }
+   element leds.s1
+   {
+      datum baseAddress
+      {
+         value = "16781408";
+         type = "String";
+      }
+   }
+   element eulerblock_0.s1
+   {
+      datum baseAddress
+      {
+         value = "16781344";
          type = "String";
       }
    }
@@ -194,7 +194,7 @@
    {
       datum _sortIndex
       {
-         value = "0";
+         value = "1";
          type = "int";
       }
    }
@@ -213,7 +213,7 @@
  <parameter name="projectName">nios2_quartus2_project.qpf</parameter>
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1354290077847" />
+ <parameter name="timeStamp" value="1354574947924" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface name="clk_in" internal="clk_0.clk_in" type="clock" dir="end">
