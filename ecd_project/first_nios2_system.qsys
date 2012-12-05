@@ -36,19 +36,19 @@
          type = "int";
       }
    }
-   element lcd_display.control_slave
-   {
-      datum baseAddress
-      {
-         value = "16781376";
-         type = "String";
-      }
-   }
    element sysid.control_slave
    {
       datum baseAddress
       {
          value = "16781432";
+         type = "String";
+      }
+   }
+   element lcd_display.control_slave
+   {
+      datum baseAddress
+      {
+         value = "16781376";
          type = "String";
       }
    }
@@ -121,14 +121,6 @@
          type = "int";
       }
    }
-   element sys_clk_timer.s1
-   {
-      datum baseAddress
-      {
-         value = "16781312";
-         type = "String";
-      }
-   }
    element sdram.s1
    {
       datum baseAddress
@@ -137,11 +129,11 @@
          type = "String";
       }
    }
-   element pwm_component_0.s1
+   element sys_clk_timer.s1
    {
       datum baseAddress
       {
-         value = "16781392";
+         value = "16781312";
          type = "String";
       }
    }
@@ -158,6 +150,14 @@
       datum baseAddress
       {
          value = "16781344";
+         type = "String";
+      }
+   }
+   element pwm_component_0.s1
+   {
+      datum baseAddress
+      {
+         value = "16781392";
          type = "String";
       }
    }
@@ -213,7 +213,7 @@
  <parameter name="projectName">nios2_quartus2_project.qpf</parameter>
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1354574947924" />
+ <parameter name="timeStamp" value="1354709546319" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface name="clk_in" internal="clk_0.clk_in" type="clock" dir="end">
@@ -458,7 +458,7 @@
   <parameter name="simDrivenValue" value="0" />
   <parameter name="width" value="10" />
  </module>
- <module kind="pwm_component" version="1.0" enabled="1" name="pwm_component_0">
+ <module kind="pwm_component" version="1.1" enabled="1" name="pwm_component_0">
   <parameter name="AUTO_S1_CLK_CLOCK_RATE" value="50000000" />
  </module>
  <module

@@ -30,7 +30,7 @@ entity pwm is
 		clk         : in    std_logic;
 		rst         : in    std_logic;
 		pwm_on_in   : in    std_logic_vector(31 downto 0);
-        pwm_out     : out   std_logic              
+      pwm_out     : out   std_logic              
     );
 end entity pwm;
 
@@ -46,8 +46,8 @@ type state_type is(
 signal current_state : state_type;
 
 -- Declare internal signals
-signal num_clks     : unsigned(31 downto 0); --1073741824
-signal pwm_width    : unsigned(31 downto 0);     --1ms=50000
+signal num_clks     : unsigned(31 downto 0) := x"00000000"; --1073741824
+signal pwm_width    : unsigned(31 downto 0) := x"0000C350";     -- Default to 1ms=50000
 signal pulse_period : unsigned(31 downto 0) := x"000F423F"  ; -- Wait > 20ms 1000000
 
 
@@ -55,33 +55,55 @@ signal pulse_period : unsigned(31 downto 0) := x"000F423F"  ; -- Wait > 20ms 100
 attribute syn_encoding : string;
 attribute syn_encoding of state_type : type is "safe";
 
+
 begin
-pwm_width <= unsigned(pwm_on_in);
-    process(clk, rst)
-    begin
-        if(rst = '0') then
-            num_clks <= (others => '0');
-			current_state <= pulse_on;
-		elsif(rising_edge(clk)) then
-            case current_state is
---------------------------------------------------------------------------------
-                when pulse_on =>
-                    pwm_out <= '1';
-                    num_clks <= num_clks + 1;
-                    if(num_clks = pwm_width) then
-                        current_state <= pulse_off;
-                    end if;
- --------------------------------------------------------------------------------                                   
-                when pulse_off =>
-                    pwm_out <= '0';                    
-                    num_clks <= num_clks + 1;
-                    if(num_clks = pulse_period) then
-                        num_clks <= (others => '0');
-                        current_state <= pulse_on;
-                    end if;
---------------------------------------------------------------------------------
-			end case;
-        end if;
-    end process;
+
+	pwm_out <= '1' when current_state = pulse_on else '0';
+		
+	pwm_width <= unsigned(pwm_on_in);
+		
+	current_state <= pulse_on when (num_clks < pwm_width) else pulse_off;
+		
+	-- This process keeps the num_clks going
+	process(clk)
+		begin
+			if(rising_edge(clk)) then
+				if(num_clks >= pulse_period) then
+					num_clks <= x"00000000";
+				else
+					num_clks <= num_clks + 1;
+				end if;
+			
+			end if;
+		
+	end process;
+
+
+--    process(clk, rst)
+--    begin
+--        if(rst = '0') then
+--            num_clks <= (others => '0');
+--			--current_state <= pulse_on;
+--		  elsif(rising_edge(clk)) then
+--            case current_state is
+----------------------------------------------------------------------------------
+--                when pulse_on =>
+--                    --pwm_out <= '1';
+--                    --num_clks <= num_clks + 1;
+--                    if(num_clks = pwm_width) then
+--                        current_state <= pulse_off;
+--                    end if;
+-- --------------------------------------------------------------------------------                                   
+--                when pulse_off =>
+--                    --pwm_out <= '0';                    
+--                    num_clks <= num_clks + 1;
+--                    if(num_clks = pulse_period) then
+--                        num_clks <= (others => '0');
+--                        current_state <= pulse_on;
+--                    end if;
+----------------------------------------------------------------------------------
+--			end case;
+--        end if;
+--    end process;
 end fsm;
 						
