@@ -79,31 +79,5 @@ begin
 	end process;
 
 
---    process(clk, rst)
---    begin
---        if(rst = '0') then
---            num_clks <= (others => '0');
---			--current_state <= pulse_on;
---		  elsif(rising_edge(clk)) then
---            case current_state is
-----------------------------------------------------------------------------------
---                when pulse_on =>
---                    --pwm_out <= '1';
---                    --num_clks <= num_clks + 1;
---                    if(num_clks = pwm_width) then
---                        current_state <= pulse_off;
---                    end if;
--- --------------------------------------------------------------------------------                                   
---                when pulse_off =>
---                    --pwm_out <= '0';                    
---                    num_clks <= num_clks + 1;
---                    if(num_clks = pulse_period) then
---                        num_clks <= (others => '0');
---                        current_state <= pulse_on;
---                    end if;
-----------------------------------------------------------------------------------
---			end case;
---        end if;
---    end process;
 end fsm;
 						
