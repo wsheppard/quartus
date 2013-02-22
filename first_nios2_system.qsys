@@ -36,19 +36,19 @@
          type = "int";
       }
    }
-   element sysid.control_slave
-   {
-      datum baseAddress
-      {
-         value = "16781464";
-         type = "String";
-      }
-   }
    element lcd_display.control_slave
    {
       datum baseAddress
       {
          value = "16781408";
+         type = "String";
+      }
+   }
+   element sysid.control_slave
+   {
+      datum baseAddress
+      {
+         value = "16781464";
          type = "String";
       }
    }
@@ -137,14 +137,6 @@
          type = "String";
       }
    }
-   element sdram.s1
-   {
-      datum baseAddress
-      {
-         value = "8388608";
-         type = "String";
-      }
-   }
    element leds.s1
    {
       datum baseAddress
@@ -153,19 +145,27 @@
          type = "String";
       }
    }
-   element pwm_component_0.s1
-   {
-      datum baseAddress
-      {
-         value = "16781424";
-         type = "String";
-      }
-   }
    element pwm_timer.s1
    {
       datum baseAddress
       {
          value = "16781312";
+         type = "String";
+      }
+   }
+   element sdram.s1
+   {
+      datum baseAddress
+      {
+         value = "8388608";
+         type = "String";
+      }
+   }
+   element pwm_component_0.s1
+   {
+      datum baseAddress
+      {
+         value = "16781424";
          type = "String";
       }
    }
@@ -229,7 +229,7 @@
  <parameter name="projectName">nios2_quartus2_project.qpf</parameter>
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1361471400717" />
+ <parameter name="timeStamp" value="1361550948598" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface name="clk_in" internal="clk_0.clk_in" type="clock" dir="end">
@@ -300,7 +300,7 @@
   <parameter name="setting_activateModelChecker" value="false" />
   <parameter name="setting_HDLSimCachesCleared" value="true" />
   <parameter name="setting_HBreakTest" value="false" />
-  <parameter name="muldiv_divider" value="false" />
+  <parameter name="muldiv_divider" value="true" />
   <parameter name="mpu_useLimit" value="false" />
   <parameter name="mpu_enabled" value="false" />
   <parameter name="mmu_enabled" value="false" />
@@ -332,7 +332,7 @@
   <parameter name="setting_interruptControllerType" value="Internal" />
   <parameter name="setting_branchPredictionType" value="Automatic" />
   <parameter name="setting_bhtPtrSz" value="8" />
-  <parameter name="muldiv_multiplierType" value="NoneSmall" />
+  <parameter name="muldiv_multiplierType" value="EmbeddedMulFast" />
   <parameter name="mpu_minInstRegionSize" value="12" />
   <parameter name="mpu_minDataRegionSize" value="12" />
   <parameter name="mmu_uitlbNumEntries" value="4" />
@@ -340,7 +340,7 @@
   <parameter name="mmu_tlbPtrSz" value="7" />
   <parameter name="mmu_tlbNumWays" value="16" />
   <parameter name="mmu_processIDNumBits" value="8" />
-  <parameter name="impl" value="Small" />
+  <parameter name="impl" value="Fast" />
   <parameter name="icache_size" value="2048" />
   <parameter name="icache_ramBlockType" value="Automatic" />
   <parameter name="icache_numTCIM" value="0" />
