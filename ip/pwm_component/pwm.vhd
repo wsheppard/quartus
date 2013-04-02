@@ -6,7 +6,7 @@
 -- Design Name:     Qsys Robot
 -- Component Name:  pwm
 -- Target Device:   Cyclone III EP3C16F484
--- Tool versions:   Quartus II 11.0 (Service Pack 1)
+-- Tool versions:   Quartus II 12.1 (Service Pack 1)
 -- Description:     
 --  Control PWM
 -- 
