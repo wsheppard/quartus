@@ -1,3 +1,19 @@
+--------------------------------------------------------------------------------
+-- Project:         ECD Robot Arm
+-- Engineer:        Will Shepard    
+--
+-- Create Date:     Thursday 1st December 2012
+-- Design Name:     Qsys Robot
+-- Component Name:  keypad
+-- Target Device:   Cyclone III EP3C16F484
+-- Tool versions:   Quartus II 12.1 (Service Pack 1)
+-- Description:     
+--  Keypad control and intergration to Avalon bus
+-- 
+--  
+-- Additional Comments:
+--  Clock frequency = 50MHz (20ns)
+--------------------------------------------------------------------------------
 library ieee;
 use ieee.STD_LOGIC_1164.all;
 use ieee.numeric_std.all;   
@@ -8,7 +24,7 @@ entity keypad_entity is
          cols : out std_logic_vector(3 downto 0) :="ZZZZ";
          rows : in std_logic_vector(3 downto 0);
 
-         -- Will eventually need this stuff for integration into QSYS
+         -- need this stuff for integration into QSYS
          s1_clk          : in    std_logic;
          s1_reset        : in    std_logic;
          s1_read         : in    std_logic;
