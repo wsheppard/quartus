@@ -1,22 +1,15 @@
 --------------------------------------------------------------------------------
--- Company:         STFC
--- Engineer:    	Dave Templeman    
+-- Project:         ECD Robot Arm
+-- Engineer:        Dave Templeman    
 --
--- Create Date:     Thursday 27st Septempber 2012
--- Design Name:     lcd
--- Component Name:  pwm
--- Target Device:   Cyclone III EP3C120F780C7
--- Tool versions:   Quartus II 11.0 (Service Pack 1)
+-- Create Date:     Thursday 1st December 2012
+-- Design Name:     Qsys Robot
+-- Component Name:  pwm top
+-- Target Device:   Cyclone III EP3C16F484
+-- Tool versions:   Quartus II 12.1 (Service Pack 1)
 -- Description:     
---   PWM top level
+--  Top level for PWM, including Avalon bus interface
 -- 
---  
--- Dependencies:
---  
---  
--- Revision:
---  Version 0.1 - file created
---  Version 1.0
 --  
 -- Additional Comments:
 --  Clock frequency = 50MHz (20ns)
@@ -27,15 +20,15 @@ use ieee.numeric_std.all;
 
 entity pwm_component is
 	port(
-		s1_clk          : in    std_logic;
+		1_clk          : in    std_logic;
 		s1_reset        : in    std_logic;
-        s1_write        : in    std_logic;
-        s1_address      : in    std_logic_vector(1 downto 0);
+       		1_write        : in    std_logic;
+        	1_address      : in    std_logic_vector(1 downto 0);
 		s1_writedata    : in    std_logic_vector(31 downto 0);
-        pwm_out_1       : out   std_logic;              
-        pwm_out_2       : out   std_logic;
-        pwm_out_3       : out   std_logic;
-        pwm_out_4       : out   std_logic
+        	wm_out_1       : out   std_logic;              
+        	wm_out_2       : out   std_logic;
+        	wm_out_3       : out   std_logic;
+        	wm_out_4       : out   std_logic
     );
 end entity pwm_component;
 
@@ -51,7 +44,7 @@ component pwm
 		clk         : in    std_logic;
 		rst         : in    std_logic;
 		pwm_on_in   : in    std_logic_vector(31 downto 0);
-        pwm_out     : out   std_logic              
+        	wm_out     : out   std_logic              
     );
 end component pwm;
 
